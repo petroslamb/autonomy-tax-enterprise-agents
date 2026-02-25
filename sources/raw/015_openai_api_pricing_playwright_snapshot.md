@@ -1,0 +1,896 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - generic [ref=e2]:
+      - link "Skip to main content":
+        - /url: "#main"
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - button "Open Search" [ref=e7] [cursor=pointer]:
+            - img [ref=e8]
+          - button "Close Search" [ref=e10] [cursor=pointer]:
+            - img [ref=e11]
+        - button "Log in" [ref=e15] [cursor=pointer]
+    - generic [ref=e17]:
+      - link "OpenAI Home" [ref=e19] [cursor=pointer]:
+        - /url: /
+        - img [ref=e20]
+        - img [ref=e23]
+      - button "Toggle navigation sidebar" [expanded] [ref=e30] [cursor=pointer]:
+        - img [ref=e31]
+  - generic [ref=e33]:
+    - generic [ref=e34]:
+      - generic [ref=e35]: Switch to
+      - list [ref=e36]:
+        - listitem [ref=e37]:
+          - link [ref=e38] [cursor=pointer]:
+            - /url: https://chatgpt.com/?openaicom-did=bf749541-3bd2-43be-ab0c-294a4465774b&openaicom_referred=true
+            - text: ChatGPT
+            - generic [ref=e39]: (opens in a new window)
+        - listitem [ref=e40]:
+          - link [ref=e41] [cursor=pointer]:
+            - /url: https://sora.com/
+            - text: Sora
+            - generic [ref=e42]: (opens in a new window)
+        - listitem [ref=e43]:
+          - link [ref=e44] [cursor=pointer]:
+            - /url: https://platform.openai.com/
+            - text: API Platform
+            - generic [ref=e45]: (opens in a new window)
+    - generic [ref=e46]:
+      - navigation:
+        - generic [ref=e48]:
+          - link "Home" [ref=e49] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e50]:
+              - img [ref=e52]
+              - generic [ref=e54]: Home
+          - list [ref=e55]:
+            - listitem [ref=e56]:
+              - link "API Platform" [ref=e58] [cursor=pointer]:
+                - /url: /api/
+            - listitem [ref=e59]:
+              - link "API Pricing" [ref=e61] [cursor=pointer]:
+                - /url: /api/pricing/
+            - listitem [ref=e62]:
+              - link "Agents" [ref=e64] [cursor=pointer]:
+                - /url: /agent-platform/
+            - listitem [ref=e65]:
+              - link "Codex" [ref=e67] [cursor=pointer]:
+                - /url: /codex/
+            - listitem [ref=e68]:
+              - link "Open Models" [ref=e70] [cursor=pointer]:
+                - /url: /open-models/
+            - listitem [ref=e71]:
+              - link "Community (opens in a new window)" [ref=e73] [cursor=pointer]:
+                - /url: https://community.openai.com/
+                - text: Community
+                - img [ref=e74]
+                - generic [ref=e76]: (opens in a new window)
+        - button "Navigate to another product." [ref=e78] [cursor=pointer]:
+          - img [ref=e79]
+    - generic [ref=e82]:
+      - main [ref=e83]:
+        - generic [ref=e84]: Pricing | OpenAI
+        - generic [ref=e85]:
+          - generic [ref=e90]:
+            - heading "API Pricing" [level=1] [ref=e91]
+            - link "Contact sales" [ref=e94] [cursor=pointer]:
+              - /url: /contact-sales/
+          - generic [ref=e97]:
+            - generic [ref=e100]:
+              - heading "Flagship models" [level=2] [ref=e101]
+              - paragraph [ref=e103]: Our frontier models are designed to spend more time thinking before producing a response, making them ideal for complex, multi-step problems.
+            - generic [ref=e106]:
+              - generic [ref=e107]:
+                - generic [ref=e108]:
+                  - heading "GPT-5.2" [level=2] [ref=e109]
+                  - paragraph [ref=e110]: The best model for coding and agentic tasks across industries
+                - generic [ref=e112]:
+                  - heading "Price" [level=3] [ref=e113]
+                  - generic [ref=e116]:
+                    - text: "Input:"
+                    - text: $1.750 / 1M tokens
+                  - generic [ref=e119]:
+                    - text: "Cached input:"
+                    - text: $0.175 / 1M tokens
+                  - generic [ref=e122]:
+                    - text: "Output:"
+                    - text: $14.000 / 1M tokens
+              - generic [ref=e123]:
+                - generic [ref=e124]:
+                  - heading "GPT-5.2 pro" [level=2] [ref=e125]
+                  - paragraph [ref=e126]: The smartest and most precise model
+                - generic [ref=e128]:
+                  - heading "Price" [level=3] [ref=e129]
+                  - generic [ref=e132]:
+                    - text: "Input:"
+                    - text: $21.00 / 1M tokens
+                  - generic [ref=e135]:
+                    - text: "Cached input:"
+                    - text: "-"
+                  - generic [ref=e138]:
+                    - text: "Output:"
+                    - text: $168.00 / 1M tokens
+              - generic [ref=e139]:
+                - generic [ref=e140]:
+                  - heading "GPT-5 mini" [level=2] [ref=e141]
+                  - paragraph [ref=e142]: A faster, cheaper version of GPT-5 for well-defined tasks
+                - generic [ref=e144]:
+                  - heading "Price" [level=3] [ref=e145]
+                  - generic [ref=e148]:
+                    - text: "Input:"
+                    - text: $0.250 / 1M tokens
+                  - generic [ref=e151]:
+                    - text: "Cached input:"
+                    - text: $0.025 / 1M tokens
+                  - generic [ref=e154]:
+                    - text: "Output:"
+                    - text: $2.000 / 1M tokens
+          - generic [ref=e156]:
+            - paragraph [ref=e157]: "Pricing reflects standard processing rates. To optimize cost and performance for different use cases, we also offer:"
+            - list [ref=e158]:
+              - listitem [ref=e159]:
+                - link "Batch API⁠⁠ (opens in a new window)" [ref=e160] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/guides/batch
+                  - generic [ref=e162]: Batch API⁠
+                  - text: ⁠
+                  - generic [ref=e163]: (opens in a new window)
+                - text: ": Save 50% on inputs and outputs with the Batch API and run tasks asynchronously over 24 hours."
+              - listitem [ref=e164]:
+                - link "Priority processing⁠⁠" [ref=e165] [cursor=pointer]:
+                  - /url: /api-priority-processing/
+                  - generic [ref=e167]: Priority processing
+                  - generic: ⁠
+                  - text: ⁠
+                - text: ": offers reliable, high-speed performance with the flexibility to pay-as-you-go."
+          - generic [ref=e170]:
+            - generic [ref=e172]:
+              - generic [ref=e175]:
+                - heading "Fine-tuning our models" [level=3] [ref=e176]
+                - paragraph [ref=e178]: Customize our models to get even higher performance for your specific use cases.
+              - generic [ref=e179]:
+                - generic [ref=e180]:
+                  - heading "GPT-4.1" [level=2] [ref=e182]
+                  - generic [ref=e184]:
+                    - heading "Fine-tuning price" [level=3] [ref=e185]
+                    - generic [ref=e188]:
+                      - text: "Input:"
+                      - text: $3.00 / 1M tokens
+                    - generic [ref=e191]:
+                      - text: "Cached input:"
+                      - text: $0.75 / 1M tokens
+                    - generic [ref=e194]:
+                      - text: "Output:"
+                      - text: $12.00 / 1M tokens
+                    - generic [ref=e197]:
+                      - text: "Training:"
+                      - text: $25.00 / 1M tokens
+                - generic [ref=e198]:
+                  - heading "GPT-4.1 mini" [level=2] [ref=e200]
+                  - generic [ref=e202]:
+                    - heading "Fine-tuning price" [level=3] [ref=e203]
+                    - generic [ref=e206]:
+                      - text: "Input:"
+                      - text: $0.80 / 1M tokens
+                    - generic [ref=e209]:
+                      - text: "Cached input:"
+                      - text: $0.20 / 1M tokens
+                    - generic [ref=e212]:
+                      - text: "Output:"
+                      - text: $3.20 / 1M tokens
+                    - generic [ref=e215]:
+                      - text: "Training:"
+                      - text: $5.00 / 1M tokens
+                - generic [ref=e216]:
+                  - heading "GPT-4.1 nano" [level=2] [ref=e218]
+                  - generic [ref=e220]:
+                    - heading "Fine-tuning price" [level=3] [ref=e221]
+                    - generic [ref=e224]:
+                      - text: "Input:"
+                      - text: $0.20 / 1M tokens
+                    - generic [ref=e227]:
+                      - text: "Cached input:"
+                      - text: $0.05 / 1M tokens
+                    - generic [ref=e230]:
+                      - text: "Output:"
+                      - text: $0.80 / 1M tokens
+                    - generic [ref=e233]:
+                      - text: "Training:"
+                      - text: $1.50 / 1M tokens
+                - generic [ref=e234]:
+                  - heading "o4-mini" [level=2] [ref=e236]
+                  - generic [ref=e238]:
+                    - heading "Reinforcement fine-tuning price" [level=3] [ref=e239]
+                    - generic [ref=e242]:
+                      - text: "Input:"
+                      - text: $4.00 / 1M tokens
+                    - generic [ref=e245]:
+                      - text: "Cached input:"
+                      - text: $1.00 / 1M tokens
+                    - generic [ref=e248]:
+                      - text: "Output:"
+                      - text: $16.00 / 1M tokens
+                    - generic [ref=e251]:
+                      - text: "Training:"
+                      - text: $100.00 / training hour
+            - list [ref=e253]:
+              - listitem [ref=e254]:
+                - link "Explore detailed pricing (opens in a new window)" [ref=e255] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/pricing
+                  - text: Explore detailed pricing
+                  - img [ref=e256]
+                  - generic [ref=e258]: (opens in a new window)
+          - generic [ref=e261]:
+            - heading "Our APIs" [level=2] [ref=e265]
+            - generic [ref=e268]:
+              - generic [ref=e269]:
+                - heading "Realtime API" [level=2] [ref=e270]
+                - paragraph [ref=e271]: Build low-latency, multimodal experiences including speech-to-speech.
+                - generic [ref=e272]:
+                  - generic [ref=e275]:
+                    - generic [ref=e276]:
+                      - generic [ref=e277]: Text
+                      - generic [ref=e279]:
+                        - generic [ref=e280]: gpt-realtime
+                        - generic [ref=e281]: $4.00 / 1M input tokens
+                        - generic [ref=e282]: $0.40 / 1M cached input tokens
+                        - generic [ref=e283]: $16.00 / 1M output tokens
+                    - generic [ref=e287]:
+                      - generic [ref=e288]: gpt-realtime-mini
+                      - generic [ref=e289]: $0.60 / 1M input tokens
+                      - generic [ref=e290]: $0.06 / 1M cached input tokens
+                      - generic [ref=e291]: $2.40 / 1M output tokens
+                  - generic [ref=e294]:
+                    - generic [ref=e295]:
+                      - generic [ref=e296]: Audio
+                      - generic [ref=e298]:
+                        - generic [ref=e299]: gpt-realtime
+                        - generic [ref=e300]: $32.00 / 1M input tokens
+                        - generic [ref=e301]: $0.40 / 1M cached input tokens
+                        - generic [ref=e302]: $64.00 / 1M output tokens
+                    - generic [ref=e306]:
+                      - generic [ref=e307]: gpt-realtime-mini
+                      - generic [ref=e308]: $10.00 / 1M input tokens
+                      - generic [ref=e309]: $0.30 / 1M cached input tokens
+                      - generic [ref=e310]: $20.00 / 1M output tokens
+                  - generic [ref=e313]:
+                    - generic [ref=e314]:
+                      - generic [ref=e315]: Image
+                      - generic [ref=e317]:
+                        - generic [ref=e318]: gpt-realtime
+                        - generic [ref=e319]: $5.00 / 1M input tokens
+                        - generic [ref=e320]: $0.50 / 1M cached input tokens
+                        - generic [ref=e321]: "-"
+                    - generic [ref=e325]:
+                      - generic [ref=e326]: gpt-realtime-mini
+                      - generic [ref=e327]: $0.80 / 1M input tokens
+                      - generic [ref=e328]: $0.08 / 1M cached input tokens
+                      - generic [ref=e329]: "-"
+              - generic [ref=e330]:
+                - heading "Sora Video API" [level=2] [ref=e331]
+                - paragraph [ref=e332]: Richly detailed, dynamic video generation and remixing with our latest generative model.
+                - table [ref=e334]:
+                  - rowgroup [ref=e335]:
+                    - row "Models Size Price per second" [ref=e336]:
+                      - columnheader "Models" [ref=e337]
+                      - columnheader "Size" [ref=e338]
+                      - columnheader "Price per second" [ref=e339]
+                  - rowgroup [ref=e340]:
+                    - 'row "sora-2 Portrait: 720 x 1280 Landscape: 1280 x 720 $0.10" [ref=e341]':
+                      - cell "sora-2" [ref=e342]
+                      - 'cell "Portrait: 720 x 1280 Landscape: 1280 x 720" [ref=e343]':
+                        - generic [ref=e344]: "Portrait: 720 x 1280"
+                        - generic [ref=e345]: "Landscape: 1280 x 720"
+                      - cell "$0.10" [ref=e346]
+                    - 'row "sora-2-pro Portrait: 720 x 1280 Landscape: 1280 x 720 $0.30" [ref=e347]':
+                      - cell "sora-2-pro" [ref=e348]
+                      - 'cell "Portrait: 720 x 1280 Landscape: 1280 x 720" [ref=e349]':
+                        - generic [ref=e350]: "Portrait: 720 x 1280"
+                        - generic [ref=e351]: "Landscape: 1280 x 720"
+                      - cell "$0.30" [ref=e352]
+                    - 'row "sora-2-pro Portrait: 1024 x 1792 Landscape: 1792 x 1024 $0.50" [ref=e353]':
+                      - cell "sora-2-pro" [ref=e354]
+                      - 'cell "Portrait: 1024 x 1792 Landscape: 1792 x 1024" [ref=e355]':
+                        - generic [ref=e356]: "Portrait: 1024 x 1792"
+                        - generic [ref=e357]: "Landscape: 1792 x 1024"
+                      - cell "$0.50" [ref=e358]
+              - generic [ref=e359]:
+                - heading "Image Generation API" [level=2] [ref=e360]
+                - paragraph [ref=e361]: Precise, high-fidelity image generation and editing with our latest multimodal model.
+                - generic [ref=e362]:
+                  - generic [ref=e365]:
+                    - generic [ref=e366]:
+                      - generic [ref=e367]: Text
+                      - generic [ref=e369]:
+                        - generic [ref=e370]: GPT-image-1.5
+                        - generic [ref=e371]: $5.00 / 1M input tokens
+                        - generic [ref=e372]: $1.25 / 1M cached input tokens*
+                        - generic [ref=e373]: $10.00 / 1M output tokens*
+                    - generic [ref=e377]:
+                      - generic [ref=e378]: GPT-image-1
+                      - generic [ref=e379]: $5.00 / 1M input tokens
+                      - generic [ref=e380]: $1.25 / 1M cached input tokens*
+                      - generic [ref=e381]: "-"
+                    - generic [ref=e385]:
+                      - generic [ref=e386]: GPT-image-1-mini
+                      - generic [ref=e387]: $2.00 / 1M input tokens
+                      - generic [ref=e388]: $0.20 / 1M cached input tokens*
+                      - generic [ref=e389]: "-"
+                  - generic [ref=e392]:
+                    - generic [ref=e393]:
+                      - generic [ref=e394]: Image
+                      - generic [ref=e396]:
+                        - generic [ref=e397]: GPT-image-1.5
+                        - generic [ref=e398]: $8.00 / 1M input tokens
+                        - generic [ref=e399]: $2.00 / 1M cached input tokens*
+                        - generic [ref=e400]: $32.00 / 1M output tokens
+                    - generic [ref=e404]:
+                      - generic [ref=e405]: GPT-image-1
+                      - generic [ref=e406]: $10.00 / 1M input tokens
+                      - generic [ref=e407]: $2.50 / 1M cached input tokens*
+                      - generic [ref=e408]: $40.00 / 1M output tokens
+                    - generic [ref=e412]:
+                      - generic [ref=e413]: GPT-image-1-mini
+                      - generic [ref=e414]: $2.50 / 1M input tokens
+                      - generic [ref=e415]: $0.25 / 1M cached input tokens*
+                      - generic [ref=e416]: $8.00 / 1M output tokens
+                  - generic [ref=e417]:
+                    - text: Prompts are billed similarly to other GPT models. Image outputs cost approximately $0.01 (low), $0.04 (medium), and $0.17 (high) for square images.
+                    - generic [ref=e418]: "*available via the Responses API"
+                    - generic [ref=e419]: "*text output tokens include model reasoning tokens"
+                    - generic [ref=e420]:
+                      - text: For detailed token usage by image quality and size, see the
+                      - link "docs" [ref=e421] [cursor=pointer]:
+                        - /url: https://platform.openai.com/docs/pricing
+                      - text: .
+              - generic [ref=e422]:
+                - heading "Responses API" [level=2] [ref=e423]
+                - paragraph [ref=e424]: Our newest API combining the simplicity of Chat Completions with the built-in tool use of Assistants.
+                - generic [ref=e426]:
+                  - generic [ref=e427]: Price
+                  - generic [ref=e428]: Responses API is not priced separately. Tokens are billed at the chosen language model’s input and output rates.
+              - generic [ref=e429]:
+                - heading "Chat Completions API" [level=2] [ref=e430]
+                - paragraph [ref=e431]: Build text-based conversational experiences.
+                - generic [ref=e433]:
+                  - generic [ref=e434]: Price
+                  - generic [ref=e435]: Chat Completions API is not priced separately. Tokens are billed at the chosen language model's input and output rates.
+              - generic [ref=e436]:
+                - heading "Assistants API" [level=2] [ref=e437]
+                - paragraph [ref=e438]: Build assistant-like experiences with our tools.
+                - generic [ref=e440]:
+                  - generic [ref=e441]: Price
+                  - generic [ref=e442]: Assistants API is not priced separately. Tokens are billed at the chosen language model's input and output rates.
+              - generic [ref=e443]:
+                - heading "Built-in tools" [level=2] [ref=e444]
+                - paragraph [ref=e445]: Extend model capabilities with built-in tools in the API Platform.
+                - generic [ref=e447]:
+                  - generic [ref=e448]: Tool
+                  - generic [ref=e449]: Cost
+                  - generic [ref=e450]: Containers (Hosted Shell and Code Interpreter)
+                  - table [ref=e451]:
+                    - rowgroup [ref=e452]:
+                      - row "Current prices Starting March 31, 2026" [ref=e453]:
+                        - columnheader "Current prices" [ref=e454]
+                        - columnheader "Starting March 31, 2026" [ref=e455]
+                    - rowgroup [ref=e456]:
+                      - 'row "1 GB (default): $0.03 / container 1 GB (default): $0.03 / per 20 minute session" [ref=e457]':
+                        - 'cell "1 GB (default): $0.03 / container" [ref=e458]'
+                        - 'cell "1 GB (default): $0.03 / per 20 minute session" [ref=e459]':
+                          - text: "1 GB (default): $0.03 /"
+                          - strong [ref=e460]: per 20 minute session
+                      - 'row "4 GB: $0.12 / container 4 GB: $0.12 / per 20 minute session" [ref=e461]':
+                        - 'cell "4 GB: $0.12 / container" [ref=e462]'
+                        - 'cell "4 GB: $0.12 / per 20 minute session" [ref=e463]':
+                          - text: "4 GB: $0.12 /"
+                          - strong [ref=e464]: per 20 minute session
+                      - 'row "16 GB: $0.48 / container 16 GB: $0.48 / per 20 minute session" [ref=e465]':
+                        - 'cell "16 GB: $0.48 / container" [ref=e466]'
+                        - 'cell "16 GB: $0.48 / per 20 minute session" [ref=e467]':
+                          - text: "16 GB: $0.48 /"
+                          - strong [ref=e468]: per 20 minute session
+                      - 'row "64 GB: $1.92 / container 64 GB: $1.92 / per 20 minute session" [ref=e469]':
+                        - 'cell "64 GB: $1.92 / container" [ref=e470]'
+                        - 'cell "64 GB: $1.92 / per 20 minute session" [ref=e471]':
+                          - text: "64 GB: $1.92 /"
+                          - strong [ref=e472]: per 20 minute session
+                  - generic [ref=e473]: File Search Storage
+                  - generic [ref=e474]: $0.10 / GB of vector storage per day (first GB free)
+                  - generic [ref=e475]:
+                    - text: File Search Tool Call
+                    - text: (Responses API only)
+                  - generic [ref=e476]: $2.50 / 1k tool calls
+                  - generic [ref=e477]: Web Search Tool Call
+                  - generic [ref=e478]: "There are two components that contribute to the cost of using the web search tool: (1) Tool calls and (2) Search content tokens."
+                  - generic [ref=e479]:
+                    - list [ref=e481]:
+                      - listitem [ref=e482]: Tool calls are billed per 1,000 calls, according to the tool version and model type.
+                      - listitem [ref=e483]: Search content tokens are tokens retrieved from the search index and fed to the model alongside your prompt to generate an answer. These are billed at the model’s input token rate, unless otherwise specified.
+                    - table [ref=e485]:
+                      - rowgroup [ref=e486]:
+                        - row "Tool Version Cost" [ref=e487]:
+                          - columnheader "Tool Version" [ref=e488]
+                          - columnheader "Cost" [ref=e489]
+                      - rowgroup [ref=e490]:
+                        - row "Web search (all models) $10.00 / 1K calls + search content tokens billed at model rates1" [ref=e491]:
+                          - cell "Web search (all models)" [ref=e492]
+                          - cell "$10.00 / 1K calls + search content tokens billed at model rates1" [ref=e493]:
+                            - text: $10.00 / 1K calls + search content tokens billed at model rates
+                            - superscript [ref=e494]: "1"
+                        - row "Web search preview (reasoning models) $10.00 / 1K calls + search content tokens billed at model rates" [ref=e495]:
+                          - cell "Web search preview (reasoning models)" [ref=e496]
+                          - cell "$10.00 / 1K calls + search content tokens billed at model rates" [ref=e497]
+                        - row "Web search preview (non-reasoning models) $25.00 / 1K calls + search content tokens are free" [ref=e498]:
+                          - cell "Web search preview (non-reasoning models)" [ref=e499]
+                          - cell "$25.00 / 1K calls + search content tokens are free" [ref=e500]
+                    - generic [ref=e501]:
+                      - superscript [ref=e502]: "1"
+                      - text: For gpt-4o-mini and gpt-4.1-mini with the web search non-preview tool, search content tokens are charged as a fixed block of 8,000 input tokens per call.
+                    - generic [ref=e503]: The billing dashboard will report gpt-4.1 and gpt-4.1-mini search line items as ‘web search tool calls | gpt-4o’ and ‘web search tool calls | gpt-4o-mini’
+                    - generic [ref=e504]: GB refers to binary gigabytes of storage (also known as gibibyte), where 1GB is 2^30 bytes.
+              - generic [ref=e505]:
+                - heading "AgentKit" [level=2] [ref=e506]
+                - paragraph [ref=e507]: Build, deploy, and optimize production-grade agents with Agent Builder, ChatKit, and Evals.
+                - generic [ref=e508]:
+                  - generic [ref=e509]:
+                    - generic [ref=e510]: Billing
+                    - generic [ref=e511]: Begins on November 1, 2025 — no charges will apply before then.
+                  - generic [ref=e512]:
+                    - generic [ref=e513]: Usage meter
+                    - generic [ref=e514]: Storage for ChatKit File / Image Uploads.
+                  - generic [ref=e515]:
+                    - generic [ref=e516]: Free tier (per account, per month)
+                    - generic [ref=e517]: 1 GB
+                  - generic [ref=e518]:
+                    - generic [ref=e519]: Price beyond free tier
+                    - generic [ref=e520]: $0.10 / GB-day
+                  - generic [ref=e521]:
+                    - generic [ref=e522]: What’s always free
+                    - generic [ref=e523]: Agent Builder – design and iterate with zero cost until you hit Run. Self-hosted ChatKit – host a custom ChatKit backend and pay only normal model-token charges. Enterprise controls – SSO, RBAC, and audit logs are included at no additional fee.
+            - list [ref=e525]:
+              - listitem [ref=e526]:
+                - link "Explore detailed pricing (opens in a new window)" [ref=e527] [cursor=pointer]:
+                  - /url: https://platform.openai.com/docs/pricing
+                  - text: Explore detailed pricing
+                  - img [ref=e528]
+                  - generic [ref=e530]: (opens in a new window)
+            - paragraph [ref=e533]:
+              - text: "Explore our offerings for Enterprise customers:"
+              - link "Priority processing⁠" [ref=e534] [cursor=pointer]:
+                - /url: /api-priority-processing/
+                - generic [ref=e536]: Priority processing
+                - text: ⁠
+              - text: ","
+              - link "Scale Tier⁠⁠" [ref=e537] [cursor=pointer]:
+                - /url: /api-scale-tier/
+                - generic [ref=e539]: Scale Tier
+                - generic: ⁠
+                - text: ⁠
+              - text: and
+              - link "Reserved Capacity⁠⁠" [ref=e540] [cursor=pointer]:
+                - /url: /reserved-capacity/
+                - generic [ref=e542]: Reserved Capacity
+                - generic: ⁠
+                - text: ⁠
+              - text: .
+          - generic [ref=e545]:
+            - heading "FAQ" [level=3] [ref=e549]
+            - generic [ref=e552]:
+              - generic [ref=e553]:
+                - button "Which model should I use?" [expanded] [ref=e554] [cursor=pointer]:
+                  - heading "Which model should I use?" [level=3] [ref=e555]
+                  - img [ref=e556]
+                - generic "Which model should I use?" [ref=e558]:
+                  - generic [ref=e560]:
+                    - paragraph [ref=e561]: We recommend that developers use our large and mini GPT models for everyday tasks. Our large GPT models generally perform better on a wide range of tasks, while our mini GPT models are fast and inexpensive for simpler tasks.
+                    - paragraph [ref=e562]: Our large and mini reasoning models are ideal for complex, multi-step tasks and STEM use cases that require deep thinking about tough problems. You can choose the mini reasoning model if you're looking for a faster, more inexpensive option.
+                    - paragraph [ref=e563]:
+                      - text: We recommend experimenting with all of these models in the
+                      - link "Playground⁠⁠ (opens in a new window)" [ref=e564] [cursor=pointer]:
+                        - /url: https://platform.openai.com/playground
+                        - text: Playground⁠⁠
+                        - generic [ref=e565]: (opens in a new window)
+                      - text: to explore which models provide the best price performance trade-off for your usage.
+              - generic [ref=e568]:
+                - button "Do you offer an enterprise package or SLAs?" [ref=e569] [cursor=pointer]:
+                  - heading "Do you offer an enterprise package or SLAs?" [level=3] [ref=e570]
+                  - img [ref=e571]
+                - paragraph [ref=e574]:
+                  - text: We offer different tiers of access to our enterprise customers that include SLAs, lower latency, and more. Please
+                  - link [ref=e575] [cursor=pointer]:
+                    - /url: /contact-sales/
+                    - text: contact our sales team⁠
+                  - text: to learn more.
+              - generic [ref=e578]:
+                - button "Will I be charged for API usage in the Playground?" [ref=e579] [cursor=pointer]:
+                  - heading "Will I be charged for API usage in the Playground?" [level=3] [ref=e580]
+                  - img [ref=e581]
+                - paragraph [ref=e584]: Yes, we treat Playground usage the same as regular API usage. You will be billed at the per-token input and output prices mentioned above.
+              - generic [ref=e587]:
+                - button "How will I know how many tokens I’ve used each month?" [ref=e588] [cursor=pointer]:
+                  - heading "How will I know how many tokens I’ve used each month?" [level=3] [ref=e589]
+                  - img [ref=e590]
+                - paragraph [ref=e593]:
+                  - text: A token is a mathematical representation of natural language. Log in to your account to view your
+                  - link [ref=e594] [cursor=pointer]:
+                    - /url: https://platform.openai.com/account/usage
+                    - text: usage tracking dashboard⁠
+                    - generic [ref=e595]: (opens in a new window)
+                  - text: . This dashboard will show you how many tokens you’ve used during the current and past billing cycles.
+              - generic [ref=e598]:
+                - button "How can I manage my spending on the API platform?" [ref=e599] [cursor=pointer]:
+                  - heading "How can I manage my spending on the API platform?" [level=3] [ref=e600]
+                  - img [ref=e601]
+                - generic [ref=e603]:
+                  - paragraph [ref=e604]:
+                    - text: You can set a monthly budget in
+                    - link [ref=e605] [cursor=pointer]:
+                      - /url: https://platform.openai.com/settings/organization/limits
+                      - text: your billing settings⁠⁠
+                      - generic [ref=e606]: (opens in a new window)
+                    - text: ", after which we’ll stop serving your requests. There may be a delay in enforcing the limit, and you are responsible for any overage incurred. You can also configure an email notification threshold to receive an email alert once you cross that threshold each month. We recommend checking your"
+                    - link [ref=e607] [cursor=pointer]:
+                      - /url: https://platform.openai.com/account/usage
+                      - text: usage tracking dashboard⁠
+                      - generic [ref=e608]: (opens in a new window)
+                    - text: regularly to monitor your spend.
+                  - paragraph [ref=e609]:
+                    - text: For customers managing work with Projects, you can
+                    - link [ref=e610] [cursor=pointer]:
+                      - /url: https://help.openai.com/en/articles/9186755-managing-your-work-in-the-api-platform-with-projects
+                      - text: set and manage billing restrictions per project⁠
+                      - generic [ref=e611]: (opens in a new window)
+                    - text: ⁠ in the Dashboard.
+              - generic [ref=e614]:
+                - button "Is access to the API included in ChatGPT Plus, Business, Enterprise or Edu?" [ref=e615] [cursor=pointer]:
+                  - heading "Is access to the API included in ChatGPT Plus, Business, Enterprise or Edu?" [level=3] [ref=e616]
+                  - img [ref=e617]
+                - paragraph [ref=e620]:
+                  - text: No, OpenAI APIs are billed separately from ChatGPT Plus, Business, Enterprise and Edu. ChatGPT subscription pricing can be found at
+                  - link [ref=e621] [cursor=pointer]:
+                    - /url: http://openai.com/chatgpt/pricing/
+                    - text: openai.com/chatgpt/pricing/⁠
+                  - text: .
+              - generic [ref=e624]:
+                - button "How is pricing calculated for images?" [ref=e625] [cursor=pointer]:
+                  - heading "How is pricing calculated for images?" [level=3] [ref=e626]
+                  - img [ref=e627]
+                - paragraph [ref=e630]:
+                  - text: Images are converted into tokens and charged per token. Text models price image tokens at standard text token rates, while GPT Image and gpt-realtime uses a separate image token rate. Models like gpt-4.1-mini, gpt-4.1-nano, and o4-mini convert images into tokens differently.
+                  - link [ref=e631] [cursor=pointer]:
+                    - /url: https://platform.openai.com/docs/guides/images-vision?api-mode=chat#calculating-costs
+                    - text: Learn more in our docs⁠
+                    - generic [ref=e632]: (opens in a new window)
+                  - text: .
+                - generic [ref=e634]:
+                  - generic [ref=e635]: Pricing calculator
+                  - generic [ref=e639]:
+                    - generic [ref=e641]: Set model
+                    - generic [ref=e642]:
+                      - combobox [ref=e643]
+                      - img
+                  - generic [ref=e644]:
+                    - generic [ref=e647]:
+                      - generic [ref=e649]: Set width
+                      - generic [ref=e650]:
+                        - textbox [ref=e651]:
+                          - /placeholder: "1"
+                          - text: "150"
+                        - generic [ref=e652]: px
+                    - generic [ref=e653]: by
+                    - generic [ref=e656]:
+                      - generic [ref=e658]: Set height
+                      - generic [ref=e659]:
+                        - textbox [ref=e660]:
+                          - /placeholder: "1"
+                          - text: "150"
+                        - generic [ref=e661]: px
+                    - generic [ref=e662]:
+                      - generic [ref=e663]: =
+                      - generic [ref=e664]: $0.000263
+                      - button [ref=e665] [cursor=pointer]:
+                        - img [ref=e666]
+                  - generic [ref=e671] [cursor=pointer]:
+                    - checkbox [ref=e673]
+                    - generic [ref=e674]: Low resolution
+                  - table [ref=e675]:
+                    - rowgroup [ref=e676]:
+                      - row [ref=e677]:
+                        - cell [ref=e678]: Price per 1M tokens (fixed)
+                        - cell [ref=e679]: $1.25
+                      - row [ref=e680]:
+                        - cell [ref=e681]: 512 × 512 tiles
+                        - cell [ref=e682]: 1 × 1
+                      - row [ref=e683]:
+                        - cell [ref=e684]: Total tiles
+                        - cell [ref=e685]: "1"
+                      - row [ref=e686]:
+                        - cell [ref=e687]: Base tokens
+                        - cell [ref=e688]: "70"
+                      - row [ref=e689]:
+                        - cell [ref=e690]: Tile tokens
+                        - cell [ref=e691]: 140 × 1 = 140
+                      - row [ref=e692]:
+                        - cell [ref=e693]: Total tokens
+                        - cell [ref=e694]: "210"
+                      - row [ref=e695]:
+                        - cell [ref=e696]: Total price
+                        - cell [ref=e697]: $0.000263
+          - generic [ref=e702]:
+            - heading "Start creating with OpenAI’s powerful models." [level=2] [ref=e703]
+            - generic [ref=e705]:
+              - link "Get started (opens in a new window)" [ref=e706] [cursor=pointer]:
+                - /url: https://platform.openai.com/
+                - text: Get started
+                - img [ref=e707]
+                - generic [ref=e709]: (opens in a new window)
+              - link "Contact sales" [ref=e710] [cursor=pointer]:
+                - /url: /contact-sales/
+                - text: Contact sales
+                - img [ref=e711]
+      - contentinfo [ref=e713]:
+        - generic [ref=e715]:
+          - generic [ref=e716]:
+            - generic [ref=e717]:
+              - heading "Our Research" [level=2] [ref=e718]
+              - list [ref=e719]:
+                - listitem [ref=e720]:
+                  - link "Research Index" [ref=e721] [cursor=pointer]:
+                    - /url: /research/index/
+                - listitem [ref=e722]:
+                  - link "Research Overview" [ref=e723] [cursor=pointer]:
+                    - /url: /research/
+                - listitem [ref=e724]:
+                  - link "Research Residency" [ref=e725] [cursor=pointer]:
+                    - /url: /residency/
+                - listitem [ref=e726]:
+                  - link "OpenAI for Science" [ref=e727] [cursor=pointer]:
+                    - /url: /science/
+                - listitem [ref=e728]:
+                  - link "Economic Research" [ref=e729] [cursor=pointer]:
+                    - /url: /signals/
+            - generic [ref=e730]:
+              - heading "Latest Advancements" [level=2] [ref=e731]
+              - list [ref=e732]:
+                - listitem [ref=e733]:
+                  - link "GPT-5" [ref=e734] [cursor=pointer]:
+                    - /url: /gpt-5/
+                - listitem [ref=e735]:
+                  - link "Codex" [ref=e736] [cursor=pointer]:
+                    - /url: /index/introducing-gpt-5-3-codex/
+                - listitem [ref=e737]:
+                  - link "OpenAI o3" [ref=e738] [cursor=pointer]:
+                    - /url: /index/introducing-o3-and-o4-mini/
+                - listitem [ref=e739]:
+                  - link "OpenAI o4-mini" [ref=e740] [cursor=pointer]:
+                    - /url: /index/introducing-o3-and-o4-mini/
+                - listitem [ref=e741]:
+                  - link "GPT-4o" [ref=e742] [cursor=pointer]:
+                    - /url: /index/gpt-4o-system-card/
+                - listitem [ref=e743]:
+                  - link "GPT-4o mini" [ref=e744] [cursor=pointer]:
+                    - /url: /index/gpt-4o-mini-advancing-cost-efficient-intelligence/
+                - listitem [ref=e745]:
+                  - link "Sora" [ref=e746] [cursor=pointer]:
+                    - /url: /index/sora-system-card/
+            - generic [ref=e747]:
+              - heading "Safety" [level=2] [ref=e748]
+              - list [ref=e749]:
+                - listitem [ref=e750]:
+                  - link "Safety Approach" [ref=e751] [cursor=pointer]:
+                    - /url: /safety/
+                - listitem [ref=e752]:
+                  - link "Security & Privacy" [ref=e753] [cursor=pointer]:
+                    - /url: /security-and-privacy/
+                - listitem [ref=e754]:
+                  - link "Trust & Transparency" [ref=e755] [cursor=pointer]:
+                    - /url: /trust-and-transparency/
+          - generic [ref=e756]:
+            - generic [ref=e757]:
+              - heading "ChatGPT" [level=2] [ref=e758]
+              - list [ref=e759]:
+                - listitem [ref=e760]:
+                  - link "Explore ChatGPT (opens in a new window)" [ref=e761] [cursor=pointer]:
+                    - /url: https://chatgpt.com/overview?openaicom-did=bf749541-3bd2-43be-ab0c-294a4465774b&openaicom_referred=true
+                    - text: Explore ChatGPT
+                    - img [ref=e762]
+                    - generic [ref=e764]: (opens in a new window)
+                - listitem [ref=e765]:
+                  - link "Business" [ref=e766] [cursor=pointer]:
+                    - /url: https://chatgpt.com/business/business-plan?openaicom-did=bf749541-3bd2-43be-ab0c-294a4465774b&openaicom_referred=true
+                - listitem [ref=e767]:
+                  - link "Enterprise" [ref=e768] [cursor=pointer]:
+                    - /url: https://chatgpt.com/business/enterprise?openaicom-did=bf749541-3bd2-43be-ab0c-294a4465774b&openaicom_referred=true
+                - listitem [ref=e769]:
+                  - link "Education" [ref=e770] [cursor=pointer]:
+                    - /url: https://chatgpt.com/business/education?openaicom-did=bf749541-3bd2-43be-ab0c-294a4465774b&openaicom_referred=true
+                - listitem [ref=e771]:
+                  - link "Pricing (opens in a new window)" [ref=e772] [cursor=pointer]:
+                    - /url: https://chatgpt.com/pricing?openaicom-did=bf749541-3bd2-43be-ab0c-294a4465774b&openaicom_referred=true
+                    - text: Pricing
+                    - img [ref=e773]
+                    - generic [ref=e775]: (opens in a new window)
+                - listitem [ref=e776]:
+                  - link "Download (opens in a new window)" [ref=e777] [cursor=pointer]:
+                    - /url: https://chatgpt.com/download?openaicom-did=bf749541-3bd2-43be-ab0c-294a4465774b&openaicom_referred=true
+                    - text: Download
+                    - img [ref=e778]
+                    - generic [ref=e780]: (opens in a new window)
+            - generic [ref=e781]:
+              - heading "Sora" [level=2] [ref=e782]
+              - list [ref=e783]:
+                - listitem [ref=e784]:
+                  - link "Sora Overview" [ref=e785] [cursor=pointer]:
+                    - /url: /sora/
+                - listitem [ref=e786]:
+                  - link "Features" [ref=e787] [cursor=pointer]:
+                    - /url: /sora/#features
+                - listitem [ref=e788]:
+                  - link "Pricing" [ref=e789] [cursor=pointer]:
+                    - /url: /sora/#pricing
+                - listitem [ref=e790]:
+                  - link "Sora log in (opens in a new window)" [ref=e791] [cursor=pointer]:
+                    - /url: https://sora.com/
+                    - text: Sora log in
+                    - img [ref=e792]
+                    - generic [ref=e794]: (opens in a new window)
+            - generic [ref=e795]:
+              - heading "API Platform" [level=2] [ref=e796]
+              - list [ref=e797]:
+                - listitem [ref=e798]:
+                  - link "Platform Overview" [ref=e799] [cursor=pointer]:
+                    - /url: /api/
+                - listitem [ref=e800]:
+                  - link "Pricing" [ref=e801] [cursor=pointer]:
+                    - /url: /api/pricing/
+                - listitem [ref=e802]:
+                  - link "API log in (opens in a new window)" [ref=e803] [cursor=pointer]:
+                    - /url: https://platform.openai.com/login
+                    - text: API log in
+                    - img [ref=e804]
+                    - generic [ref=e806]: (opens in a new window)
+                - listitem [ref=e807]:
+                  - link "Documentation (opens in a new window)" [ref=e808] [cursor=pointer]:
+                    - /url: https://developers.openai.com/api/docs
+                    - text: Documentation
+                    - img [ref=e809]
+                    - generic [ref=e811]: (opens in a new window)
+                - listitem [ref=e812]:
+                  - link "Developer Forum (opens in a new window)" [ref=e813] [cursor=pointer]:
+                    - /url: https://community.openai.com/
+                    - text: Developer Forum
+                    - img [ref=e814]
+                    - generic [ref=e816]: (opens in a new window)
+          - generic [ref=e817]:
+            - generic [ref=e818]:
+              - heading "For Business" [level=2] [ref=e819]
+              - list [ref=e820]:
+                - listitem [ref=e821]:
+                  - link "Business Overview" [ref=e822] [cursor=pointer]:
+                    - /url: /business/
+                - listitem [ref=e823]:
+                  - link "Solutions" [ref=e824] [cursor=pointer]:
+                    - /url: /solutions/
+                - listitem [ref=e825]:
+                  - link "Contact Sales" [ref=e826] [cursor=pointer]:
+                    - /url: /contact-sales/
+            - generic [ref=e827]:
+              - heading "Company" [level=2] [ref=e828]
+              - list [ref=e829]:
+                - listitem [ref=e830]:
+                  - link "About Us" [ref=e831] [cursor=pointer]:
+                    - /url: /about/
+                - listitem [ref=e832]:
+                  - link "Our Charter" [ref=e833] [cursor=pointer]:
+                    - /url: /charter/
+                - listitem [ref=e834]:
+                  - link "Foundation" [ref=e835] [cursor=pointer]:
+                    - /url: /foundation/
+                - listitem [ref=e836]:
+                  - link "Careers" [ref=e837] [cursor=pointer]:
+                    - /url: /careers/
+                - listitem [ref=e838]:
+                  - link "Brand" [ref=e839] [cursor=pointer]:
+                    - /url: /brand/
+            - generic [ref=e840]:
+              - heading "Support" [level=2] [ref=e841]
+              - list [ref=e842]:
+                - listitem [ref=e843]:
+                  - link "Help Center (opens in a new window)" [ref=e844] [cursor=pointer]:
+                    - /url: https://help.openai.com/
+                    - text: Help Center
+                    - img [ref=e845]
+                    - generic [ref=e847]: (opens in a new window)
+            - generic [ref=e848]:
+              - heading "More" [level=2] [ref=e849]
+              - list [ref=e850]:
+                - listitem [ref=e851]:
+                  - link "News" [ref=e852] [cursor=pointer]:
+                    - /url: /news/
+                - listitem [ref=e853]:
+                  - link "Stories" [ref=e854] [cursor=pointer]:
+                    - /url: /stories/
+                - listitem [ref=e855]:
+                  - link "Livestreams" [ref=e856] [cursor=pointer]:
+                    - /url: /live/
+                - listitem [ref=e857]:
+                  - link "Podcast" [ref=e858] [cursor=pointer]:
+                    - /url: /podcast/
+                - listitem [ref=e859]:
+                  - link "RSS" [ref=e860] [cursor=pointer]:
+                    - /url: /news/rss.xml
+          - generic [ref=e862]:
+            - heading "Terms & Policies" [level=2] [ref=e863]
+            - list [ref=e864]:
+              - listitem [ref=e865]:
+                - link "Terms of Use" [ref=e866] [cursor=pointer]:
+                  - /url: /policies/terms-of-use/
+              - listitem [ref=e867]:
+                - link "Privacy Policy" [ref=e868] [cursor=pointer]:
+                  - /url: /policies/privacy-policy/
+              - listitem [ref=e869]:
+                - link "Other Policies" [ref=e870] [cursor=pointer]:
+                  - /url: /policies/
+        - generic [ref=e871]:
+          - generic [ref=e872]:
+            - link "X" [ref=e873] [cursor=pointer]:
+              - /url: https://x.com/OpenAI
+              - img [ref=e874]
+              - generic [ref=e876]: (opens in a new window)
+            - link "YouTube" [ref=e877] [cursor=pointer]:
+              - /url: https://www.youtube.com/OpenAI
+              - img [ref=e878]
+              - generic [ref=e880]: (opens in a new window)
+            - link "LinkedIn" [ref=e881] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/openai
+              - img [ref=e882]
+              - generic [ref=e884]: (opens in a new window)
+            - link "GitHub" [ref=e885] [cursor=pointer]:
+              - /url: https://github.com/openai
+              - img [ref=e886]
+              - generic [ref=e888]: (opens in a new window)
+            - link "Instagram" [ref=e889] [cursor=pointer]:
+              - /url: https://www.instagram.com/openai/
+              - img [ref=e890]
+              - generic [ref=e892]: (opens in a new window)
+            - link "TikTok" [ref=e893] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@openai
+              - img [ref=e894]
+              - generic [ref=e896]: (opens in a new window)
+            - link "Discord" [ref=e897] [cursor=pointer]:
+              - /url: https://discord.gg/openai
+              - img [ref=e898]
+              - generic [ref=e900]: (opens in a new window)
+          - generic [ref=e901]:
+            - generic [ref=e902]: OpenAI © 2015–2026
+            - button "Manage Cookies" [ref=e903] [cursor=pointer]
+          - generic [ref=e904]:
+            - button "Change language" [ref=e905] [cursor=pointer]:
+              - generic [ref=e906]:
+                - img [ref=e907]
+                - generic [ref=e910]:
+                  - text: English
+                  - generic [ref=e911]: United States
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - textbox "Search locales by name or region":
+                        - /placeholder: Search
+  - dialog "We use cookies" [ref=e912]:
+    - generic [ref=e913]:
+      - paragraph [ref=e914]: We use cookies
+      - paragraph [ref=e915]:
+        - text: We use cookies to help this site function, understand service usage, and support marketing efforts. Visit
+        - button "Manage Cookies" [ref=e916] [cursor=pointer]
+        - text: to change preferences anytime. View our
+        - link "Cookie Policy" [ref=e917] [cursor=pointer]:
+          - /url: /policies/cookie-policy/
+        - text: for more info.
+    - generic [ref=e918]:
+      - button "Manage Cookies" [ref=e919] [cursor=pointer]
+      - button "Reject non-essential" [ref=e920] [cursor=pointer]
+      - button "Accept all" [ref=e921] [cursor=pointer]
+  - alert [ref=e922]

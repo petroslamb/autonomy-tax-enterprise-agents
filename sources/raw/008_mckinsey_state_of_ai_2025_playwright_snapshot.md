@@ -1,0 +1,647 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#skipToMain"
+      - generic [ref=e5]: Skip to main content
+    - generic [ref=e7]:
+      - navigation [ref=e8]:
+        - button "Navigation Menu" [ref=e9] [cursor=pointer]
+        - link "QuantumBlack" [ref=e11] [cursor=pointer]:
+          - /url: /capabilities/quantumblack/our-insights
+          - img "QuantumBlack" [ref=e12]
+      - menu [ref=e17]:
+        - menuitem "Sign In | Subscribe":
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "Sign In" [ref=e20] [cursor=pointer]:
+                - /url: "#/auth-signin"
+                - generic [ref=e21]: Sign In
+              - text: "|"
+            - listitem [ref=e22]:
+              - link "Subscribe" [ref=e23] [cursor=pointer]:
+                - /url: /user-registration/newsletter
+                - generic [ref=e24]: Subscribe
+        - menuitem "Search icon, hit enter to activate" [ref=e25]:
+          - link "Search icon, hit enter to activate" [ref=e26] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e27]: 
+    - generic [ref=e29]:
+      - generic "Open Ask McKinsey chat" [ref=e30] [cursor=pointer]:
+        - img "Ask McKinsey chat bubbles" [ref=e31]
+      - generic "Ask McKinsey AI Chatbot" [ref=e32] [cursor=pointer]:
+        - img "Ask McKinsey AI Chatbot" [ref=e33]
+        - generic "Close logo" [ref=e34]:
+          - link "Ask McKinse Close icon" [ref=e35]:
+            - /url: "#"
+            - img "Ask McKinse Close icon" [ref=e36]
+    - main [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e40]:
+          - generic [ref=e42]: "The state of AI in 2025: Agents, innovation, and transformation"
+          - generic [ref=e45]:
+            - button [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]: 
+              - generic [ref=e49]: Share
+            - link [ref=e51] [cursor=pointer]:
+              - /url: "#/print"
+              - generic [ref=e52]: 
+              - generic [ref=e53]: Print
+            - button [ref=e55] [cursor=pointer]:
+              - generic [ref=e56]: 
+              - generic [ref=e57]: Download
+            - link [ref=e60] [cursor=pointer]:
+              - /url: "#/save"
+              - generic [ref=e61]: 
+              - generic [ref=e62]: Save
+        - progressbar [ref=e63]
+      - generic [ref=e65]:
+        - button "Pause the video" [ref=e70] [cursor=pointer]:
+          - generic [ref=e71]: 
+        - generic [ref=e76]:
+          - 'heading "The state of AI in 2025: Agents, innovation, and transformation" [level=1] [ref=e78]':
+            - generic [ref=e79]: "The state of AI in 2025: Agents, innovation, and transformation"
+          - generic [ref=e82]:
+            - time [ref=e83]: November 5, 2025
+            - text: "| Survey"
+          - button "Skip article header section" [ref=e85] [cursor=pointer]:
+            - generic [ref=e86]: 
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - generic [ref=e93]:
+            - button "Share" [ref=e95] [cursor=pointer]:
+              - generic [ref=e96]: 
+              - generic [ref=e97]: Share
+            - link "Print" [ref=e99] [cursor=pointer]:
+              - /url: "#/print"
+              - generic [ref=e100]: 
+              - generic [ref=e101]: Print
+            - button "Download" [ref=e103] [cursor=pointer]:
+              - generic [ref=e104]: 
+              - generic [ref=e105]: Download
+            - link " Save" [ref=e108] [cursor=pointer]:
+              - /url: "#/save"
+              - generic [ref=e109]: 
+              - generic [ref=e110]: Save
+          - generic [ref=e114]: Almost all survey respondents say their organizations are using AI, and many have begun to use AI agents. But most are still in the early stages of scaling AI and capturing enterprise-level value.
+          - main [ref=e115]:
+            - generic [ref=e117]:
+              - generic [ref=e118]:
+                - iframe [ref=e121]:
+                  - generic [ref=f4e4]:
+                    - application "Play" [ref=f4e6] [cursor=pointer]:
+                      - img [ref=f4e7]
+                    - link "Play on SoundCloud" [ref=f4e11] [cursor=pointer]:
+                      - /url: https://soundcloud.com/mckinsey/listen-to-the-921963460
+                      - img [ref=f4e12]
+                    - 'link "McKinsey & Company – Listen to the article: The state of AI in 2025: Agents, innovation, and transformation" [ref=f4e18] [cursor=pointer]':
+                      - /url: https://soundcloud.com/mckinsey/listen-to-the-921963460
+                - generic [ref=e123]:
+                  - heading "DOWNLOADS" [level=3] [ref=e124]
+                  - link " Article (30 pages)" [ref=e127] [cursor=pointer]:
+                    - /url: "#/download/%2F~%2Fmedia%2Fmckinsey%2Fbusiness%20functions%2Fquantumblack%2Four%20insights%2Fthe%20state%20of%20ai%2Fthe-state-of-ai-in-2025-vf.pdf%3FshouldIndex%3Dfalse"
+                    - generic [ref=e128]: 
+                    - generic [ref=e129]: Article (30 pages)
+                - heading "Key findings" [level=2] [ref=e130]
+                - list [ref=e131]:
+                  - listitem [ref=e132]:
+                    - emphasis [ref=e133]: "Most organizations are still in the experimentation or piloting phase:"
+                    - text: Nearly two-thirds of respondents say their organizations have not yet begun scaling AI across the enterprise.
+                  - listitem [ref=e134]:
+                    - emphasis [ref=e135]: "High curiosity in AI agents:"
+                    - text: Sixty-two percent of survey respondents say their organizations are at least experimenting with AI agents.
+                  - listitem [ref=e136]:
+                    - emphasis [ref=e137]: "Positive leading indicators on impact of AI:"
+                    - text: Respondents report use-case-level cost and revenue benefits, and 64 percent say that AI is enabling their innovation. However, just 39 percent report EBIT impact at the enterprise level.
+                  - listitem [ref=e138]:
+                    - emphasis [ref=e139]: "High performers use AI to drive growth, innovation, and cost:"
+                    - text: Eighty percent of respondents say their companies set efficiency as an objective of their AI initiatives, but the companies seeing the most value from AI often set growth or innovation as additional objectives.
+                  - listitem [ref=e140]:
+                    - emphasis [ref=e141]: "Redesigning workflows is a key success factor:"
+                    - text: Half of those AI high performers intend to use AI to transform their businesses, and most are redesigning workflows.
+                  - listitem [ref=e142]:
+                    - emphasis [ref=e143]: "Differing perspectives on employment impact:"
+                    - text: "Respondents vary in their expectations of AI’s impact on the overall workforce size of their organizations in the coming year: 32 percent expect decreases, 43 percent no change, and 13 percent increases."
+                - separator [ref=e144]
+                - generic [ref=e146]:
+                  - button "Expandable Sidebar" [ref=e149] [cursor=pointer]:
+                    - generic [ref=e150]: 
+                  - generic [ref=e151]:
+                    - generic [ref=e152]: Byline
+                    - heading "About the authors" [level=2] [ref=e154]:
+                      - generic [ref=e155]: About the authors
+                - paragraph [ref=e156]:
+                  - strong [ref=e157]: Three years since the introduction of gen AI tools
+                  - text: triggered a new era of artificial intelligence, nearly nine out of ten survey respondents say their organizations are regularly using AI—but the pace of progress remains uneven. While AI tools are now commonplace, most organizations have not yet embedded them deeply enough into their workflows and processes to realize material enterprise-level benefits. The latest McKinsey Global Survey on the state of AI reveals a landscape defined by both wider use—including growing proliferation of agentic AI—and stubborn growing pains, with the transition from pilots to scaled impact remaining a work in progress at most organizations.
+                - generic [ref=e159]:
+                  - img "Agents, Robots, and Us" [ref=e162]
+                  - generic [ref=e163]:
+                    - generic [ref=e165]:
+                      - 'heading "Agents, Robots, and Us: What executives need to know about AI and work" [level=3] [ref=e166]'
+                      - paragraph [ref=e168]:
+                        - generic [ref=e169]:
+                          - paragraph [ref=e170]:
+                            - strong [ref=e171]: Thursday, February 26, 10:30 a.m. - 11:00 a.m. ET / 4:30 p.m. - 5:00 p.m. CET
+                          - paragraph [ref=e172]: Join McKinsey senior partners Alexis Krivkovich and Anu Madgavkar for a discussion of how executives can build effective human-AI skill partnerships, prepare their workforces, and make strategic decisions that position their organizations for growth in the age of AI.
+                    - link "Register here" [ref=e174] [cursor=pointer]:
+                      - /url: https://events.ringcentral.com/events/agents-robots-and-us-what-executives-need-to-know-about-ai-and-work?utm_source=Disruptor&utm_campaign=Disruptor
+                      - generic [ref=e175]: Register here
+                - generic:
+                  - navigation "Table of Contents":
+                    - generic [ref=e176]:
+                      - link "AI use continues to broaden" [ref=e178] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e179]: AI use continues to broaden
+                      - link "Ambitious organizations report the most benefits" [ref=e181] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e182]: Ambitious organizations report the most benefits
+                      - link "Expectations vary on AI’s effect on workforce size" [ref=e184] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e185]: Expectations vary on AI’s effect on workforce size
+                      - link "Efforts to mitigate risks are becoming more common" [ref=e187] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e188]: Efforts to mitigate risks are becoming more common
+                      - link "About the research" [ref=e190] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e191]: About the research
+                      - button "Collapse table of contents menu" [ref=e192] [cursor=pointer]:
+                        - generic [ref=e193]: 
+                - region "AI use continues to broaden"
+                - heading "AI use continues to broaden but remains primarily in pilot phases" [level=2] [ref=e194]
+                - paragraph [ref=e195]: "Our latest survey shows a larger share of respondents reporting AI use by their organizations, though most have yet to scale the technologies. The share of respondents saying their organizations are using AI in at least one business function has increased since our research last year: 88 percent report regular AI use in at least one business function, compared with 78 percent a year ago. But at the enterprise level, the majority are still in the experimenting or piloting stages (Exhibit 1), with approximately one-third reporting that their companies have begun to scale their AI programs."
+                - generic [ref=e196]:
+                  - generic [ref=e198]: Exhibit 1
+                  - img "Reported use of AI in at least one business function continues to increase." [ref=e201]
+                  - generic [ref=e202]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e203] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - heading "Many organizations are already experimenting with AI agents" [level=3] [ref=e204]
+                - paragraph [ref=e205]: "Organizations are also beginning to explore opportunities with AI agents—systems based on foundation models capable of acting in the real world, planning and executing multiple steps in a workflow. Twenty-three percent of respondents report their organizations are scaling an agentic AI system somewhere in their enterprises (that is, expanding the deployment and adoption of the technology within a least one business function), and an additional 39 percent say they have begun experimenting with AI agents. But use of agents is not yet widespread: Most of those who are scaling agents say they’re only doing so in one or two functions. In any given business function, no more than 10 percent of respondents say their organizations are scaling AI agents (Exhibit 2)."
+                - generic [ref=e206]:
+                  - generic [ref=e208]: Exhibit 2
+                  - img "No more than 10 percent of respondents report scaling AI agents in any individual function." [ref=e211]
+                  - generic [ref=e212]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e213] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - paragraph [ref=e214]: Looking at individual business functions, agent use is most commonly reported in IT and knowledge management, where agentic use cases such as service-desk management in IT and deep research in knowledge management have quickly developed. By industry, the use of AI agents is most widely reported in the technology, media and telecommunications, and healthcare sectors (Exhibit 3).
+                - generic [ref=e215]:
+                  - generic [ref=e217]: Exhibit 3
+                  - img "Use of AI agents is most often reported by respondents working in technology, media and telecommunications, and healthcare." [ref=e220]
+                  - generic [ref=e221]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e222] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - iframe [ref=e226]:
+                  - generic [active]:
+                    - generic [ref=f9e6]:
+                      - generic:
+                        - generic:
+                          - img
+                      - paragraph [ref=f9e11]: McKinsey commentary
+                      - paragraph [ref=f9e14]: Michael Chui
+                      - paragraph [ref=f9e17]: Senior fellow
+                      - paragraph [ref=f9e20]:
+                        - text: AI agents have been the
+                        - generic [ref=f9e21]: "subject of intense buzz and excitement. Already, about a quarter of our survey respondents report that they have started scaling at least one agentic AI system, but usually only in one or two business functions. Looking across the entire enterprise landscape, the use of agents is not yet widespread. This gap highlights the contrast between the great potential that manifests in a “hype cycle” and the current reality on the ground: For those companies that respondents say have started to use agents in any particular business function, most of them are still in the exploratory stages. And as we recently documented in another article about the lessons we’ve learned from a year of building agentic AI tools: When it comes to agents, it takes hard work to do it well."
+                      - generic [ref=f9e22]:
+                        - link [ref=f9e23] [cursor=pointer]:
+                          - /url: https://www.mckinsey.com/capabilities/quantumblack/our-insights/one-year-of-agentic-ai-six-lessons-from-the-people-doing-the-work
+                        - link [ref=f9e24] [cursor=pointer]:
+                          - /url: https://www.mckinsey.com/capabilities/quantumblack/our-insights/one-year-of-agentic-ai-six-lessons-from-the-people-doing-the-work
+                    - paragraph [ref=f9e28]: Michael Chui
+                    - paragraph [ref=f9e31]: Senior fellow
+                    - paragraph [ref=f9e34]:
+                      - text: AI agents have been the
+                      - generic [ref=f9e35]: "subject of intense buzz and excitement. Already, about a quarter of our survey respondents report that they have started scaling at least one agentic AI system, but usually only in one or two business functions. Looking across the entire enterprise landscape, the use of agents is not yet widespread. This gap highlights the contrast between the great potential that manifests in a “hype cycle” and the current reality on the ground: For those companies that respondents say have started to use agents in any particular business function, most of them are still in the exploratory stages. And as we recently documented in another article about the lessons we’ve learned from a year of building agentic AI tools: When it comes to agents, it takes hard work to do it well."
+                - heading "For most organizations, AI use remains in pilot phases" [level=3] [ref=e227]
+                - generic [ref=e229]:
+                  - generic [ref=e231]:
+                    - button " Share" [ref=e233] [cursor=pointer]:
+                      - generic [ref=e234]: 
+                      - generic [ref=e235]: Share
+                    - button "Expandable Sidebar" [ref=e236] [cursor=pointer]:
+                      - generic [ref=e237]: 
+                  - generic [ref=e238]:
+                    - generic [ref=e239]: Sidebar
+                    - heading "Reported AI use ticks upward in nearly every industry" [level=2] [ref=e241]:
+                      - generic [ref=e242]: Reported AI use ticks upward in nearly every industry
+                - paragraph [ref=e243]: The use of AI overall is broadening within organizations. Respondents increasingly report that their organizations are using AI in more business functions (Exhibit 4). More than two-thirds of respondents now say their organizations are using AI in more than one function, and half report using AI in three or more functions (for a breakdown by industry, see sidebar, “Reported AI use ticks upward in nearly every industry”).
+                - generic [ref=e244]:
+                  - generic [ref=e246]: Exhibit 4
+                  - img "Organizations are increasingly using AI in multiple functions." [ref=e249]
+                  - generic [ref=e250]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e251] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - paragraph [ref=e252]: However, many companies—particularly smaller ones—have yet to integrate AI deeply across their workflows. While only one-third of all respondents say they are scaling their AI programs across their organizations, larger companies—both in terms of revenues and the number of employees—are more likely to have reached the scaling phase. Nearly half of respondents from companies with more than $5 billion in revenue have reached the scaling phase, compared with 29 percent of those with less than $100 million in revenues (Exhibit 5).
+                - generic [ref=e253]:
+                  - generic [ref=e255]: Exhibit 5
+                  - img "Larger companies lead the way in scaling AI beyond pilots." [ref=e258]
+                  - generic [ref=e259]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e260] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - heading "AI as a catalyst for innovation" [level=3] [ref=e261]
+                - paragraph [ref=e262]: "Responses suggest that for most organizations, the use of AI has not yet significantly affected enterprise-wide EBIT. Thirty-nine percent of respondents attribute any level of EBIT impact to AI, and most of those respondents say that less than 5 percent of their organization’s EBIT is attributable to AI use. However, respondents see other company-wide qualitative outcomes: A majority say that their organizations’ use of AI has improved innovation, and nearly half report improvement in customer satisfaction and competitive differentiation (Exhibit 6)."
+                - generic [ref=e263]:
+                  - generic [ref=e265]: Exhibit 6
+                  - img "Respondents most often cite benefits from AI in innovation, employee and customer satisfaction, and competitive differentiation." [ref=e268]
+                  - generic [ref=e269]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e270] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - paragraph [ref=e271]: While reported cases of enterprise-wide EBIT impact are limited, many respondents say they are seeing cost benefits from individual AI use cases—especially in software engineering, manufacturing, and IT (Exhibit 7).
+                - generic [ref=e272]:
+                  - generic [ref=e274]: Exhibit 7
+                  - img "Respondents most commonly report cost benefits from AI activities in software engineering, manufacturing, and IT." [ref=e277]
+                  - generic [ref=e278]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e279] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - paragraph [ref=e280]: Revenue increases resulting from AI use are most commonly reported in use cases within marketing and sales, strategy and corporate finance, and product and service development, which is consistent with what we’ve seen over the years we have been conducting the survey (Exhibit 8).
+                - generic [ref=e281]:
+                  - generic [ref=e283]: Exhibit 8
+                  - img "Respondents report the greatest revenue benefits from AI in marketing and sales, strategy and corporate finance, and product or service development." [ref=e286]
+                  - generic [ref=e287]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e288] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - iframe [ref=e292]:
+                  - generic [ref=f10e6]:
+                    - generic:
+                      - generic:
+                        - img
+                    - paragraph [ref=f10e11]: McKinsey commentary
+                    - paragraph [ref=f10e14]: Alex Singla
+                    - paragraph [ref=f10e17]: Senior partner
+                    - link [ref=f10e19] [cursor=pointer]:
+                      - /url: https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-2024
+                    - paragraph [ref=f10e22]:
+                      - generic [ref=f10e23]: Last year, we noted that
+                      - text: generative AI was no longer a novelty and that enterprise adoption was spreading as companies rewired to help realize value. This year’s data confirm that trajectory—AI use is broadening, but scale still lags. We are seeing that while companies may have rolled out AI tools, most have not yet productized use cases, redesigned workflows around AI and agentic capabilities, or built the platforms/guardrails needed to run them at scale. In working with organizations, we find that the largest ones have the scale to invest in AI to advance more quickly. The companies reporting EBIT impact tend to have progressed further in their scaling journeys. All business leaders are seeking to make their companies more efficient, but the real results emerge when leaders are also able to use technology to innovate.
+                - region "Ambitious organizations report the most benefits"
+                - heading "Organizations with ambitious AI agendas are seeing the most benefit" [level=2] [ref=e293]
+                - paragraph [ref=e294]: Meaningful enterprise-wide bottom-line impact from the use of AI continues to be rare, though our survey results suggest that thinking big can pay off. Respondents who attribute EBIT impact of 5 percent or more to AI use and say their organization has seen “significant” value from AI use—our definition of AI high performers, representing about 6 percent of respondents—report pushing for transformative innovation via AI, redesigning workflows, scaling faster, implementing best practices for transformation, and investing more.
+                - paragraph [ref=e295]: "High performers have bold ambitions to transform their business: AI high performers are more than three times more likely than others are to say their organization intends to use AI to bring about transformative change to their businesses (Exhibit 9)."
+                - generic [ref=e296]:
+                  - generic [ref=e298]: Exhibit 9
+                  - img "High performers are more likely than others to expect their organizations to use AI for enterprise-wide transformative change." [ref=e301]
+                  - generic [ref=e302]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e303] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - paragraph [ref=e304]: Organizations seeing the greatest impact from AI often aim to achieve more than cost reductions from these technologies. While most respondents report that efficiency gains are an objective of their organizations’ AI use, high performers are more likely than others are to say their organizations have also set growth and/or innovation as an objective of their AI efforts (Exhibit 10).
+                - generic [ref=e305]:
+                  - generic [ref=e307]: Exhibit 10
+                  - generic [ref=e310]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e311] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - paragraph [ref=e312]: Whether or not they qualify as high performers, respondents who say their organizations are using AI to spur growth and/or innovation are more likely than others are to report achieving a range of qualitative enterprise-level benefits from their AI use—such as improved customer satisfaction, competitive differentiation, profitability, revenue growth, and change in market share.
+                - paragraph [ref=e313]:
+                  - text: In addition to high aspirations at the enterprise level, high performers are also nearly three times as likely as others are to say their organizations have fundamentally redesigned individual workflows (Exhibit 11). Indeed, this intentional redesigning of workflows has one of the strongest contributions to achieving meaningful business impact of all the factors tested.
+                  - generic "footnote" [ref=e315] [cursor=pointer]:
+                    - superscript [ref=e316]: "[1]"
+                - generic [ref=e317]:
+                  - generic [ref=e319]: Exhibit 11
+                  - img "High performers are nearly three times as likely as others are to fundamentally redesign their workflows in their deployment of AI." [ref=e322]
+                  - generic [ref=e323]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e324] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - iframe [ref=e328]:
+                  - generic [ref=f6e6]:
+                    - generic:
+                      - generic:
+                        - img
+                    - paragraph [ref=f6e11]: McKinsey commentary
+                    - paragraph [ref=f6e14]: Tara Balakrishnan
+                    - paragraph [ref=f6e17]: Associate partner
+                    - generic [ref=f6e19]:
+                      - paragraph [ref=f6e20]: "What stands out most about the high performers is their level of ambition. Their AI agendas go beyond driving incremental efficiency gains: High performers are setting out to fundamentally reimagine their businesses. This level of ambition becomes a key differentiator and catalyst for change in the organization. When leaders articulate a transformative vision for AI, we see that it galvanizes the organization in terms of alignment, investment, and overall energy. As a result, leading organizations are not just seeing improved automation results; they are redesigning workflows and customer experiences to capture new forms of value."
+                      - paragraph [ref=f6e21]:
+                        - generic [ref=f6e22]: Often, organizations approach AI through a cost-first mindset. While many see leading indicators from efficiency gains, focusing only on cost can limit AI’s impact. Positioning AI as an enabler of growth and innovation creates space within the organization to go after the cost and efficiency improvements more effectively. And for many organizations, an efficiency play will not be sufficient to navigate AI disruption. They will need to consider how AI can be leveraged to tell a transformational story to their stakeholders. Doing so also supports change management internally. Employees tend to rally behind a shared vision of opportunity. In our experience, many of the organizations that use AI to inspire growth and innovation are the same ones that find it easier to scale AI use and ultimately realize sustainable productivity improvements.
+                - paragraph [ref=e329]: AI high performers are also regularly using AI in more business functions than their peers. These respondents are much more likely than others are to report use in marketing and sales, strategy and corporate finance, and product and service development, for example. Additionally, high performers have advanced further with their use of AI agents than others have. In most business functions, AI high performers are at least three times more likely than their peers to report that they are scaling their use of agents (Exhibit 12).
+                - generic [ref=e330]:
+                  - generic [ref=e332]: Exhibit 12
+                  - img "High performers are much more likely than others are to have taken AI agents to the scaling phase." [ref=e335]
+                  - generic [ref=e336]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e337] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - paragraph [ref=e338]: The findings also show that AI high performers’ use of AI is more often championed by their leaders. High performers are three times more likely than their peers to strongly agree that senior leaders at their organizations demonstrate ownership of and commitment to their AI initiatives (Exhibit 13). These respondents are also much more likely than others are to say that senior leaders are actively engaged in driving AI adoption, including role modeling the use of AI.
+                - generic [ref=e339]:
+                  - generic [ref=e341]: Exhibit 13
+                  - img "High performers tend to have senior leaders who demonstrate strong ownership and commitment to AI initiatives." [ref=e344]
+                  - generic [ref=e345]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e346] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - paragraph [ref=e347]:
+                  - text: In addition to having senior leadership ownership and commitment, AI high performers are also more likely to employ a range of practices to realize value from AI use. For example, high performers are more likely than others are to say their organizations have defined processes to determine how and when model outputs need human validation to ensure accuracy (Exhibit 14). This is another one of the top factors we tested to determine those that most distinguished high performers. The full set of management practices align with our broader
+                  - emphasis [ref=e348]:
+                    - link "Rewired" [ref=e349] [cursor=pointer]:
+                      - /url: /featured-insights/mckinsey-on-books/rewired-first-edition
+                  - text: "research, which is based on more than 200 at-scale AI transformations. They span six dimensions essential to capturing value from AI: strategy, talent, operating model, technology, data, and adoption and scaling. All of the management practices we tested correlate positively with value attributable to AI. These practices enable organizations to innovate and capture value from AI at scale."
+                - generic [ref=e351]:
+                  - generic [ref=e353]: Exhibit 14
+                  - iframe [ref=e357]:
+                    
+                  - generic [ref=e358]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e359] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - paragraph [ref=e360]: Having an agile product delivery organization, or an enterprise-wide agile organization with well-defined delivery processes, is also strongly correlated with achieving value. Establishing robust talent strategies and implementing technology and data infrastructure similarly show meaningful contributions to AI success, and practices such as embedding AI into business processes and tracking KPIs for AI solutions further contribute to achieving significant value.
+                - paragraph [ref=e361]: "Finally, high-performing organizations are investing more in AI capabilities. More than one-third of high performers say their organizations are committing more than 20 percent of their digital budgets to AI technologies (Exhibit 15). These resources are helping them scale AI technologies across the business: About three-quarters of high performers say their organizations are scaling or have scaled AI, compared with one-third of other organizations."
+                - generic [ref=e362]:
+                  - generic [ref=e364]: Exhibit 15
+                  - img "One-third of high performers spend more than 20 percent of their digital budgets on AI." [ref=e367]
+                  - generic [ref=e368]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e369] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - iframe [ref=e373]:
+                  - generic [active]:
+                    - generic [ref=f7e6]:
+                      - generic:
+                        - generic:
+                          - img
+                      - paragraph [ref=f7e11]: McKinsey commentary
+                      - paragraph [ref=f7e14]: Bryce Hall
+                      - paragraph [ref=f7e17]: Associate partner
+                      - generic [ref=f7e19]:
+                        - paragraph [ref=f7e20]: Particularly in the context of massive investments in AI and lofty valuations of many AI companies, it makes sense that executives are taking a hard look at where AI is actually creating value, and how AI leaders are successfully capturing value from their investments. This year’s survey suggests that leading organizations successfully implement a set of practices that bridge the interface between AI and human users. In fact, one of the leading practices is effectively determining how and when to incorporate “human in the loop,” for example, in the development, testing, and deployment of AI solutions. This is consistent with our real-world experience with companies, too; AI is rarely a stand-alone solution. Instead, companies capture value when they effectively enable employees with real-world domain experience to interact with AI solutions at the right points. The combination of AI solutions alongside human judgment and expertise is what creates real “hybrid intelligence” superpowers and real value capture. AI leaders adopt a set of other practices that point in this same direction, including fully embedding AI solutions into business workflows and having senior leaders actively engaged in driving adoption at scale.
+                        - paragraph [ref=f7e21]:
+                          - generic [ref=f7e22]: Interestingly, the ten leading management practices highlighted by this year’s survey include all six elements of McKinsey’s
+                          - generic [ref=f7e23]: Rewired
+                          - generic [ref=f7e24]: "playbook for digital and AI transformations. While each year we test new practices, one evergreen principle holds true: Companies that effectively deliver across six primary elements (strategy, talent, operating model, technology, data, and adoption and scaling) are the ones reporting significant value creation from their AI investments."
+                      - link [ref=f7e26] [cursor=pointer]:
+                        - /url: https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/rewired-and-running-ahead-digital-and-ai-leaders-are-leaving-the-rest-behind
+                    - paragraph [ref=f7e30]: Particularly in the context of massive investments in AI and lofty valuations of many AI companies, it makes sense that executives are taking a hard look at where AI is actually creating value, and how AI leaders are successfully capturing value from their investments. This year’s survey suggests that leading organizations successfully implement a set of practices that bridge the interface between AI and human users. In fact, one of the leading practices is effectively determining how and when to incorporate “human in the loop,” for example, in the development, testing, and deployment of AI solutions. This is consistent with our real-world experience with companies, too; AI is rarely a stand-alone solution. Instead, companies capture value when they effectively enable employees with real-world domain experience to interact with AI solutions at the right points. The combination of AI solutions alongside human judgment and expertise is what creates real “hybrid intelligence” superpowers and real value capture. AI leaders adopt a set of other practices that point in this same direction, including fully embedding AI solutions into business workflows and having senior leaders actively engaged in driving adoption at scale.
+                - region "Expectations vary on AI’s effect on workforce size"
+                - heading "Expectations vary on AI’s effect on workforce size" [level=2] [ref=e374]
+                - paragraph [ref=e375]: As organizations expand their use of AI, respondents share differing perspectives on how AI might affect their workforce size in the year ahead. Looking at the functions in which organizations are using AI, a plurality of respondents observed little to no change in the number of employees due to their organization’s use of AI in the past year. In most functions, fewer than 20 percent of respondents report decreases of 3 percent or more, and smaller shares say their organization’s AI use led them to add head count within functions.
+                - paragraph [ref=e376]: However, larger shares of respondents expect changes in the number of employees in these functions in the year ahead (Exhibit 16). Across business functions, a median of 17 percent of respondents report declines in functions’ workforce size in the past year as a result of AI use, but a median of 30 percent expect a decrease in the next year.
+                - generic [ref=e377]:
+                  - generic [ref=e379]: Exhibit 16
+                  - img "Larger shares of respondents expect AI to affect the workforce size in their organizations’ business functions next year than observed changes last year." [ref=e382]
+                  - generic [ref=e383]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e384] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - paragraph [ref=e385]: Expectations differ on the impact of AI on the size of respondents’ enterprise-wide total workforce. While a plurality of respondents expect to see little or no effect on their organizations’ total number of employees in the year ahead, 32 percent predict an overall reduction of 3 percent or more, and 13 percent predict an increase of that magnitude (Exhibit 17). Respondents at larger organizations are more likely than those at smaller ones to expect an enterprise-wide AI-related reduction in workforce size, while AI high performers are more likely than others are to expect a meaningful change, either in the form of workforce reductions or increases.
+                - generic [ref=e386]:
+                  - generic [ref=e388]: Exhibit 17
+                  - img "Respondents have differing expectations for AI’s impact on their organizations’ workforce size in the year ahead." [ref=e391]
+                  - generic [ref=e392]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e393] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - paragraph [ref=e394]: At the same time, most respondents—and an even larger share from larger companies—note that their organizations hired for AI-related roles over the past year (Exhibit 18). While the talent needs differ by company size overall, software engineers and data engineers are the most in demand.
+                - generic [ref=e395]:
+                  - generic [ref=e397]: Exhibit 18
+                  - img "Respondents at larger organizations are more likely than peers at smaller organizations to report AI-related hiring in the past year." [ref=e400]
+                  - generic [ref=e401]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e402] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - iframe [ref=e406]:
+                  - generic [ref=f11e6]:
+                    - generic:
+                      - generic:
+                        - img
+                    - paragraph [ref=f11e11]: McKinsey commentary
+                    - paragraph [ref=f11e14]: Lareina Yee
+                    - paragraph [ref=f11e17]: Senior partner and McKinsey Global Institute director
+                    - paragraph [ref=f11e20]: As many companies are still in pilot and early production phases of AI use, it is not yet clear what impact AI will have on the number of jobs and nature of work. Still, even in these early days of adoption, we are seeing changes in the skills demanded for a range of jobs. Across positions like claims adjusters, digital marketers, and wealth managers, we are seeing increasing demand for AI skills; typically, this is about incorporating AI into existing roles or workflows. In terms of how AI will affect headcount, about a third of respondents say they expect their organization’s workforce to decline in size—though interestingly, a small percentage of respondents say they expect their organization’s headcount to increase, and some report headcount increases over the past year across functions as diverse as IT, supply chain, and sales. Some of these jobs will become more critical as AI adoption increases. AI success, for example, requires data readiness and MLOps. We see larger companies in particular hiring for those skills; they are twice as likely to hire roles that integrate, model, and industrialize data.
+                - region "Efforts to mitigate risks are becoming more common"
+                - heading "Efforts to mitigate AI risks are becoming more common as challenges materialize" [level=2] [ref=e407]
+                - paragraph [ref=e408]: Over the past six years, our research has consistently found that few risks associated with the use of AI are mitigated by most respondents’ organizations. In our latest findings, the share of respondents reporting mitigation efforts for risks such as personal and individual privacy, explainability, organizational reputation, and regulatory compliance has grown since we last asked about risks associated with AI overall in 2022. (In 2023 and 2024, we asked specifically about gen AI–related risks.) Back in 2022, respondents reported acting to manage an average of two AI-related risks, compared with four risks today.
+                - paragraph [ref=e409]: "We also see that, largely, the risks that organizations are experiencing and are working to mitigate are connected: Respondents are more likely to say their organizations are mitigating each of the risks they have experienced consequences from. Overall, 51 percent of respondents from organizations using AI say their organizations have seen at least one instance of a negative consequence, with nearly one-third of all respondents reporting consequences stemming from AI inaccuracy (Exhibit 19). Inaccuracy is one of two risks that most respondents say their organizations are working to mitigate. However, the second-most-commonly-reported risk—explainability—is not among the most commonly mitigated."
+                - generic [ref=e410]:
+                  - generic [ref=e412]: Exhibit 19
+                  - img "Inaccuracy is the AI-related risk that respondents most often say their organizations have experienced and are working to mitigate." [ref=e415]
+                  - generic [ref=e416]:
+                    - text: "We strive to provide individuals with disabilities equal access to our website. If you would like information about this content we will be happy to work with you. Please email us at:"
+                    - link "McKinsey_Website_Accessibility@mckinsey.com" [ref=e417] [cursor=pointer]:
+                      - /url: mailto:McKinsey_Website_Accessibility@mckinsey.com
+                - paragraph [ref=e418]: Respondents from AI high performers, who say their organizations have deployed twice as many AI use cases as others have, are more likely than others to report negative consequences—particularly related to intellectual property infringement and regulatory compliance. High performers also try to protect against a larger number of risks.
+                - iframe [ref=e422]:
+                  - generic [active]:
+                    - generic [ref=f8e6]:
+                      - generic:
+                        - generic:
+                          - img
+                      - paragraph [ref=f8e11]: McKinsey commentary
+                      - paragraph [ref=f8e14]: Alexander Sukharevsky
+                      - paragraph [ref=f8e17]: Senior partner
+                      - paragraph [ref=f8e20]: "We know that AI high performers—respondents who say their organizations are deriving higher impact from their use of AI—tend to have more ambitious agendas than their peers. Interestingly, they are also more likely than their peers to report more, rather than fewer, negative consequences from AI use. This isn’t as counterintuitive as it might seem. After all, because they are more ambitious, AI high performers are likely to be using the technology in mission-critical contexts that require sensitive monitoring. They also report mitigating these risks at a higher rate than others, given that they are aware of them. Their ambition also has considerable upside: It helps explain why these organizations tend to outperform—and offers an important lesson to those who are still struggling to realize value from their AI efforts. Approaching AI solely through the lens of efficiency, our survey suggests, is not enough. Achieving measurable results requires leaders to pursue a bold agenda, driven by innovation and transformation. That, we are learning, may be the true pathway to high performance."
+                    - paragraph [ref=f8e24]: "We know that AI high performers—respondents who say their organizations are deriving higher impact from their use of AI—tend to have more ambitious agendas than their peers. Interestingly, they are also more likely than their peers to report more, rather than fewer, negative consequences from AI use. This isn’t as counterintuitive as it might seem. After all, because they are more ambitious, AI high performers are likely to be using the technology in mission-critical contexts that require sensitive monitoring. They also report mitigating these risks at a higher rate than others, given that they are aware of them. Their ambition also has considerable upside: It helps explain why these organizations tend to outperform—and offers an important lesson to those who are still struggling to realize value from their AI efforts. Approaching AI solely through the lens of efficiency, our survey suggests, is not enough. Achieving measurable results requires leaders to pursue a bold agenda, driven by innovation and transformation. That, we are learning, may be the true pathway to high performance."
+                - separator [ref=e423]
+                - paragraph [ref=e424]: "While the use of AI is now common, our new survey suggests that its full promise still remains ahead. Most organizations are still navigating the transition from experimentation to scaled deployment, and while they may be capturing value in some parts of the organization, they’re not yet realizing enterprise-wide financial impact. The experience of the highest-performing companies suggests a path forward. These organizations stand out for thinking beyond incremental efficiency gains: They treat AI as a catalyst to transform their organizations, redesigning workflows and accelerating innovation. As AI tools, including agents, improve and companies’ capabilities mature, the opportunity to embed AI more fully into the enterprise will offer organizations new ways to capture value and create competitive advantage."
+                - region "About the research"
+                - heading "About the research" [level=2] [ref=e425]
+                - paragraph [ref=e426]: The online survey was in the field from June 25 to July 29, 2025, and garnered responses from 1,993 participants in 105 nations representing the full range of regions, industries, company sizes, functional specialties, and tenures. Thirty-eight percent of respondents say they work for organizations with more than $1 billion in annual revenues. To adjust for differences in response rates, the data are weighted by the contribution of each respondent’s nation to global GDP.
+                - generic [ref=e429]:
+                  - heading "Previous State of AI research" [level=2] [ref=e431]:
+                    - generic [ref=e432]: Previous State of AI research
+                  - generic [ref=e433]:
+                    - generic [ref=e434]:
+                      - 'link "The state of AI: How organizations are rewiring to capture value" [ref=e436] [cursor=pointer]':
+                        - /url: /capabilities/quantumblack/our-insights/the-state-of-ai-how-organizations-are-rewiring-to-capture-value
+                        - img "Delicate blue and purple tendrils constantly expanding. These tendrils bear a resemblance to neurons, with luminous buds at their tips." [ref=e438]
+                      - generic [ref=e439]:
+                        - generic [ref=e440]: Survey
+                        - 'heading "The state of AI: How organizations are rewiring to capture value" [level=5] [ref=e442]':
+                          - 'link "The state of AI: How organizations are rewiring to capture value" [ref=e443] [cursor=pointer]':
+                            - /url: /capabilities/quantumblack/our-insights/the-state-of-ai-how-organizations-are-rewiring-to-capture-value
+                          - img [ref=e444]
+                    - generic [ref=e447]:
+                      - 'link "The state of AI in early 2024: Gen AI adoption spikes and starts to generate value" [ref=e449] [cursor=pointer]':
+                        - /url: /capabilities/quantumblack/our-insights/the-state-of-ai-2024
+                        - img "A dazzling burst of vivid blue light emanating from a focal point and stretching into slender strands with luminous tips." [ref=e451]
+                      - generic [ref=e452]:
+                        - generic [ref=e453]: Survey
+                        - 'heading "The state of AI in early 2024: Gen AI adoption spikes and starts to generate value" [level=5] [ref=e455]':
+                          - 'link "The state of AI in early 2024: Gen AI adoption spikes and starts to generate value" [ref=e456] [cursor=pointer]':
+                            - /url: /capabilities/quantumblack/our-insights/the-state-of-ai-2024
+                          - img [ref=e457]
+                    - generic [ref=e460]:
+                      - 'link "The state of AI in 2023: Generative AI’s breakout year" [ref=e462] [cursor=pointer]':
+                        - /url: /capabilities/quantumblack/our-insights/the-state-of-ai-in-2023-generative-ais-breakout-year
+                        - img "Abstract network of blue wires blossoming like vibrant flowers" [ref=e464]
+                      - generic [ref=e465]:
+                        - generic [ref=e466]: Survey
+                        - 'heading "The state of AI in 2023: Generative AI’s breakout year" [level=5] [ref=e468]':
+                          - 'link "The state of AI in 2023: Generative AI’s breakout year" [ref=e469] [cursor=pointer]':
+                            - /url: /capabilities/quantumblack/our-insights/the-state-of-ai-in-2023-generative-ais-breakout-year
+                          - img [ref=e470]
+                    - generic [ref=e473]:
+                      - link "The state of AI in 2022—and a half decade in review" [ref=e475] [cursor=pointer]:
+                        - /url: /capabilities/quantumblack/our-insights/the-state-of-ai-in-2022-and-a-half-decade-in-review
+                        - img "digital lines stock photo" [ref=e477]
+                      - generic [ref=e478]:
+                        - generic [ref=e479]: Survey
+                        - heading "The state of AI in 2022—and a half decade in review" [level=5] [ref=e481]:
+                          - link "The state of AI in 2022—and a half decade in review" [ref=e482] [cursor=pointer]:
+                            - /url: /capabilities/quantumblack/our-insights/the-state-of-ai-in-2022-and-a-half-decade-in-review
+                          - img [ref=e483]
+                    - generic [ref=e486]:
+                      - link "The state of AI in 2021" [ref=e488] [cursor=pointer]:
+                        - /url: /capabilities/quantumblack/our-insights/global-survey-the-state-of-ai-in-2021
+                        - img "\"\"" [ref=e490]
+                      - generic [ref=e491]:
+                        - generic [ref=e492]: Survey
+                        - heading "The state of AI in 2021" [level=5] [ref=e494]:
+                          - link "The state of AI in 2021" [ref=e495] [cursor=pointer]:
+                            - /url: /capabilities/quantumblack/our-insights/global-survey-the-state-of-ai-in-2021
+                          - img [ref=e496]
+                    - generic [ref=e499]:
+                      - link "The state of AI in 2020" [ref=e501] [cursor=pointer]:
+                        - /url: /capabilities/quantumblack/our-insights/global-survey-the-state-of-ai-in-2020
+                        - 'img "Global survey: The state of AI in 2020" [ref=e503]'
+                      - generic [ref=e504]:
+                        - generic [ref=e505]: Survey
+                        - heading "The state of AI in 2020" [level=5] [ref=e507]:
+                          - link "The state of AI in 2020" [ref=e508] [cursor=pointer]:
+                            - /url: /capabilities/quantumblack/our-insights/global-survey-the-state-of-ai-in-2020
+                          - img [ref=e509]
+                    - generic [ref=e512]:
+                      - 'link "Global AI Survey: AI proves its worth, but few scale impact" [ref=e514] [cursor=pointer]':
+                        - /url: /featured-insights/artificial-intelligence/global-ai-survey-ai-proves-its-worth-but-few-scale-impact
+                        - 'img "Global AI Survey: AI proves its worth, but few scale impact" [ref=e516]'
+                      - generic [ref=e517]:
+                        - generic [ref=e518]: Survey
+                        - 'heading "Global AI Survey: AI proves its worth, but few scale impact" [level=5] [ref=e520]':
+                          - 'link "Global AI Survey: AI proves its worth, but few scale impact" [ref=e521] [cursor=pointer]':
+                            - /url: /featured-insights/artificial-intelligence/global-ai-survey-ai-proves-its-worth-but-few-scale-impact
+                          - img [ref=e522]
+                    - generic [ref=e525]:
+                      - link "AI adoption advances, but foundational barriers remain" [ref=e527] [cursor=pointer]:
+                        - /url: /featured-insights/artificial-intelligence/ai-adoption-advances-but-foundational-barriers-remain
+                        - img "AI adoption advances, but foundational barriers remain" [ref=e529]
+                      - generic [ref=e530]:
+                        - generic [ref=e531]: Survey
+                        - heading "AI adoption advances, but foundational barriers remain" [level=5] [ref=e533]:
+                          - link "AI adoption advances, but foundational barriers remain" [ref=e534] [cursor=pointer]:
+                            - /url: /featured-insights/artificial-intelligence/ai-adoption-advances-but-foundational-barriers-remain
+                          - img [ref=e535]
+              - generic [ref=e538]:
+                - generic [ref=e539]:
+                  - paragraph
+                - heading "How relevant and useful is this article for you?" [level=5] [ref=e540]
+                - generic [ref=e541]:
+                  - button "Rate 1 star" [ref=e542] [cursor=pointer]:
+                    - generic [ref=e543]:
+                      - img
+                  - button "Rate 2 star" [ref=e544] [cursor=pointer]:
+                    - generic [ref=e545]:
+                      - img
+                  - button "Rate 3 star" [ref=e546] [cursor=pointer]:
+                    - generic [ref=e547]:
+                      - img
+                  - button "Rate 4 star" [ref=e548] [cursor=pointer]:
+                    - generic [ref=e549]:
+                      - img
+                  - button "Rate 5 star" [ref=e550] [cursor=pointer]:
+                    - generic [ref=e551]:
+                      - img
+            - generic [ref=e552]:
+              - contentinfo [ref=e553]:
+                - generic [ref=e554]:
+                  - heading "About the author(s)" [level=5] [ref=e555]
+                  - generic [ref=e557]:
+                    - paragraph [ref=e558]:
+                      - link "Alex Singla" [ref=e559] [cursor=pointer]:
+                        - /url: /our-people/alex-singla
+                        - strong: Alex Singla
+                      - text: is the global leader of QuantumBlack, AI by McKinsey, and a senior partner in McKinsey’s Chicago office;
+                      - link "Alexander Sukharevsky" [ref=e560] [cursor=pointer]:
+                        - /url: /our-people/alexander-sukharevsky
+                        - strong: Alexander Sukharevsky
+                      - text: is a senior partner in the London office;
+                      - strong [ref=e561]:
+                        - link "Bryce Hall" [ref=e562] [cursor=pointer]:
+                          - /url: /our-people/bryce-hall
+                      - text: is an associate partner in the Washington, DC, office;
+                      - link "Lareina Yee" [ref=e563] [cursor=pointer]:
+                        - /url: /mgi/our-people
+                        - strong: Lareina Yee
+                      - text: is a senior partner in the Bay Area office, where
+                      - link "Michael Chui" [ref=e564] [cursor=pointer]:
+                        - /url: /our-people/michael-chui
+                        - strong: Michael Chui
+                      - text: is a senior fellow; and Tara Balakrishnan is an associate partner in the Seattle office.
+                    - paragraph [ref=e565]: The authors wish to thank Hailey Bobsein, Hannah Wagner, Larry Kanter, Robert Levin, and Santi Canedo for their contributions to this work.
+                    - separator [ref=e566]
+                    - paragraph [ref=e567]: This article was edited by Heather Hanselman, a senior editor in the Atlanta office.
+              - button "Talk to us" [ref=e569] [cursor=pointer]
+              - generic [ref=e571]:
+                - heading "Explore a career with us" [level=5] [ref=e572]
+                - link "Search openings" [ref=e574] [cursor=pointer]:
+                  - /url: /careers/search-jobs
+                  - generic [ref=e575]: Search openings
+        - generic [ref=e577]:
+          - heading "Related Articles" [level=5] [ref=e578]
+          - generic [ref=e579]:
+            - generic [ref=e580]:
+              - link "A group of closely clustered blue spheres with a conspicuous, larger yellow sphere in their midst." [ref=e582] [cursor=pointer]:
+                - /url: /capabilities/quantumblack/our-insights/one-year-of-agentic-ai-six-lessons-from-the-people-doing-the-work
+                - img "A group of closely clustered blue spheres with a conspicuous, larger yellow sphere in their midst." [ref=e584]
+              - generic [ref=e586]:
+                - text: Article
+                - 'heading "One year of agentic AI: Six lessons from the people doing the work" [level=6] [ref=e587]':
+                  - 'link "One year of agentic AI: Six lessons from the people doing the work" [ref=e588] [cursor=pointer]':
+                    - /url: /capabilities/quantumblack/our-insights/one-year-of-agentic-ai-six-lessons-from-the-people-doing-the-work
+                    - generic [ref=e589]: "One year of agentic AI: Six lessons from the people doing the work"
+            - generic [ref=e590]:
+              - link "An abstract multi-colored 3D image of multiple screens floating and bending around each other." [ref=e592] [cursor=pointer]:
+                - /url: /capabilities/quantumblack/our-insights/the-agentic-commerce-opportunity-how-ai-agents-are-ushering-in-a-new-era-for-consumers-and-merchants
+                - img "An abstract multi-colored 3D image of multiple screens floating and bending around each other." [ref=e594]
+              - generic [ref=e596]:
+                - text: Report
+                - 'heading "The agentic commerce opportunity: How AI agents are ushering in a new era for consumers and merchants" [level=6] [ref=e597]':
+                  - 'link "The agentic commerce opportunity: How AI agents are ushering in a new era for consumers and merchants" [ref=e598] [cursor=pointer]':
+                    - /url: /capabilities/quantumblack/our-insights/the-agentic-commerce-opportunity-how-ai-agents-are-ushering-in-a-new-era-for-consumers-and-merchants
+                    - generic [ref=e599]: "The agentic commerce opportunity: How AI agents are ushering in a new era for consumers and merchants"
+            - generic [ref=e600]:
+              - link "Neon contour lines undulating in a wave pattern." [ref=e602] [cursor=pointer]:
+                - /url: /capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era
+                - img "Neon contour lines undulating in a wave pattern." [ref=e604]
+              - generic [ref=e606]:
+                - text: Article
+                - 'heading "The agentic organization: Contours of the next paradigm for the AI era" [level=6] [ref=e607]':
+                  - 'link "The agentic organization: Contours of the next paradigm for the AI era" [ref=e608] [cursor=pointer]':
+                    - /url: /capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era
+                    - generic [ref=e609]: "The agentic organization: Contours of the next paradigm for the AI era"
+    - generic [ref=e611]:
+      - generic [ref=e613]:
+        - heading "Sign up for emails on new Artificial Intelligence articles" [level=5] [ref=e614]
+        - paragraph [ref=e615]: Never miss an insight. We'll email you when new articles are published on this topic.
+        - generic [ref=e617]:
+          - textbox "Email address" [ref=e621]
+          - button "Subscribe" [ref=e623] [cursor=pointer]
+      - button "Close" [ref=e624] [cursor=pointer]:
+        - generic [ref=e625]: 
+    - contentinfo [ref=e627]
+    - log [ref=e628]: Sign up for emails on new Artificial Intelligence articles
+  - generic:
+    - region "Cookie banner" [active] [ref=e629]:
+      - dialog "Privacy" [ref=e630]:
+        - generic [ref=e631]:
+          - generic [ref=e633]:
+            - text: McKinsey & Company, Inc. uses first- and third-party cookies to better understand how visitors use our site, to collect and analyze information on site performance and usage, and for cross-context behavioral advertising and targeted advertising purposes.
+            - link "Cookie Notice" [ref=e634] [cursor=pointer]:
+              - /url: https://www.mckinsey.com/cookie-policy
+            - text: Please see our
+            - link "Privacy Notice" [ref=e635] [cursor=pointer]:
+              - /url: https://www.mckinsey.com/privacy-policy
+            - text: for more information.
+          - generic [ref=e637]:
+            - button "Manage my preferences, Opens the preference center dialog" [ref=e638] [cursor=pointer]: Manage my preferences
+            - generic [ref=e639]:
+              - button "Decline optional cookies" [ref=e640] [cursor=pointer]
+              - button "Accept All Cookies" [ref=e641] [cursor=pointer]
+    - text:   Back
+  - alert [ref=e642]

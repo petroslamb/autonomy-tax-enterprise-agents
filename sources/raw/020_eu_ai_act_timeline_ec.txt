@@ -1,0 +1,55 @@
+The EU's AI Act legislation applies progressively, with a full roll-out
+foreseen by 2 August 2027.
+
+1.  
+
+    02 Feb 2025
+
+    General provisions (definitions & AI literacy) and prohibitions
+    apply
+
+2.  
+
+    02 Aug 2025
+
+    Rules for general-purpose AI apply and governance must be in place
+
+    - AI Act obligations for providers of general-purpose AI models
+      enter into application 
+
+    - Member States need to designate national competent authorities and
+      adopt national laws on penalties 
+
+    - EU-level governance (AI Board, Scientific Panel, Advisory Forum)
+      must be set up 
+
+3.  
+
+    02 Aug 2026
+
+    The majority of rules of the AI Act come into force and enforcement
+    starts
+
+    - Rules for high-risk AI systems in Annex III enter into application
+      **
+
+    - Transparency rules (Article 50) start to apply 
+
+    - Measures in support of innovation start apply 
+
+    - Member States should have at least one AI regulatory sandbox per
+      country established 
+
+    - Enforcement of the AI Act starts at national and EU-level 
+
+4.  
+
+    02 Aug 2027
+
+    Rules for high-risk AI embedded in regulated products apply **
+
+** In the context of the Digital Omnibus package, the Commission has
+proposed linking the application of rules governing high-risk AI systems
+to the availability of support tools, including the necessary harmonised
+standards. For more information, refer to the FAQ section under 'Digital
+Omnibus.

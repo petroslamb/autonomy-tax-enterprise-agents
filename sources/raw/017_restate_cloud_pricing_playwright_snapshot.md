@@ -1,0 +1,534 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+      - navigation [ref=e14]:
+        - generic [ref=e15]:
+          - link "Docs" [ref=e16] [cursor=pointer]:
+            - /url: https://docs.restate.dev/
+          - link "Use Cases" [ref=e17] [cursor=pointer]:
+            - /url: /use-cases
+          - link "Restate Cloud" [ref=e18] [cursor=pointer]:
+            - /url: /cloud
+          - button "Company" [ref=e20]:
+            - generic [ref=e21]:
+              - text: Company
+              - img [ref=e22]
+          - link "Blog" [ref=e24] [cursor=pointer]:
+            - /url: /blog
+      - generic [ref=e25]:
+        - generic [ref=e27] [cursor=pointer]:
+          - img [ref=e28]
+          - generic [ref=e30]: 3.5k
+        - link "Cloud Login" [ref=e31] [cursor=pointer]:
+          - /url: https://cloud.restate.dev/
+        - link "Get Started" [ref=e32] [cursor=pointer]:
+          - /url: https://docs.restate.dev/quickstart
+  - main [ref=e33]:
+    - generic:
+      - img
+    - generic [ref=e36]:
+      - heading "Restate Cloud" [level=1] [ref=e37]:
+        - generic [ref=e38]:
+          - img [ref=e39]
+          - img [ref=e41]
+          - img [ref=e43]
+        - text: Restate
+        - generic [ref=e49]: Cloud
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - paragraph [ref=e52]: Rapidly build agents, workflows, event pipelines, and stateful serverless orchestration.
+          - paragraph [ref=e53]: Keep deploying your code the same way you used to.
+          - paragraph [ref=e54]: Restate Cloud handles resilience, observability, and scalability for your code, with no additional infra.
+          - generic [ref=e55]:
+            - link "Get started for free" [ref=e56] [cursor=pointer]:
+              - /url: https://cloud.restate.dev/
+            - link "See Pricing" [ref=e57] [cursor=pointer]:
+              - /url: "#pricing"
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - paragraph [ref=e60]: Run your code as Serverless Functions...
+            - generic [ref=e61]:
+              - generic [ref=e62]:
+                - img [ref=e63]
+                - generic: AWS Lambda
+              - generic [ref=e68]:
+                - img [ref=e69]
+                - generic: Cloudflare Workers
+              - generic [ref=e73]:
+                - img [ref=e74]
+                - generic: Vercel Functions
+              - generic [ref=e76]:
+                - img [ref=e77]
+                - generic: Deno Deploy
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: ... or as containers
+            - generic [ref=e86]:
+              - generic [ref=e87]:
+                - img [ref=e88]
+                - generic: Kubernetes
+              - generic [ref=e93]:
+                - img [ref=e94]
+                - generic: AWS ECS / Fargate
+              - generic [ref=e98]:
+                - img [ref=e99]
+                - generic: Google Cloud Run
+              - generic [ref=e105]:
+                - img [ref=e106]
+                - generic: KNative
+    - generic [ref=e109]:
+      - heading "Observe everything" [level=2] [ref=e110]
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - paragraph [ref=e113]:
+            - text: See
+            - strong [ref=e114]: status
+            - text: ","
+            - strong [ref=e115]: failures
+            - text: ","
+            - strong [ref=e116]: intermediate steps
+            - text: ","
+            - strong [ref=e117]: state
+            - text: ", and"
+            - strong [ref=e118]: timelines
+            - text: .
+          - paragraph [ref=e119]: Inspect workflows, find root cause errors, see who waits for whom.
+        - img "Overview of invocations" [ref=e121]
+    - generic [ref=e123]:
+      - heading "Transactional, Resilient, Secure" [level=2] [ref=e124]
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - img [ref=e128]
+          - heading "Built for resilience and correctness" [level=3] [ref=e131]
+          - paragraph [ref=e132]: Restate's runtime powers use cases from AI agents to financial transactions.
+          - link "learn more →" [ref=e133] [cursor=pointer]:
+            - /url: /use-cases
+        - generic [ref=e134]:
+          - img [ref=e136]
+          - heading "Compliance" [level=3] [ref=e139]
+          - paragraph [ref=e140]: We maintain strong security controls and processes to keep applications safe and running.
+          - link "learn more →" [ref=e141] [cursor=pointer]:
+            - /url: https://trust.restate.dev/
+        - generic [ref=e142]:
+          - img [ref=e144]
+          - heading "Client-side encryption" [level=3] [ref=e147]
+          - paragraph [ref=e148]: Optionally encrypting data client-side means Restate Cloud can never see your data. Deploy a secure endpoint to support observability and debugging via the UI.
+          - link "learn more →" [ref=e149] [cursor=pointer]:
+            - /url: https://github.com/restatedev/journal-encryption
+    - generic [ref=e151]:
+      - heading "Stellar Local Dev Experience" [level=2] [ref=e152]
+      - generic [ref=e153]:
+        - generic [ref=e155]:
+          - generic [ref=e161]: Terminal
+          - generic [ref=e162]:
+            - generic [ref=e163]: ❯restate cloud login
+            - generic [ref=e164]: ❯restate cloud env configure neil/my-env
+            - generic [ref=e165]: ❯restate cloud env tunnel
+            - generic [ref=e166]:
+              - generic [ref=e167]: ❯
+              - generic [ref=e168]: _
+        - generic [ref=e169]:
+          - paragraph [ref=e170]:
+            - strong [ref=e171]: Single binary
+            - text: Full-fledged local runtime for development.
+          - paragraph [ref=e172]:
+            - strong [ref=e173]: Cloud tunneling
+            - text: Develop and debug easily by connecting code on your laptop directly to Restate Cloud.
+          - paragraph [ref=e174]:
+            - strong [ref=e175]: Just plain code
+            - text: Develop, run, and debug with the same tools you are used to.
+    - generic [ref=e176]:
+      - heading "Pricing" [level=2] [ref=e178]
+      - table [ref=e181]:
+        - rowgroup [ref=e182]:
+          - row "Plan Free Free Get Started Starter $75 per month Get Started Business $300 per month Get Started Premium $1000 per month Get Started Enterprise Custom Contact Sales" [ref=e183]:
+            - columnheader "Plan" [ref=e184]
+            - columnheader "Free Free Get Started" [ref=e185]:
+              - generic [ref=e186]:
+                - heading "Free" [level=3] [ref=e187]
+                - generic [ref=e188]: Free
+                - link "Get Started" [ref=e189] [cursor=pointer]:
+                  - /url: https://cloud.restate.dev/
+            - columnheader "Starter $75 per month Get Started" [ref=e190]:
+              - generic [ref=e191]:
+                - heading "Starter" [level=3] [ref=e192]
+                - generic [ref=e193]:
+                  - generic [ref=e194]: $75
+                  - generic [ref=e195]:
+                    - text: per
+                    - text: month
+                - link "Get Started" [ref=e196] [cursor=pointer]:
+                  - /url: https://cloud.restate.dev/
+            - columnheader "Business $300 per month Get Started" [ref=e197]:
+              - generic [ref=e198]:
+                - heading "Business" [level=3] [ref=e199]
+                - generic [ref=e200]:
+                  - generic [ref=e201]: $300
+                  - generic [ref=e202]:
+                    - text: per
+                    - text: month
+                - link "Get Started" [ref=e203] [cursor=pointer]:
+                  - /url: https://cloud.restate.dev/
+            - columnheader "Premium $1000 per month Get Started" [ref=e204]:
+              - generic [ref=e205]:
+                - heading "Premium" [level=3] [ref=e206]
+                - generic [ref=e207]:
+                  - generic [ref=e208]: $1000
+                  - generic [ref=e209]:
+                    - text: per
+                    - text: month
+                - link "Get Started" [ref=e210] [cursor=pointer]:
+                  - /url: https://cloud.restate.dev/
+            - columnheader "Enterprise Custom Contact Sales" [ref=e211]:
+              - generic [ref=e212]:
+                - heading "Enterprise" [level=3] [ref=e213]
+                - generic [ref=e214]: Custom
+                - link "Contact Sales" [ref=e215] [cursor=pointer]:
+                  - /url: https://cal.com/team/restate/team
+        - rowgroup [ref=e216]:
+          - row "Included Actions 50k actions 5m actions 20m actions 50m actions Custom" [ref=e217]:
+            - cell "Included Actions" [ref=e218]
+            - cell "50k actions" [ref=e219]
+            - cell "5m actions" [ref=e220]
+            - cell "20m actions" [ref=e221]
+            - cell "50m actions" [ref=e222]
+            - cell "Custom" [ref=e223]
+          - row "Additional Actions 25$ / million 25$ / million 25$ / million 25$ / million (with volume discounts) Custom (with volume discounts)" [ref=e224]:
+            - cell "Additional Actions" [ref=e225]
+            - cell "25$ / million" [ref=e226]
+            - cell "25$ / million" [ref=e227]
+            - cell "25$ / million" [ref=e228]
+            - cell "25$ / million (with volume discounts)" [ref=e229]:
+              - text: 25$ / million
+              - text: (with volume discounts)
+            - cell "Custom (with volume discounts)" [ref=e230]:
+              - text: Custom
+              - text: (with volume discounts)
+          - row "Throughput (Burst) 5 actions/sec (50 actions/sec) 5 actions/sec (50 actions/sec) 20 actions/sec (150 actions/sec) 50 actions/sec (500 actions/sec) Up to 100,000s actions/sec" [ref=e231]:
+            - cell "Throughput (Burst)" [ref=e232]:
+              - text: Throughput
+              - text: (Burst)
+            - cell "5 actions/sec (50 actions/sec)" [ref=e233]:
+              - text: 5 actions/sec
+              - text: (50 actions/sec)
+            - cell "5 actions/sec (50 actions/sec)" [ref=e234]:
+              - text: 5 actions/sec
+              - text: (50 actions/sec)
+            - cell "20 actions/sec (150 actions/sec)" [ref=e235]:
+              - text: 20 actions/sec
+              - text: (150 actions/sec)
+            - cell "50 actions/sec (500 actions/sec)" [ref=e236]:
+              - text: 50 actions/sec
+              - text: (500 actions/sec)
+            - cell "Up to 100,000s actions/sec" [ref=e237]
+          - row "Included Storage (for Virtual Objects) 1 GB 5 GB 20 GB 50 GB Custom" [ref=e238]:
+            - cell "Included Storage (for Virtual Objects)" [ref=e239]:
+              - text: Included Storage
+              - text: (for Virtual Objects)
+            - cell "1 GB" [ref=e240]
+            - cell "5 GB" [ref=e241]
+            - cell "20 GB" [ref=e242]
+            - cell "50 GB" [ref=e243]
+            - cell "Custom" [ref=e244]
+          - row "Retention time 1 day 1 day 3 days 7 days Custom" [ref=e245]:
+            - cell "Retention time" [ref=e246]
+            - cell "1 day" [ref=e247]
+            - cell "1 day" [ref=e248]
+            - cell "3 days" [ref=e249]
+            - cell "7 days" [ref=e250]
+            - cell "Custom" [ref=e251]
+          - row "Support Community (Discord / Slack) Community (Discord / Slack) Email (Business Hours) Dedicated Slack Channel (Business hours, 2h response time) Enterprise Support P0 24/7 30 min response" [ref=e252]:
+            - cell "Support" [ref=e253]
+            - cell "Community (Discord / Slack)" [ref=e254]:
+              - text: Community
+              - text: (Discord / Slack)
+            - cell "Community (Discord / Slack)" [ref=e255]:
+              - text: Community
+              - text: (Discord / Slack)
+            - cell "Email (Business Hours)" [ref=e256]:
+              - text: Email
+              - text: (Business Hours)
+            - cell "Dedicated Slack Channel (Business hours, 2h response time)" [ref=e257]:
+              - text: Dedicated Slack Channel
+              - text: (Business hours, 2h response time)
+            - cell "Enterprise Support P0 24/7 30 min response" [ref=e258]:
+              - text: Enterprise Support
+              - generic [ref=e259]:
+                - text: P0 24/7
+                - text: 30 min response
+          - row "SLAs best effort 99.9% 99.9% 99.9% (99.99% multi-AZ) 99.99%" [ref=e260]:
+            - cell "SLAs" [ref=e261]
+            - cell "best effort" [ref=e262]
+            - cell "99.9%" [ref=e263]
+            - cell "99.9%" [ref=e264]
+            - cell "99.9% (99.99% multi-AZ)" [ref=e265]:
+              - text: 99.9%
+              - text: (99.99% multi-AZ)
+            - cell "99.99%" [ref=e266]
+          - row "Client-side Encryption available ✓ ✓ ✓ ✓ ✓" [ref=e267]:
+            - cell "Client-side Encryption available" [ref=e268]
+            - cell "✓" [ref=e269]
+            - cell "✓" [ref=e270]
+            - cell "✓" [ref=e271]
+            - cell "✓" [ref=e272]
+            - cell "✓" [ref=e273]
+          - row "HIPAA BAA available + $300 + $300 ✓" [ref=e274]:
+            - cell "HIPAA BAA available" [ref=e275]
+            - cell [ref=e276]
+            - cell [ref=e277]
+            - cell "+ $300" [ref=e278]
+            - cell "+ $300" [ref=e279]
+            - cell "✓" [ref=e280]
+          - row "Multi-AZ redundancy + $200 + $500 ✓" [ref=e281]:
+            - cell "Multi-AZ redundancy" [ref=e282]
+            - cell [ref=e283]
+            - cell [ref=e284]
+            - cell "+ $200" [ref=e285]
+            - cell "+ $500" [ref=e286]
+            - cell "✓" [ref=e287]
+          - row "OTEL exports (Datadog, etc.) (coming up...) ✓ ✓ ✓" [ref=e288]:
+            - cell "OTEL exports (Datadog, etc.) (coming up...)" [ref=e289]:
+              - text: OTEL exports
+              - text: (Datadog, etc.)
+              - text: (coming up...)
+            - cell [ref=e290]
+            - cell [ref=e291]
+            - cell "✓" [ref=e292]
+            - cell "✓" [ref=e293]
+            - cell "✓" [ref=e294]
+          - row "SAML SSO (coming up...) ✓ ✓" [ref=e295]:
+            - cell "SAML SSO (coming up...)" [ref=e296]:
+              - text: SAML SSO
+              - text: (coming up...)
+            - cell [ref=e297]
+            - cell [ref=e298]
+            - cell [ref=e299]
+            - cell "✓" [ref=e300]
+            - cell "✓" [ref=e301]
+          - row "Security review, MSA, legal redlining ✓" [ref=e302]:
+            - cell "Security review, MSA, legal redlining" [ref=e303]
+            - cell [ref=e304]
+            - cell [ref=e305]
+            - cell [ref=e306]
+            - cell [ref=e307]
+            - cell "✓" [ref=e308]
+          - row "Get Started Get Started Get Started Get Started Contact Sales" [ref=e309]:
+            - cell [ref=e310]
+            - cell "Get Started" [ref=e311]:
+              - link "Get Started" [ref=e312] [cursor=pointer]:
+                - /url: https://cloud.restate.dev/
+            - cell "Get Started" [ref=e313]:
+              - link "Get Started" [ref=e314] [cursor=pointer]:
+                - /url: https://cloud.restate.dev/
+            - cell "Get Started" [ref=e315]:
+              - link "Get Started" [ref=e316] [cursor=pointer]:
+                - /url: https://cloud.restate.dev/
+            - cell "Get Started" [ref=e317]:
+              - link "Get Started" [ref=e318] [cursor=pointer]:
+                - /url: https://cloud.restate.dev/
+            - cell "Contact Sales" [ref=e319]:
+              - link "Contact Sales" [ref=e320] [cursor=pointer]:
+                - /url: https://cal.com/team/restate/team
+    - generic [ref=e322]:
+      - heading "Actions" [level=3] [ref=e323]
+      - generic [ref=e324]:
+        - generic [ref=e325]:
+          - heading "What is an action?" [level=4] [ref=e326]
+          - generic [ref=e327]:
+            - paragraph [ref=e328]:
+              - strong [ref=e329]: Durable actions
+              - text: "are the basic unit of accounting in Restate Cloud:"
+            - list [ref=e330]:
+              - listitem [ref=e331]:
+                - generic [ref=e332]: •
+                - text: Function invocation
+              - listitem [ref=e333]:
+                - generic [ref=e334]: •
+                - text: Intermediate step (
+                - code [ref=e335]: ctx.run(...)
+                - text: )
+              - listitem [ref=e336]:
+                - generic [ref=e337]: •
+                - text: Awaiting event (
+                - code [ref=e338]: ctx.awakeable()
+                - text: or
+                - code [ref=e339]: ctx.promise()
+                - text: )
+              - listitem [ref=e340]:
+                - generic [ref=e341]: •
+                - text: Durable sleep (
+                - code [ref=e342]: ctx.sleep()
+                - text: )
+              - listitem [ref=e343]:
+                - generic [ref=e344]: •
+                - text: RPC (
+                - code [ref=e345]: ctx.serviceClient(...).run(...)
+                - text: )
+              - listitem [ref=e346]:
+                - generic [ref=e347]: •
+                - text: Function completion
+            - paragraph [ref=e348]:
+              - text: State access and updates (
+              - code [ref=e349]: ctx.get(...)
+              - text: /
+              - code [ref=e350]: ctx.set(...)
+              - text: ) are not measured actions.
+        - generic [ref=e351]:
+          - heading "Additional action prices" [level=4] [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]:
+              - generic [ref=e355]: "up to 50m:"
+              - generic [ref=e356]: included in Premium Plan
+            - generic [ref=e357]:
+              - generic [ref=e358]: "50m - 100m:"
+              - generic [ref=e359]: 15$ / 1m actions
+            - generic [ref=e360]:
+              - generic [ref=e361]: "100m - 200m:"
+              - generic [ref=e362]: 10$ / 1m actions
+            - generic [ref=e363]:
+              - generic [ref=e364]: "200m+:"
+              - generic [ref=e365]: Contact us
+    - generic [ref=e366]:
+      - heading "Contact Sales" [level=2] [ref=e367]
+      - paragraph [ref=e368]:
+        - text: Want to talk to a human instead? Excited about Restate Cloud, but none of the tiers quite match? Looking for an enterprise plan?
+        - text: Reach out to us and we are happy to discuss your needs.
+      - link "Contact us" [ref=e370] [cursor=pointer]:
+        - /url: https://cal.com/team/restate/team
+    - generic [ref=e372]:
+      - heading "Ready to get started?" [level=2] [ref=e373]
+      - paragraph [ref=e374]: Create your first Restate environment and start building innately resilient apps.
+      - generic [ref=e375]:
+        - link "Get Started for Free" [ref=e376] [cursor=pointer]:
+          - /url: https://cloud.restate.dev/
+          - img [ref=e377]
+          - text: Get Started for Free
+        - link "Signup for Updates" [ref=e379] [cursor=pointer]:
+          - /url: /newsletter-signup
+          - img [ref=e380]
+          - text: Signup for Updates
+    - generic:
+      - generic:
+        - button "Close modal": ×
+        - generic:
+          - heading "Contact Us" [level=3]
+          - paragraph: Fill out the form below and our team will get in touch with you.
+        - iframe [ref=e453]:
+          - generic [ref=f60e3]:
+            - generic [ref=f60e4]:
+              - generic [ref=f60e5]: First name*
+              - textbox "First name*" [ref=f60e7]:
+                - /placeholder: ""
+            - generic [ref=f60e8]:
+              - generic [ref=f60e9]: Last name*
+              - textbox "Last name*" [ref=f60e11]:
+                - /placeholder: ""
+            - generic [ref=f60e12]:
+              - generic [ref=f60e13]: Company name*
+              - textbox "Company name*" [ref=f60e15]:
+                - /placeholder: ""
+            - generic [ref=f60e16]:
+              - generic [ref=f60e17]: Email*
+              - textbox "Email*" [ref=f60e19]:
+                - /placeholder: ""
+            - generic [ref=f60e20]:
+              - generic [ref=f60e21]: List your preferred programming languages?*
+              - textbox "List your preferred programming languages?*" [ref=f60e23]:
+                - /placeholder: ""
+            - generic [ref=f60e24]:
+              - generic [ref=f60e25]: For what kind of application(s) would you like to use Restate Cloud Enterprise?*
+              - generic [ref=f60e26]: E.g., Low-latency workflows, Lambda (or other services) orchestration, event-driven app,...
+              - textbox "For what kind of application(s) would you like to use Restate Cloud Enterprise?*" [ref=f60e28]:
+                - /placeholder: ""
+            - generic [ref=f60e29]:
+              - generic [ref=f60e30]:
+                - paragraph [ref=f60e31]: "GDPR consent: I authorize Restate to use this information for the purpose of sending me updates on my Restate Cloud Enterprise registration, and release updates."
+                - paragraph [ref=f60e32]:
+                  - text: See
+                  - link "https://www.restate.dev/privacy/" [ref=f60e33] [cursor=pointer]:
+                    - /url: https://www.restate.dev/privacy/
+                  - text: for details.
+              - list [ref=f60e38]:
+                - listitem [ref=f60e39]:
+                  - generic [ref=f60e40]:
+                    - checkbox "I consent to having this information used to be contacted via email for product updates and feedback.*" [ref=f60e41] [cursor=pointer]
+                    - generic [ref=f60e42]:
+                      - paragraph [ref=f60e43]: I consent to having this information used to be contacted via email for product updates and feedback.
+                      - text: "*"
+            - button "Submit" [ref=f60e46] [cursor=pointer]
+        - paragraph: "Note: this form might not show in Firefox. If that happens, please try another browser."
+  - contentinfo [ref=e383]:
+    - generic [ref=e384]:
+      - generic [ref=e385]:
+        - img [ref=e386]
+        - paragraph [ref=e396]: Build innately resilient distributed apps — without the complexity tax.
+        - paragraph [ref=e397]: © 2026 Restate. All rights reserved.
+      - generic [ref=e398]:
+        - generic [ref=e399]:
+          - paragraph [ref=e400]: Product
+          - list [ref=e401]:
+            - listitem [ref=e402]:
+              - link "Documentation" [ref=e403] [cursor=pointer]:
+                - /url: https://docs.restate.dev/
+            - listitem [ref=e404]:
+              - link "Restate Cloud" [ref=e405] [cursor=pointer]:
+                - /url: /cloud
+            - listitem [ref=e406]:
+              - link "Pricing" [ref=e407] [cursor=pointer]:
+                - /url: /cloud#pricing
+            - listitem [ref=e408]:
+              - link "What is durable execution?" [ref=e409] [cursor=pointer]:
+                - /url: /what-is-durable-execution
+        - generic [ref=e410]:
+          - paragraph [ref=e411]: Company
+          - list [ref=e412]:
+            - listitem [ref=e413]:
+              - link "Team" [ref=e414] [cursor=pointer]:
+                - /url: /team
+            - listitem [ref=e415]:
+              - link "Careers" [ref=e416] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=e417]:
+              - link "Contact" [ref=e418] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e419]:
+          - paragraph [ref=e420]: Legal
+          - list [ref=e421]:
+            - listitem [ref=e422]:
+              - link "Terms" [ref=e423] [cursor=pointer]:
+                - /url: /terms-and-conditions
+            - listitem [ref=e424]:
+              - link "Privacy" [ref=e425] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e426]:
+              - link "Imprint" [ref=e427] [cursor=pointer]:
+                - /url: /imprint
+      - generic [ref=e428]:
+        - link [ref=e429] [cursor=pointer]:
+          - /url: https://github.com/restatedev/restate
+          - img [ref=e430]
+        - link [ref=e432] [cursor=pointer]:
+          - /url: https://x.com/restatedev
+          - img [ref=e433]
+        - link [ref=e435] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/restatedev/
+          - img [ref=e436]
+        - link [ref=e438] [cursor=pointer]:
+          - /url: https://discord.restate.dev
+          - img [ref=e439]
+        - link [ref=e442] [cursor=pointer]:
+          - /url: https://slack.restate.dev
+          - img [ref=e443]
+  - alert [ref=e452]
+  - dialog "We use cookies" [ref=e454]:
+    - generic [ref=e455]:
+      - generic [ref=e456]:
+        - heading "We use cookies" [level=2] [ref=e457]
+        - paragraph [ref=e458]: Cookies are primarily used for analytics to enhance user experience. By accepting, you agree to our use of these cookies.
+      - generic [ref=e460]:
+        - button "Accept" [ref=e461] [cursor=pointer]
+        - button "Reject" [ref=e462] [cursor=pointer]
+    - link "Privacy Policy" [ref=e466] [cursor=pointer]:
+      - /url: https://restate.dev/privacy

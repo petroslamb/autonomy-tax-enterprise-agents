@@ -1,0 +1,6 @@
+workflow_name,owner,volume_per_day,error_cost_per_incident_usd,reversibility_window_hours,benefit_score_1_5,human_bandwidth_tax_1_5,incident_tax_1_5,governance_tax_1_5,circuit_breaker_triggered,blocking_taxes,mitigation_plan,net_score_after_cb,recommended_level,decision_status,notes
+support_refund_triage,customer_ops_lead,10000,5,24,4,3,2,2,FALSE,,,"1.67",Level_2_5,approve_with_monitoring,Example pass case
+procurement_approval,finance_ops_lead,500,5000,168,5,4,5,4,TRUE,"incident_tax;human_bandwidth_tax;governance_tax",required before pilot,,Level_2,blocked,Example blocked case
+workflow_1,,,,,,,,,,,,,,,
+workflow_2,,,,,,,,,,,,,,,
+workflow_3,,,,,,,,,,,,,,,

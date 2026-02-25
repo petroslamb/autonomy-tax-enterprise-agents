@@ -1,0 +1,198 @@
+Information Security Management
+
+ISO 42001
+
+Artificial Intelligence Management System (AIMS)
+
+Book Training
+
+ISO 42001: Artificial Intelligence Management System (AIMS)
+
+What is ISO 42001?
+
+ISO 42001 is a new addition to the ISO family of information technology
+standards, focusing on the rise of Artificial Intelligence (AI).
+ISO 42001 specifies requirements for establishing, implementing,
+maintaining, and continually improving an Artificial Intelligence
+Management System (AIMS) within a business. It is most relevant to
+organizations which are involved in:
+
+- Developing AI Systems
+- Providing AI Systems
+- Using AI Systems
+
+ISO 42001 provides a structure for establishing requirements and
+controls related to the intrinsic issues revolving around AI including:
+
+- AI Policy Establishment
+- Data, Tooling, Computing and System Resources
+- AI Impact and Risk Assessment
+- Objectives and Processes for Responsible AI Development
+- Data Acquisition, Quality, Provenance and Preparation
+- Third-Party and Customer Expectations
+
+Implementation of the ISO Artificial Intelligence Management Systems
+standard (AIMS) is a recognizable way to address the concerns around AI
+as it will show that your business has chosen to address these concerns
+pro-actively with a time-tested strategy to manage your AI involvement
+under the ISO Management System model.
+
+Get in touch
+
+Company size Over 100 employees Under 100 employees
+
+Subject General enquiry Book training Request a quote for certification
+/ verification
+
+Submit
+
+Helps you with
+
+- Defining use-cases of AI within an organization 
+- Balancing AI Governance and Innovation 
+- Determining AI Objectives 
+- Identifying and Treating AI Risks 
+- Establishing AI Policies 
+- Defining AI Roles and Responsibilities 
+- Data Quality and Transparency 
+- Interested Party Assurances of Responsible AI Engagement
+
+Why is the Artificial Intelligence Management System (AIMS) important?
+
+The use of AI has increased exponentially over recent years, yet without
+much control.  As such, concerns have grown with regard to
+organizations’ use of AI with respect to privacy, data protection, data
+bias, and ultimately the overall transparency (or lack thereof) in AI
+systems.  But AI Systems are powerful business tools that organizations
+cannot ignore; so how to approach them responsibly?  
+An Artificial Intelligence Management System using ISO 42001 provides
+the framework and rigor for organizations to follow, based on the
+internationally-recognized and proven ISO Management System approach.
+ Implementing ISO 42001 controls and becoming ISO 42001 Certified
+ provide an independent attestation of an organization’s responsible
+development, provision and use of Artificial Intelligence.
+An AI Management System is a series of interlinked elements in a
+business that establish specific policies and objectives, as well as
+processes to achieve those objectives.  Furthermore, the system requires
+leadership involvement and on-going review & evaluation to ensure
+continued conformance and improvement in its handling of AI development,
+provision and utilization.
+
+How does it do this?
+
+An AI Management System is a series of interlinked elements in a
+business that establish specific policies and objectives, as well as
+processes to achieve those objectives.  Furthermore, the system requires
+leadership involvement and on-going review & evaluation to ensure
+continued conformance and improvement in its handling of AI development,
+provision and utilization.
+ISO 42001 specifies the requirements and provides guidance for
+establishing, implementing, maintaining and improving an AI management
+system within the context of your business.
+
+ 
+
+Steps to Certification
+
+1.  Step 1
+
+    Complete a Quote Request Form so that we can understand your company
+    and requirements. You can do this by completing either the online
+    quick quote or the online formal quote request form. We will use
+    this information to accurately define your scope of assessment and
+    provide you with a proposal for certification.
+
+2.  Step 2
+
+    Once you’ve agreed to your proposal, we will contact you to book
+    your assessment with an NQA Auditor. This assessment consists of two
+    mandatory visits that form the Initial Certification Audit. Please
+    note that you must be able to demonstrate that your management
+    system has been fully operational for a minimum of three months and
+    has been subject to a management review and full cycle of internal
+    audits.
+
+3.  Step 3
+
+    Following a successful two stage audit, a certification decision is
+    made and if positive, then certification to the required standard is
+    issued by NQA. You will receive both a hard and soft copy of the
+    certificate. Certification is valid for three years and is
+    maintained through a program of annual surveillance audits and a
+    three yearly recertification audit.
+
+See more details
+
+Information Security Toolkit
+
+[]
+
+ISO 27001 FAQs
+
+[]
+
+ISO 27701 Implementation Guide
+
+[]
+
+[]
+
+ISO 27001 Information Security Checklist
+
+[]
+
+[]
+
+ISO 27001 27017 27018 27701 Mapping
+
+[]
+
+[]
+
+Integrated Quote Request Form
+
+[]
+
+[]
+
+ISO 27001 in relation to GDPR video
+
+[]
+
+Download Certification Logos
+
+[]
+
+ISO 9001 to ISO 27001 Gap Guide
+
+[]
+
+[]
+
+Annex SL Comparison Tool
+
+[]
+
+[]
+
+Gap Analysis
+
+[]
+
+ISO 27001:2022 Gap Guide 2023 Update
+
+[]
+
+[]
+
+ISO 27001 Implementation Guide
+
+[]
+
+Ready to start your journey?
+
+We'll give you a clear indication of the costs of gaining and
+maintaining certification.
+
+Not ready yet? Call us at 978-635-9256 or request a call back to discuss
+your certification requirements.

@@ -1,0 +1,84 @@
+AWS DevOps & Developer Productivity Blog
+
+Amazon Q Developer just reached a $260 million dollar milestone
+
+by Aytul Arisoy Cholkar on 01 AUG 2024 Permalink Share
+
+- 
+- 
+- 
+- 
+- 
+
+To help them be more productive, developers all over the world are
+turning to generative AI-powered assistants like Amazon Q Developer, the
+most capable assistant for accelerating software development. While
+Amazon Q Developer is great at providing code suggestions, writing new
+code is one of many things developers have to do on a day-to-day basis.
+Amazon Q goes well beyond writing code, helping developers with tasks
+like testing, debugging, understanding existing code, finding security
+vulnerabilities, implementing entire new features, and more. One of the
+most time consuming and frustrating tasks is upgrading applications to
+the latest version. Developers and IT teams need to modernize their
+existing applications to take advantage of the latest technologies that
+help them innovate faster and improve performance – but upgrade
+campaigns are costly, often taking months or years to complete.
+
+Amazon Q Developer helps alleviate toil for a range of software
+development tasks using agents that are like giving developers a team to
+help them complete tasks. Agents can reason and plan with minimal human
+intervention, and are capable of performing complex, multi-step tasks.
+
+On August 1st, Andy Jassy shared an exciting finding regarding the real
+and quantifiable impact that the Amazon Q Developer agent for code
+transformation offers IT and developer teams of any size. Amazon has
+migrated tens of thousands of production applications from Java 8 or 11
+to Java 17 with assistance from Amazon Q Developer. This represents a
+savings of over 4,500 years of development work for over a thousand
+developers (when compared to manual upgrades) and performance
+improvements worth $260 million dollars in annual cost savings.
+
+To determine the true business impact of Q Developer-assisted app
+upgrades, we estimated the time saved by looking at the number of Java
+dependencies we migrated. Typically, it can take a day or more of a
+developer’s time to migrate just one dependency, and many applications
+have dozens of dependencies that need migrating. With the agent for code
+transformation, many of these dependencies can be migrated in minutes,
+resulting in a significant time savings. To estimate cost savings, we
+looked at the number of hosts we were able to remove from the
+applications due to the performance improvements achieved by upgrading
+to Java 17. Both of these estimates are conservative and our actual cost
+and time saved is likely much greater.
+
+What is the Amazon Q Developer agent for code transformation?
+
+The Amazon Q Developer agent for code transformation automates the
+complete end-to-end process of upgrading and modernizing applications,
+significantly reducing the time and costs associated with transformation
+projects, while enhancing application security and performance.
+Developers who want to learn about how to get started with the agent can
+head over to community.aws for tutorials or check out this demo:
+
+Accelerate complex, multi-step tasks to save hours of work every day
+
+Amazon Q Developer has an agent for software development that can
+autonomously perform a range of tasks–everything from implementing
+features, to documenting and refactoring code. Developers can simply ask
+Q to implement an application feature (such as asking it to create an
+“add to favorites” feature in a social sharing app), and the agent will
+analyze their existing application code and generate a step-by-step
+implementation plan. Developers can collaborate with the agent to review
+and iterate on the plan before the agent implements it, connecting
+multiple steps together and applying updates across source files, code
+blocks, and test suites. Customers have reported efficiency improvements
+of 25% faster initial development and up to a 40% increase in developer
+productivity.
+
+How can you get started with Amazon Q Developer?
+
+Individual users can get started with Q Developer in the AWS Console,
+CLI, or in their IDE on the perpetual Free Tier. Try the Pro Tier
+subscription if you need to manage a team of users and policies via
+enterprise access controls, to customize the code suggestions Amazon Q
+Developer makes to include your internal code base, or to add higher
+limits on advanced features.

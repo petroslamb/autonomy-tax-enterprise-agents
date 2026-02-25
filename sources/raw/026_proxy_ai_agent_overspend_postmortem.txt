@@ -1,0 +1,276 @@
+[Proxy]PROXY
+
+FEATURESUSE CASESPRICINGMCPSKILLS[OpenClaw]OPENCLAWBLOG
+
+HUMAN
+
+MACHINE
+
+DASHBOARD
+
+MENU [+]
+
+HUMAN
+
+MACHINE
+
+HOMEFEATURESUSE CASESPRICINGMCPSKILLS[OpenClaw]OPENCLAWBLOGDASHBOARD
+
+Proxy // 2026
+
+← BACK TO BLOG
+
+PRODUCTJanuary 11, 2026
+
+What Happens When an AI Agent Overspends? A Post-Mortem
+
+A detailed post-mortem of a $4,800 AI agent overspend incident caused by
+retry loops and failed policy controls. Lessons for ops and finance
+teams.
+
+[Proxy]
+
+Proxy Team
+
+8 min read
+
+This is the story of how a procurement agent burned through $4,800 in
+three minutes. It is not hypothetical. The details have been anonymized,
+but the pattern is real and increasingly common as companies deploy AI
+agents with access to corporate payment methods.
+
+The Setup
+
+A mid-sized SaaS company - call them Acme Corp - deployed a procurement
+agent in late 2025. The agent's job was straightforward: monitor
+software license usage across the organization, identify when seats were
+running low, and purchase additional licenses before teams hit capacity
+constraints.
+
+The agent was given access to a corporate card through a token
+delegation provider. The provider's pitch was compelling: "Set a $500
+policy limit, and your agent can never exceed it. Every transaction gets
+evaluated against your rules before approval."
+
+The finance team reviewed the setup. Per-transaction limit of $500.
+Monthly velocity cap. Merchant category restrictions limited to software
+vendors. The controls looked solid on paper.
+
+The agent went live on a Tuesday morning.
+
+The Incident
+
+Thursday, 2:47 PM. The agent attempted to purchase 10 additional seats
+of a project management tool. The vendor's checkout API returned a 503
+error - a temporary server issue on the vendor's side.
+
+The agent did what agents do. It retried.
+
+The retry also failed. So the agent tried again. And again.
+
+What the agent's logs would later reveal: on the sixth attempt, the
+vendor's API accepted the request but returned a malformed success
+response. The agent's validation logic flagged this as a failure. It
+retried.
+
+This time, the transaction went through cleanly. But the agent's
+internal state still showed "purchase incomplete." So it retried again.
+
+Between 2:47 PM and 2:50 PM, the agent submitted 12 separate purchase
+requests to the vendor. Each transaction was for $399 - comfortably
+under the $500 per-transaction policy limit. Each transaction was
+evaluated independently by the policy engine. Each one was approved.
+
+Total damage: $4,788 in software licenses the company did not need.
+
+The Discovery
+
+Nobody noticed for five days.
+
+The transactions appeared in the corporate card's transaction history
+alongside legitimate human purchases - team lunches, travel expenses,
+office supplies. The agent's spend was not flagged because each
+individual transaction looked normal.
+
+The finance analyst who eventually caught the issue was doing routine
+weekly reconciliation. She noticed 12 identical $399 charges from the
+same vendor within a three-minute window. Her first assumption was
+credit card fraud.
+
+It was not fraud. It was automation.
+
+The Investigation
+
+The engineering team pulled the agent's logs. The picture was clear
+within minutes.
+
+The agent had entered a retry loop. The policy engine had approved each
+transaction because each one, evaluated in isolation, met all the
+defined rules:
+
+- ▸Under $500 per transaction? Yes.
+- ▸Within allowed merchant categories? Yes.
+- ▸From an approved vendor? Yes.
+
+What the policy engine failed to catch was the pattern. Twelve
+transactions in three minutes to the same vendor is not normal behavior.
+But the policy engine was not designed to evaluate velocity across
+recent transactions. It evaluated each authorization request
+independently, with no memory of what had just been approved.
+
+The policy engine's latency also played a role. During the retry storm,
+authorization requests were queuing. By the time the policy engine
+processed request number eight, request number five had already been
+approved but had not yet appeared in the transaction history that the
+policy engine referenced.
+
+The root cause was a combination of factors:
+
+1.  ▸The agent lacked circuit breakers for consecutive failures
+2.  ▸The vendor's API returned inconsistent responses
+3.  ▸The policy engine evaluated transactions individually, not in
+    aggregate
+4.  ▸There was a latency gap between authorization and transaction
+    history updates
+
+The Aftermath
+
+Acme Corp attempted three remediation paths. All three failed.
+
+Chargeback attempt: Declined. The card network confirmed that each
+transaction was technically authorized. The policy engine approved them.
+The card was present. There was no fraud - just automation behaving
+badly.
+
+Vendor refund request: The vendor sympathized but declined. The licenses
+had already been provisioned. Their system showed 12 successful orders,
+each one valid. From their perspective, Acme Corp had simply purchased a
+lot of software.
+
+Policy engine provider discussion: The provider acknowledged the gap in
+their velocity detection but pointed to their terms of service. Policy
+limits are "best effort" controls, not guarantees. The provider's
+liability cap was $100.
+
+The accounting team spent the next two weeks untangling agent
+transactions from human transactions across six months of card history.
+The agent had been making legitimate purchases too - the problematic
+transactions were mixed in with successful ones. Separating them for
+accurate cost allocation required manual review of every line item.
+
+The Lessons
+
+This incident exposed a fundamental assumption that many companies make
+when giving AI agents access to payment methods: that policy engines are
+sufficient protection against runaway spending.
+
+They are not.
+
+Policy engines are software, and software fails. Latency, race
+conditions, incomplete state - these are not edge cases. They are
+routine operating conditions for any system handling high-frequency
+requests.
+
+Individual transaction limits do not prevent aggregate overspend. A $500
+per-transaction limit sounds safe until an agent submits 100
+transactions in a minute. Each one is compliant. The total is
+catastrophic.
+
+Velocity checks require state, and state is hard. Evaluating "how much
+has this agent spent in the last five minutes" requires real-time
+aggregation across a distributed system. Most policy engines are not
+built for this. They are built to evaluate individual requests against
+static rules.
+
+Retry logic without circuit breakers is dangerous. The agent in this
+incident did exactly what it was programmed to do: retry on failure. It
+had no concept of "I have been failing for a while now, something is
+wrong." This is a common pattern in agent frameworks, and it is a
+liability when the agent has access to real money.
+
+The Solution That Would Have Worked
+
+What if Acme Corp had given the agent a dedicated virtual card with a
+$500 hard balance instead of a $500 policy limit?
+
+The card would have had $500 loaded. The first $399 transaction would
+have reduced the balance to $101. The second transaction attempt would
+have been declined - not by a policy engine, but by the card network
+itself. "Insufficient funds."
+
+No policy logic to fail. No latency window to exploit. No aggregate
+spend calculation required. The card simply cannot spend money that is
+not on it.
+
+The agent's retry loop would have hit a wall after $500, not after
+$4,800.
+
+This is the difference between policy limits and hard limits. Policy
+limits are guardrails - useful, but bypassable under the right
+conditions. Hard limits are walls. The money is either there or it is
+not.
+
+Recommendations for Teams Deploying Payment-Enabled Agents
+
+If you are giving an AI agent access to a payment method, consider these
+controls:
+
+Dedicated cards per agent or workflow. Do not let agent transactions mix
+with human transactions on the same card. Reconciliation becomes a
+nightmare, and anomaly detection is nearly impossible when legitimate
+patterns are masked by unrelated activity.
+
+Hard balance limits instead of policy limits. A card with a $500 balance
+cannot spend $501. This is enforced by the card network, not by software
+you control. It is the only limit that cannot be bypassed by latency,
+bugs, or race conditions.
+
+Circuit breakers in agent logic. If an agent fails the same operation
+three times in a row, it should stop and escalate, not continue retrying
+indefinitely. This is basic resilience engineering, but it is often
+overlooked in agent frameworks.
+
+Real-time velocity monitoring. Policy engines that evaluate transactions
+individually are not sufficient. You need systems that track aggregate
+spend over rolling time windows and can halt authorization when patterns
+become anomalous.
+
+Separation of concerns. The agent should not control its own spending
+limits. Limits should be enforced externally, at a layer the agent
+cannot modify or bypass.
+
+Closing Thoughts
+
+The $47,000 agent incident that made headlines in late 2025 - where a
+multi-agent system ran a recursive loop for 11 days before anyone
+noticed - is the extreme case. But the pattern is the same. Agents doing
+what they are programmed to do, with access to resources that allow
+mistakes to compound.
+
+Acme Corp lost $4,800. They also lost weeks of engineering time
+investigating and remediating. They lost confidence in their agent
+deployment. And they learned a lesson that could have been avoided with
+better infrastructure.
+
+Policy limits are a start. But when the downside is real money, you need
+controls that cannot fail.
+
+Talk to us about dedicated virtual cards with hard limits for your AI
+agents.
+
+Related
+
+AGENT CARD PRICINGMCP FOR PAYMENTSSPEND CONTROL SKILLS
+
+Looking for agent spending controls? Start with MCP + skills, then
+choose a plan that fits your workload.
+
+Ready to get started?
+
+Issue your first virtual card in minutes.
+
+START FREEMORE POSTS
+
+© 2026 proxy computing inc.SAN FRANCISCO, CA
+
+BLOG•COMPANY•CONTACT•X (TWITTER)•TERMS•PRIVACY

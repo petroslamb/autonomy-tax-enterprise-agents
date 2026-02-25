@@ -1,0 +1,160 @@
+[Temporal Logo]
+
+[]
+
+- Platform
+  - Overview
+  - How Temporal Works
+  - Temporal Cloud
+  - Security
+- Platform []
+- Docs
+- Pricing
+- Use Cases
+  - Customer Stories
+  - AI
+  - Financial Services
+  - Platform Engineering
+- Use Cases []
+- Resources
+  - Resource Library
+  - Learn Temporal
+  - Community
+  - Code Exchange
+  - Blog
+  - For Startups
+  - Partners
+  - Change Log
+- Resources []
+- Replay 2026
+  []
+  Try Free Log In
+
+Temporal Cloud
+
+Monthly Pay-As-You-Go Billing through AWS
+
+Temporal Cloud Usage:
+
+$50 per million actions, charged based on actual actions.
+
+Plan Fee:
+
+$100 per month, prorated based on your first billable action.
+
+Start Free:
+
+Only pay when you use. First charges apply after connecting a Workflow,
+with a prorated support fee.
+
+Seamless Billing through AWS:
+
+Pay as you go through your AWS Account ID.
+
+Please submit the form on this page to get your Temporal account
+provisioned. A member of our team will also follow up via email in case
+you have questions or need assistance.
+
+Couldn't find your AWS Registration information.
+
+Please retry registering through the aws marketplace listing.
+
+[Roblox Logo][Qualtrics logo - light][REA Group Logo][Snap logomark -
+light][Macquarie Logo][OpenAI Logo]
+
+[ANZ White Logo][Yum! Brand Logo]
+
+[Kotak logo][Vodafone Logo][Cloudflare Logo][GitLab Logo][Remitly Logo]
+
+[Alaska Airlines logo][Bentley Systems Logo][Bestseller Logo][Deloitte]
+
+[GoDaddy Logo][Doordash Logo]
+
+[Retool Logo white png][Checkr Logo][Turo logo - light][Mollie
+Logo][Kyte Logo]
+
+[Roblox Logo][Qualtrics logo - light][REA Group Logo][Snap logomark -
+light][Macquarie Logo][OpenAI Logo]
+
+[ANZ White Logo][Yum! Brand Logo]
+
+[Kotak logo][Vodafone Logo][Cloudflare Logo][GitLab Logo][Remitly Logo]
+
+[Alaska Airlines logo][Bentley Systems Logo][Bestseller Logo][Deloitte]
+
+[GoDaddy Logo][Doordash Logo]
+
+[Retool Logo white png][Checkr Logo][Turo logo - light][Mollie
+Logo][Kyte Logo]
+
+Checkr
+
+"Developer happiness has increased. Thinking in terms of workflows and
+activities has clarified our product and allowed us to share workflow
+components with different teams."
+
+Ben Jacobson
+
+Staff Software Engineer
+
+HashiCorp
+
+"HashiCorp needed to build long-running, reliable, fault-tolerant tasks
+for the HashiCorp Cloud Platform. Temporal's technology satisfied all of
+these requirements out of the box and allowed our developers to focus on
+business logic."
+
+Mitchell Hashimoto
+
+Co-founder
+
+Snap, Inc.
+
+"Temporal Cloud provides Snap a highly reliable and scalable foundation
+for Snap Stories, enabling us to deliver the amazing global experience
+our users have come to expect."
+
+Saral Jain
+
+Director of Engineering, Cloud Services
+
+ALL SYSTEMS OPERATIONAL
+
+[] [] [] [] []
+
+------------------------------------------------------------------------
+
+Discover
+
+OverviewHow Temporal WorksTemporal CloudPricingSecurityTrust
+CenterStartups
+
+Get Started for Free Log In
+
+Explore
+
+Customer StoriesProject-based tutorialsExample applicationsCode
+ExchangeReplay 2025 RecapAsk an expertBlog
+
+Developers
+
+Getting Started with TemporalStart building your next appTemporal Cloud
+docsProduction deploymentsTemporal 101Temporal 102Introduction to
+Temporal Cloud
+
+Community
+
+Join our Slack groupFind a meetup near youCommunity forumEventsReplay
+2026
+
+Company
+
+AboutCareersNewsContact usPartners
+
+Email Address
+
+[]
+
+2026 © Temporal Technologies. All Rights Reserved.
+
+Privacy Policy Candidate Privacy Policy Terms of Service Code of Conduct

@@ -1,0 +1,446 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - link "Series D at $5B Valuation | AI Drives Demand for Durable Execution" [ref=e7] [cursor=pointer]:
+        - /url: /blog/temporal-raises-usd300m-series-d-at-a-usd5b-valuation
+        - paragraph [ref=e8]: Series D at $5B Valuation | AI Drives Demand for Durable Execution
+      - button [ref=e9] [cursor=pointer]:
+        - img [ref=e10]
+    - navigation [ref=e12]:
+      - link "Home" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - img "Temporal Logo" [ref=e14]
+      - button [ref=e16] [cursor=pointer]:
+        - img [ref=e17]
+    - main [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e22]:
+          - heading "pricing" [level=3] [ref=e23]
+          - heading "Scale with Pay-As-You-Go Pricing" [level=1] [ref=e24]
+          - generic [ref=e25]:
+            - paragraph [ref=e26]: Save with volume discounts and commitments.
+            - paragraph [ref=e27]:
+              - text: Estimate costs with the pricing
+              - link "calculator" [ref=e28] [cursor=pointer]:
+                - /url: "#calculator"
+              - text: .
+          - generic [ref=e29]:
+            - img [ref=e30]
+            - paragraph [ref=e32]: Get started for free with $1,000 in credits
+            - img [ref=e33]
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - generic [ref=e37]:
+                - paragraph [ref=e38]: Essentials
+                - paragraph [ref=e39]: Starting at $100/mo.
+              - link "Get Started" [ref=e40] [cursor=pointer]:
+                - /url: /get-cloud
+              - separator [ref=e41]
+              - generic [ref=e42]:
+                - paragraph [ref=e43]: For basic workflows
+                - list [ref=e44]:
+                  - listitem [ref=e45]: 1 M Actions
+                  - listitem [ref=e46]: 1 GB Active Storage
+                  - listitem [ref=e47]: 40 GB Retained Storage
+              - separator [ref=e48]
+              - generic [ref=e49]:
+                - paragraph [ref=e50]: Cloud Platform
+                - list [ref=e51]:
+                  - listitem [ref=e52]: 99.9% SLA, 99.99% HA Options
+                  - listitem [ref=e53]: Multi-Cloud & Multi-Region
+                  - listitem [ref=e54]: User Roles
+                  - listitem [ref=e55]: Service Accounts & API Keys
+                  - listitem [ref=e56]: Audit Logging
+                  - listitem [ref=e57]: Workflow Management
+                  - listitem [ref=e58]: Workflow Availability
+              - separator [ref=e59]
+              - generic [ref=e60]:
+                - paragraph [ref=e61]: Essentials Support With
+                - list [ref=e62]:
+                  - listitem [ref=e63]: 1 Business Day P0 Response Time
+                  - listitem [ref=e64]: Core Platform Configuration
+            - generic [ref=e65]:
+              - generic [ref=e66]:
+                - paragraph [ref=e67]: Business
+                - paragraph [ref=e68]: Starting at $500/mo.
+              - link "Contact Sales" [ref=e69] [cursor=pointer]:
+                - /url: https://pages.temporal.io/ask-an-expert
+              - separator [ref=e70]
+              - generic [ref=e71]:
+                - paragraph [ref=e72]: For Teams Scaling Temporal
+                - list [ref=e73]:
+                  - listitem [ref=e74]: 2.5 M Actions
+                  - listitem [ref=e75]: 2.5 GB Active Storage
+                  - listitem [ref=e76]: 100 GB Retained Storage
+                  - listitem [ref=e77]: Commitments
+              - separator [ref=e78]
+              - generic [ref=e79]:
+                - paragraph [ref=e80]: Cloud Platform
+                - list [ref=e81]:
+                  - listitem [ref=e82]: Everything in Essentials
+                  - listitem [ref=e83]: SAML SSO Included
+                  - listitem [ref=e84]: SCIM Add-on
+              - separator [ref=e85]
+              - generic [ref=e86]:
+                - paragraph [ref=e87]: Business Support With
+                - list [ref=e88]:
+                  - listitem [ref=e89]: 2 Business Hours P0 Response Times
+                  - listitem [ref=e90]: Workflow Troubleshooting
+                  - listitem [ref=e91]: Worker Configuration
+                  - listitem [ref=e92]: SDK Implementation
+            - generic [ref=e93]:
+              - generic [ref=e94]:
+                - paragraph [ref=e95]: Enterprise
+                - paragraph [ref=e96]: Contact Sales
+              - link "Contact Sales" [ref=e97] [cursor=pointer]:
+                - /url: https://pages.temporal.io/ask-an-expert
+              - separator [ref=e98]
+              - generic [ref=e99]:
+                - paragraph [ref=e100]: For Enterprise and Mission Critical
+                - list [ref=e101]:
+                  - listitem [ref=e102]: 10 M Actions
+                  - listitem [ref=e103]: 10 GB Active Storage
+                  - listitem [ref=e104]: 400 GB Retained Storage
+                  - listitem [ref=e105]: Commitments
+              - separator [ref=e106]
+              - generic [ref=e107]:
+                - paragraph [ref=e108]: Cloud Platform
+                - list [ref=e109]:
+                  - listitem [ref=e110]: Everything in Business
+                  - listitem [ref=e111]: SAML SSO Included
+                  - listitem [ref=e112]: SCIM Included
+              - separator [ref=e113]
+              - generic [ref=e114]:
+                - paragraph [ref=e115]: Enterprise Support With
+                - list [ref=e116]:
+                  - listitem [ref=e117]: 24/7, 30 Minute P0
+                  - listitem [ref=e118]: Usage Optimization
+                  - listitem [ref=e119]: Technical Onboarding
+                  - listitem [ref=e120]: Design Review
+                  - listitem [ref=e121]: Worker Tuning
+                  - listitem [ref=e122]: Senior Support Staff
+                  - listitem [ref=e123]: Cost Reviews
+                  - listitem [ref=e124]: Security and Contract Reviews
+              - separator [ref=e125]
+              - generic [ref=e126]:
+                - paragraph [ref=e127]: For More Support
+                - list [ref=e128]:
+                  - listitem [ref=e129]: Mission Critical Add-on
+                  - listitem [ref=e130]: Designated Support Engineer Add-on
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - paragraph [ref=e133]: are you a startup under $30M?
+              - paragraph [ref=e134]: Temporal Startup Program
+            - paragraph [ref=e135]: Our startup program offers $6,000 in free Temporal Cloud credits to startups with less than $30M in funding.
+            - link "Apply Now" [ref=e136] [cursor=pointer]:
+              - /url: /startup/apply
+        - navigation [ref=e137]:
+          - generic [ref=e139]:
+            - link "Plans" [ref=e140] [cursor=pointer]:
+              - /url: "#plans"
+              - paragraph [ref=e142]: Plans
+            - link "Pay-As-You-Go" [ref=e143] [cursor=pointer]:
+              - /url: "#pay-as-you-go"
+              - paragraph [ref=e145]: Pay-As-You-Go
+            - link "Pricing Calculator" [ref=e146] [cursor=pointer]:
+              - /url: "#calculator"
+              - paragraph [ref=e148]: Pricing Calculator
+            - link "Compare Features" [ref=e149] [cursor=pointer]:
+              - /url: "#compare-features"
+              - paragraph [ref=e151]: Compare Features
+            - link "FAQs" [ref=e152] [cursor=pointer]:
+              - /url: "#faqs"
+              - paragraph [ref=e154]: FAQs
+        - generic [ref=e155]:
+          - generic [ref=e156]:
+            - heading "Pay-As-You-Go" [level=3] [ref=e157]
+            - paragraph [ref=e158]: Peek under the hood at how we calculate pricing for your usage across Actions, Capacity, Storage, and Support.
+          - generic [ref=e159]:
+            - generic [ref=e160]:
+              - paragraph [ref=e161]: YOUR WORKFLOW BUILDING BLOCKS
+              - paragraph [ref=e162]: Actions
+              - paragraph [ref=e163]: Actions represent billable operations between your application and Temporal Cloud.
+              - paragraph [ref=e164]: Write your business logic as code in a Temporal Workflow using our open-source SDKs, and the Temporal Service maps your Workflow Events to Temporal Cloud Actions to track your usage.
+            - table [ref=e165]:
+              - rowgroup [ref=e166]:
+                - row "Actions Price per Million Actions" [ref=e167]:
+                  - columnheader "Actions" [ref=e168]
+                  - columnheader "Price per Million Actions" [ref=e169]
+              - rowgroup [ref=e170]:
+                - row "First Actions Included in the Temporal Cloud Plan" [ref=e171]:
+                  - cell "First Actions" [ref=e172]
+                  - cell "Included in the Temporal Cloud Plan" [ref=e173]
+                - row "Next 5M $50" [ref=e174]:
+                  - cell "Next 5M" [ref=e175]
+                  - cell "$50" [ref=e176]
+                - row "Next 5M $45" [ref=e177]:
+                  - cell "Next 5M" [ref=e178]
+                  - cell "$45" [ref=e179]
+                - row "Next 10M $40" [ref=e180]:
+                  - cell "Next 10M" [ref=e181]
+                  - cell "$40" [ref=e182]
+                - row "Next 30M $35" [ref=e183]:
+                  - cell "Next 30M" [ref=e184]
+                  - cell "$35" [ref=e185]
+                - row "Next 50M $30" [ref=e186]:
+                  - cell "Next 50M" [ref=e187]
+                  - cell "$30" [ref=e188]
+                - row "Next 100M $25" [ref=e189]:
+                  - cell "Next 100M" [ref=e190]
+                  - cell "$25" [ref=e191]
+                - row "Over 200M Contact Sales Pro Tip:More discounts, helpful humans." [ref=e192]:
+                  - cell "Over 200M" [ref=e193]
+                  - cell "Contact Sales Pro Tip:More discounts, helpful humans." [ref=e194]:
+                    - link "Contact Sales" [ref=e195] [cursor=pointer]:
+                      - /url: https://pages.temporal.io/ask-an-expert
+                    - generic [ref=e196]: Pro Tip:More discounts, helpful humans.
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - paragraph [ref=e199]: CHOOSE HOW YOU SCALE
+              - paragraph [ref=e200]: Capacity
+              - paragraph [ref=e201]: By default, all Namespaces start with On-Demand mode at 500 APS, scaling automatically based on 7-day usage.
+              - paragraph [ref=e202]:
+                - text: Optionally, you can switch to Provisioned
+                - superscript [ref=e203]: "*"
+                - text: to set capacity with Temporal Resource Units (TRUs), each adding 500 APS. You'll get a base number of Actions/hr, and pay only for usage beyond that.
+              - paragraph [ref=e204]:
+                - superscript [ref=e205]: "*"
+                - text: Now in Public Preview
+            - table [ref=e206]:
+              - rowgroup [ref=e207]:
+                - row "Capacity APS Required Actions/hr" [ref=e208]:
+                  - columnheader "Capacity" [ref=e209]
+                  - columnheader "APS" [ref=e210]
+                  - columnheader "Required Actions/hr" [ref=e211]
+              - rowgroup [ref=e212]:
+                - row "On Demand 500 Any Usage" [ref=e213]:
+                  - cell "On Demand" [ref=e214]
+                  - cell "500" [ref=e215]
+                  - cell "Any Usage" [ref=e216]
+                - row "Scales based on usage from last 7 days" [ref=e217]:
+                  - cell [ref=e218]
+                  - cell "Scales based on usage from last 7 days" [ref=e219]
+                - row "Provisioned* 500/TRU Any Usage" [ref=e220]:
+                  - cell "Provisioned*" [ref=e221]:
+                    - text: Provisioned
+                    - superscript [ref=e222]: "*"
+                  - cell "500/TRU" [ref=e223]
+                  - cell "Any Usage" [ref=e224]
+                - row "Each additional TRU @ 360,000 Actions/hr" [ref=e225]:
+                  - cell [ref=e226]
+                  - cell "Each additional TRU @ 360,000 Actions/hr" [ref=e227]
+          - generic [ref=e228]:
+            - generic [ref=e229]:
+              - paragraph [ref=e230]: EVENT HISTORY AND RETENTION
+              - paragraph [ref=e231]: Storage
+              - paragraph [ref=e232]: Temporal stores workflow event history as Active storage for open workflows and Retained Storage for closed workflows
+            - table [ref=e233]:
+              - rowgroup [ref=e234]:
+                - row "Storage Price per GBh" [ref=e235]:
+                  - columnheader "Storage" [ref=e236]
+                  - columnheader "Price per GBh" [ref=e237]
+              - rowgroup [ref=e238]:
+                - row "Active Storage $0.042 GBh" [ref=e239]:
+                  - cell "Active Storage" [ref=e240]
+                  - cell "$0.042 GBh" [ref=e241]
+                - row "Retained Storage $0.00105 GBh" [ref=e242]:
+                  - cell "Retained Storage" [ref=e243]
+                  - cell "$0.00105 GBh" [ref=e244]
+          - generic [ref=e246]:
+            - paragraph [ref=e247]: SERVICE LEVEL AND PLAN FEE
+            - paragraph [ref=e248]: Support
+            - paragraph [ref=e249]: Temporal Cloud Plans charge the greater of your monthly plan or 5%-10% of usage as you scale to maintain your level of support
+        - generic [ref=e251]:
+          - generic [ref=e253]:
+            - generic [ref=e254]:
+              - paragraph [ref=e255]: Pricing Calculator
+              - paragraph [ref=e256]: Do you feel like doing some math? Well? Do ya?
+            - button "Show the Calculator" [ref=e257] [cursor=pointer]:
+              - img [ref=e258]
+              - text: Show the Calculator
+              - img [ref=e260]
+          - generic [ref=e263]:
+            - paragraph [ref=e264]:
+              - text: For a full breakdown of our pricing structure, view our
+              - link "pricing documentation" [ref=e265] [cursor=pointer]:
+                - /url: https://docs.temporal.io/cloud/pricing
+              - text: .
+            - paragraph [ref=e266]:
+              - strong [ref=e267]: "Note:"
+              - text: There may be additional cost for optional add-on capabilities.
+        - generic [ref=e269]:
+          - heading "Host It Yourself" [level=3] [ref=e270]
+          - generic [ref=e271]:
+            - generic [ref=e272]:
+              - generic [ref=e273]:
+                - img [ref=e274]
+                - paragraph [ref=e277]: Open Source
+              - paragraph [ref=e278]: Temporal Self-Hosted
+              - paragraph [ref=e279]: Open Source
+            - generic [ref=e280]:
+              - paragraph [ref=e281]: Everything you need, on your infra.
+              - generic [ref=e282]:
+                - list [ref=e283]:
+                  - listitem [ref=e284]: Temporal Service
+                  - listitem [ref=e285]: Temporal SDKs
+                  - listitem [ref=e286]: Temporal CLI
+                - list [ref=e287]:
+                  - listitem [ref=e288]: Temporal UI
+                  - listitem [ref=e289]: Community Support
+            - link "Run Locally" [ref=e291] [cursor=pointer]:
+              - /url: https://docs.temporal.io/quickstarts
+        - generic [ref=e293]:
+          - heading "FAQs" [level=3] [ref=e294]
+          - generic [ref=e295]:
+            - button "What is included in the base fee?" [ref=e297] [cursor=pointer]:
+              - paragraph [ref=e298]: What is included in the base fee?
+              - img [ref=e299]
+            - button "What is an Action and how can I estimate how many I need?" [ref=e302] [cursor=pointer]:
+              - paragraph [ref=e303]: What is an Action and how can I estimate how many I need?
+              - img [ref=e304]
+            - button "Do you offer any discounts or commitments?" [ref=e307] [cursor=pointer]:
+              - paragraph [ref=e308]: Do you offer any discounts or commitments?
+              - img [ref=e309]
+          - heading "Still have questions? Get in touch with us." [level=3] [ref=e311]
+          - link "Talk to an Expert" [ref=e312] [cursor=pointer]:
+            - /url: https://pages.temporal.io/ask-an-expert?_gl=1*g1f1yg*_gcl_au*MTU0MDkyMjU4OS4xNzI5MDQyNTg2*_ga*NDQ1MTkxNTMxLjE3MjkwNDI1ODY.*_ga_R90Q9SJD3D*MTcyOTg3ODYwMi4xOC4xLjE3Mjk4NzkwMjUuMC4wLjA.
+        - generic [ref=e313]:
+          - generic [ref=e314]:
+            - generic [ref=e315]:
+              - paragraph [ref=e316]: Get paid back for downtime
+              - paragraph [ref=e317]: Temporal Cloud guarantees availability, backed by an SLA.
+            - link "Try for Free" [ref=e318] [cursor=pointer]:
+              - /url: /get-cloud
+              - text: Try for Free
+              - img [ref=e319]
+          - img "Cloud uptime graphic" [ref=e323]
+    - contentinfo [ref=e324]:
+      - generic [ref=e325]:
+        - generic [ref=e327]:
+          - link "ALL SYSTEMS OPERATIONAL" [ref=e328] [cursor=pointer]:
+            - /url: https://status.temporal.io/
+            - paragraph [ref=e329]: ALL SYSTEMS OPERATIONAL
+          - generic [ref=e330]:
+            - link "Follow us on YouTube" [ref=e331] [cursor=pointer]:
+              - /url: https://www.youtube.com/temporalio
+              - img [ref=e332]
+            - link "Follow us on Twitter" [ref=e334] [cursor=pointer]:
+              - /url: https://twitter.com/temporalio
+              - img [ref=e335]
+            - link "Follow us on GitHub" [ref=e337] [cursor=pointer]:
+              - /url: https://github.com/temporalio
+              - img [ref=e338]
+            - link "Follow us on Linkedin" [ref=e341] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/temporal-technologies
+              - img [ref=e342]
+            - link "Join us on Slack" [ref=e345] [cursor=pointer]:
+              - /url: https://t.mp/slack
+              - img [ref=e346]
+        - generic [ref=e350]:
+          - generic [ref=e351]:
+            - paragraph [ref=e352]: Discover
+            - link "Overview" [ref=e353] [cursor=pointer]:
+              - /url: /product
+            - link "How Temporal Works" [ref=e354] [cursor=pointer]:
+              - /url: /how-it-works
+            - link "Temporal Cloud" [ref=e355] [cursor=pointer]:
+              - /url: /cloud
+            - link "Pricing" [ref=e356] [cursor=pointer]:
+              - /url: /pricing
+            - link "Security" [ref=e357] [cursor=pointer]:
+              - /url: /security
+            - link "Trust Center" [ref=e358] [cursor=pointer]:
+              - /url: https://trust.temporal.io
+            - link "Startups" [ref=e359] [cursor=pointer]:
+              - /url: /startup
+            - generic [ref=e360]:
+              - link "Get Started for Free" [ref=e361] [cursor=pointer]:
+                - /url: /get-cloud
+              - link "Log In" [ref=e362] [cursor=pointer]:
+                - /url: https://cloud.temporal.io/login
+          - generic [ref=e363]:
+            - paragraph [ref=e364]: Explore
+            - link "Customer Stories" [ref=e365] [cursor=pointer]:
+              - /url: /in-use
+            - link "Project-based tutorials" [ref=e366] [cursor=pointer]:
+              - /url: https://learn.temporal.io/tutorials/
+            - link "Example applications" [ref=e367] [cursor=pointer]:
+              - /url: https://learn.temporal.io/examples/
+            - link "Code Exchange" [ref=e368] [cursor=pointer]:
+              - /url: /code-exchange
+            - link "Replay 2025 Recap" [ref=e369] [cursor=pointer]:
+              - /url: /replay/2025
+            - link "Ask an expert" [ref=e370] [cursor=pointer]:
+              - /url: https://pages.temporal.io/ask-an-expert
+            - link "Blog" [ref=e371] [cursor=pointer]:
+              - /url: /blog
+          - generic [ref=e373]:
+            - paragraph [ref=e374]: Developers
+            - link "Getting Started with Temporal" [ref=e375] [cursor=pointer]:
+              - /url: https://learn.temporal.io/getting_started/
+            - link "Start building your next app" [ref=e376] [cursor=pointer]:
+              - /url: https://docs.temporal.io/dev-guide/
+            - link "Temporal Cloud docs" [ref=e377] [cursor=pointer]:
+              - /url: https://docs.temporal.io/cloud
+            - link "Production deployments" [ref=e378] [cursor=pointer]:
+              - /url: https://docs.temporal.io/production-deployment
+            - link "Temporal 101" [ref=e379] [cursor=pointer]:
+              - /url: https://learn.temporal.io/courses/temporal_101/
+            - link "Temporal 102" [ref=e380] [cursor=pointer]:
+              - /url: https://learn.temporal.io/courses/temporal_102/
+            - link "Introduction to Temporal Cloud" [ref=e381] [cursor=pointer]:
+              - /url: https://learn.temporal.io/courses/intro_to_temporal_cloud/
+          - generic [ref=e383]:
+            - generic [ref=e384]:
+              - paragraph [ref=e385]: Community
+              - link "Join our Slack group" [ref=e386] [cursor=pointer]:
+                - /url: https://t.mp/slack
+              - link "Find a meetup near you" [ref=e387] [cursor=pointer]:
+                - /url: /community
+              - link "Community forum" [ref=e388] [cursor=pointer]:
+                - /url: https://community.temporal.io/
+              - link "Events" [ref=e389] [cursor=pointer]:
+                - /url: /events
+              - link "Replay 2026" [ref=e390] [cursor=pointer]:
+                - /url: https://replay.temporal.io/
+            - generic [ref=e392]:
+              - paragraph [ref=e393]: Company
+              - link "About" [ref=e394] [cursor=pointer]:
+                - /url: /about
+              - link "Careers" [ref=e395] [cursor=pointer]:
+                - /url: /careers
+              - link "News" [ref=e396] [cursor=pointer]:
+                - /url: /news
+              - link "Contact us" [ref=e397] [cursor=pointer]:
+                - /url: https://pages.temporal.io/contact-us
+              - link "Partners" [ref=e398] [cursor=pointer]:
+                - /url: /partners
+        - generic [ref=e401]:
+          - generic [ref=e404]:
+            - generic [ref=e405]: Email Address
+            - textbox "Email Address" [ref=e406]
+            - button [ref=e407] [cursor=pointer]:
+              - img [ref=e408]
+          - generic [ref=e410]:
+            - paragraph [ref=e411]: 2026 © Temporal Technologies. All Rights Reserved.
+            - link "Privacy Policy" [ref=e412] [cursor=pointer]:
+              - /url: /global-privacy-policy
+            - link "Candidate Privacy Policy" [ref=e413] [cursor=pointer]:
+              - /url: /candidate-privacy-policy
+            - link "Terms of Service" [ref=e414] [cursor=pointer]:
+              - /url: /terms-of-service
+            - link "Code of Conduct" [ref=e415] [cursor=pointer]:
+              - /url: /code-of-conduct
+  - generic [ref=e417]:
+    - generic [ref=e418]:
+      - img [ref=e419]
+      - generic [ref=e421]:
+        - paragraph [ref=e422]: View Our Cookie Policy
+        - paragraph [ref=e423]:
+          - text: We use cookies and similar technologies to help personalize content, tailor and measure ads, and provide a better experience. By clicking Accept, you agree to this as outlined in our
+          - link "cookie policy" [ref=e424] [cursor=pointer]:
+            - /url: https://docs.temporal.io/privacy-policy/
+          - text: .
+    - generic [ref=e425]:
+      - button "Accept" [ref=e426] [cursor=pointer]
+      - button "Decline" [ref=e427] [cursor=pointer]

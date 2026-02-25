@@ -1,0 +1,199 @@
+The one-day event for AI teams[Trace logo]Register[]
+
+[]
+
+- Docs
+- Customers
+- Pricing
+- Contact sales
+  Sign up
+
+DocsCustomersPricing
+
+Contact salesSign up
+
+Predictable pricing. Designed to scale.
+
+Start building for free
+
+Trace spans
+
+Processed data
+
+Scores
+
+Data retention
+
+Free
+
+For everyone
+
+$0 / month
+
+1 million spans
+
+1 GB storage
+
+10k scores
+
+14 days retention
+
+Sign up
+
+Pro
+
+For growing teams
+
+$249 / month
+
+Unlimited spans
+
+5 GB storage
+
++ $3/GB
+
+50k scores
+
++ $1.50/1k
+
+30 days retention
+
++ $3/GB
+
+Get Pro
+
+[]
+
+Enterprise
+
+For teams at scale
+
+Custom
+
+Premium support with on-prem or hosted deployment for high volume or
+privacy-sensitive data.
+
+Contact sales
+
+Trusted by the best AI teams
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+Pricing calculator
+
+Estimate your monthly costs based on your usage
+
+Usage
+
+FREE
+
+1,000,000Tokens per month
+
+10%Scoring percentage
+
+[Scores]
+
+Storage
+
+0.01 GB of 1 GB$0.00
+
+[Scores]
+
+Scores
+
+38 of 10,000 scores$0.00
+
+Estimated monthly total
+
+$0.00
+
+[]How is this calculated?
+
+[]
+
+Frequently asked questions
+
+If you have any additional questions, please contact us
+
+Which plan is right for me?[]
+
+What does processed data mean?[]
+
+What are scores?[]
+
+What are trace spans?[]
+
+How do I track my usage?[]
+
+How does billing work?[]
+
+Trace everything
+
+Sign up[]
+
+[]
+
+- Resources
+- DocumentationComplete guide to Braintrust AI evaluation platform
+- IntegrationsAI provider and SDK framework integration guides
+- CookbookCode examples and practical recipes
+- ChangelogLatest updates and feature releases
+- For PMsHow product managers can leverage Braintrust
+- ArticlesIn-depth articles and insights
+
+- Company
+- PricingFlexible pricing plans for teams of all sizes
+- BlogLatest insights on AI evaluation and LLM best practices
+- CareersJoin our team building the future of AI evaluation
+- Contact usGet in touch with our team
+- Privacy PolicyHow we protect your data
+- Trust centerSecurity and compliance documentation
+- Legal[]
+
+- Community
+- GitHubOpen source libraries and tools
+- DiscordJoin our developer community
+- NewsletterSubscribe to our newsletter for updates
+- XLatest news and updates
+- YouTubeVideo tutorials and demos
+- LinkedInFollow us for company updates
+
+Copyright ©2026 Braintrust Data, Inc.
+
+[]

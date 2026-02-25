@@ -1,0 +1,617 @@
+[]
+
+- Articles []
+- 2025 []
+
+KPMG AI Quarterly Pulse Survey
+
+Enterprises shift from AI experimentation to large-scale production in
+2026
+
+[]
+
+[] News
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+AI at Scale: How 2025 Set the Stage for Agent-Driven Enterprise
+Reinvention in 2026
+
+Insights from the KPMG Q4 AI Pulse Survey reveal business leader
+priorities that will drive agents into the enterprise in 2026, led by
+continued investment in the technology and critical foundations, from
+the workforce to cybersecurity.
+
+Read more []
+
+[]
+
+[]
+
+[] Download PDF
+
+[] Share
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+Executive Insights: Year in review
+
+As organizations double down on AI agents, they are pivoting from
+exploration to building robust, reliable systems. This report analyzes
+how organizations are tackling deployment complexity, driving enterprise
+value, and redefining ROI.
+
+How did enterprise AI priorities evolve during 2026?
+
+Grounded in eight consecutive quarters of proprietary research, findings
+from the KPMG AI Quarterly Pulse Survey reveal a clear shift from
+experimentation to enterprise discipline. Organizations are moving
+beyond initial AI agent deployments and are now preparing to scale
+agentic systems enterprise-wide. As agents became more autonomous and
+interconnected: cybersecurity, data privacy and quality, transparency,
+and, most important, trust is paramount. In short, scaling agentic
+systems hinges not only on ambition, but increasingly on governance,
+trust, and platform rigor.
+
+How have AI investment and deployment changed in the past year?
+
+If 2025 was considered the "year of the agent," then 2026 marks the
+emergence of the "agent orchestrator," a period in which AI is
+fundamentally reshaping how businesses generate value, operate, and
+grow. In 2025, initial enthusiasm led to large-scale production, with
+average investment climbing from $114M in Q1 to $130M in Q3. Agent
+deployment also saw significant growth, more than doubling from 11% in
+Q1 to 26% in Q4.
+
+What is the most surprising change in corporate attitudes about AI?
+
+Organizations are learning that winning with AI agents is ultimately
+about people—redefining roles, rebuilding skills, and embedding
+human-agent collaboration into daily work. Leaders are investing in this
+shift, with many rethinking hiring, expecting agents to manage projects,
+while humans manage the agents. The companies pulling ahead are treating
+AI as a core business strategy, expanding their agent ecosystems, and
+building the infrastructure to scale confidently and creatively across
+the enterprise.
+
+NEW THIS QUARTER
+
+Industry focus: AI is impacting core infrastructure across sectors
+
+Read more
+
+What are the key findings from the Q4 2025 Pulse Survey?
+
+1
+
+[]
+
+Capital commitment continues amid ROI realism.
+Fifty-nine percent of enterprises expect to see measurable ROI within 12
+months, as organizations institutionalize AI, increase planned spending,
+and shift their focus from quick wins to platform-level transformation.
+
+2
+
+[]
+
+Agentic AI realized mainstream adoption.
+Agent deployment surged in 2026, with more than 26% of organizations
+actively using AI agents by Q4—a significant increase from just 11% in
+Q1. This rapid growth marks a progression to mainstream adoption where
+teams can scale multi-agent systems with robust controls, improved
+observability, and reliable data foundations.
+
+3
+
+[]
+
+System complexity is now the #1 deployment challenge.
+System complexity has become the primary bottleneck, with multi-agent
+orchestration, reliability, and traceability now surpassing all other
+deployment challenges as organizations scale from prototypes to
+production at scale.
+
+4
+
+[]
+
+Trust, cyber, and data constraints intensified through the year.
+As cyber, privacy and data quality risks spike, scaling hinges on
+trust-first architecture—making hardened security and clean data
+prerequisites for safe, enterprise-wide agent operations.
+
+5
+
+[]
+
+Workforce transformation and skill development are scaling fast.
+Talent strategies are catching up with an emphasis on hands‑on agent
+training and expert shadowing.
+
+6
+
+[]
+
+Governance and board oversight are critical to success.
+There has been a sharp rise in board‑level AI expertise signaling a
+shift to disciplined, enterprise‑grade stewardship.
+
+[]
+
+Dive into our thinking:
+
+AI Q4 2025 Pulse Survey: Key findings
+
+Download PDF
+
+Organizations shift from rapid agent growth to controlled scaling
+
+[]
+
+AI isn’t just an investment, it’s becoming the backbone of enterprise
+strategy. What the numbers don’t show is the growing divide: while some
+organizations stall after early deployments, the leaders are scaling
+fast and pulling ahead. For those treating AI as a true disruptor, this
+isn’t about catching the next wave; it’s about agents fundamentally
+changing how value is created and sustained across the enterprise.
+
+Steve Chase
+
+U.S. Vice Chair and Global Head of AI and Digital Innovation
+
+How AI investment shifted in 2025
+
+INDUSTRY FOCUS
+
+AI Is emerging as core infrastructure across industries
+
+Across banking, asset management, private equity, and TMT, AI is rapidly
+shifting from experimentation to enterprise‑wide execution. Leaders are
+investing decisively in AI to drive resilience, scale, and measurable
+value, while embedding it into daily workflows and long‑term operating
+models. As adoption accelerates, organizations are strengthening risk
+management and governance and rethinking talent strategies to ensure AI
+delivers sustainable, responsible impact.
+
+[]
+
+Banking
+
+Asset Management & Private Equity
+
+Technology, Media and Telecommunications
+
+[]
+
+With agentic deployments and recession-proof investments, banks move decisively into an AI-enabled future
+
+The banking industry is increasingly incorporating AI as a core element
+of future operations and growth, with leaders indicating that it will
+remain a priority even in the event a recession occurs in the next 12
+months. Many institutions are already deploying or piloting AI agents,
+reflecting a shift toward broader integration of AI as part of daily
+workflows. As AI adoption expands, banks are simultaneously
+strengthening risk‑management capabilities and adjusting workforce
+strategies to support responsible and effective use.
+
+[]
+
+Asset management and private equity leaders are doubling down on AI to drive value and talent transformation
+
+Leaders in Asset Management and Private Equity are advancing their AI
+strategies as they navigate margin pressures and heightened expectations
+from investors and boards. Firms are committing substantial resources to
+AI over the coming year, establishing clearer pathways to measurable
+outcomes while simultaneously increasing their focus on talent by
+offering compensation premiums for strong AI capabilities. Looking
+ahead, macroeconomic conditions and the pressure to demonstrate value
+are expected to play a central role in shaping AI decisions across the
+Asset Management and Private Equity sectors.
+
+[]
+
+TMT is setting a new standard for scale, speed, and value creation in the era of AI
+
+As the builders of the digital ecosystem, TMT companies are setting the
+pace on AI, viewing it beyond just an efficiency tool and rather as
+essential infrastructure. According to the KPMG AI Quarterly Pulse
+Survey – TMT, industry leaders recognize that success depends not only
+on speed to market but on the quality and reliability of AI-enabled
+offerings. This reality is fueling the race for AI talent, reshaping
+compensation models and redefining what critical skills look like in the
+sector.
+
+[]
+
+Banking
+
+[]
+
+With agentic deployments and recession-proof investments, banks move decisively into an AI-enabled future
+
+The banking industry is increasingly incorporating AI as a core element
+of future operations and growth, with leaders indicating that it will
+remain a priority even in the event a recession occurs in the next 12
+months. Many institutions are already deploying or piloting AI agents,
+reflecting a shift toward broader integration of AI as part of daily
+workflows. As AI adoption expands, banks are simultaneously
+strengthening risk‑management capabilities and adjusting workforce
+strategies to support responsible and effective use.
+
+[]
+
+Asset Management & Private Equity
+
+[]
+
+Asset management and private equity leaders are doubling down on AI to drive value and talent transformation
+
+Leaders in Asset Management and Private Equity are advancing their AI
+strategies as they navigate margin pressures and heightened expectations
+from investors and boards. Firms are committing substantial resources to
+AI over the coming year, establishing clearer pathways to measurable
+outcomes while simultaneously increasing their focus on talent by
+offering compensation premiums for strong AI capabilities. Looking
+ahead, macroeconomic conditions and the pressure to demonstrate value
+are expected to play a central role in shaping AI decisions across the
+Asset Management and Private Equity sectors.
+
+[]
+
+Technology, Media and Telecommunications
+
+[]
+
+TMT is setting a new standard for scale, speed, and value creation in the era of AI
+
+As the builders of the digital ecosystem, TMT companies are setting the
+pace on AI, viewing it beyond just an efficiency tool and rather as
+essential infrastructure. According to the KPMG AI Quarterly Pulse
+Survey – TMT, industry leaders recognize that success depends not only
+on speed to market but on the quality and reliability of AI-enabled
+offerings. This reality is fueling the race for AI talent, reshaping
+compensation models and redefining what critical skills look like in the
+sector.
+
+[]
+
+Looking ahead, how can organizations boost AI value?
+
+Based on the KPMG AI Quarterly Pulse Survey, leaders are taking the
+following steps:
+
+1
+
+[]
+
+Making reliability the KPI
+Shifting focus from agent counts to operational metrics like control,
+reliability, transparency, and security.
+
+2
+
+[]
+
+“Platformizing” the stack
+Investing in data pipelines, observability, and policy enforcement to
+manage multi-agent complexity and consistent performance.
+
+3
+
+[]
+
+Redesigning roles and metrics
+Formalizing human-agent collaboration and updating responsibilities,
+skills and outcomes for effective monitoring of outcomes-based
+measurement.
+
+4
+
+[]
+
+Elevating board governance
+Tying AI spending to enterprise value with clear guardrails to minimize
+risk.
+
+5
+
+[]
+
+Resuming scale—deliberately
+Re-accelerating deployment once controls are in place, and shifting ROI
+focus from quick wins to transformational value at the business process
+and P&L levels.
+
+Explore previous quarterly AI pulse surveys
+
+Welcome to our series of quarterly reports on Artificial Intelligence,
+where we explore the latest trends, advancements, and impacts shaping
+the world of AI.
+
+[]
+
+[]
+
+[]
+
+[] News
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+AI at Scale: How 2025 Set the Stage for Agent-Driven Enterprise
+Reinvention in 2026
+
+Insights from the KPMG Q4 AI Pulse Survey reveal business leader
+priorities that will drive agents into the enterprise in 2026, led by
+continued investment in the technology and critical foundations, from
+the workforce to cybersecurity.
+
+Read more []
+
+[]
+
+[] News
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+Agent Deployment Accelerates as Organizations Build Confidence Through
+Early Wins
+
+The KPMG Q3 2025 AI Quarterly Pulse survey reveals that AI agent
+deployment has nearly quadrupled, with 42% of organizations now having
+deployed at least some agents, up from 11% two quarters ago.
+
+Read more []
+
+[]
+
+[] News
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+AI Agents Move Beyond Experimentation as Leaders Prepare for Competitive
+Transformation Within 24 Months
+
+AI is rewriting the playbook with 82% of leaders agreeing their
+industry’s competitive landscape will look different in the next 24
+months, according to the latest KPMG AI Quarterly Pulse Survey.
+
+Read more []
+
+[]
+
+[] News
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+KPMG LLP AI & Digital Innovation Quarterly Pulse Survey
+
+– Business leaders continue to make strategic investments to fuel their
+GenAI strategies, with a projected average spend of $25 million on
+hiring new tech talent and another $24 million on customer experience in
+the next 12 months, according to the KPMG AI & Digital Innovation
+Quarterly Pulse Survey.
+
+Read more []
+
+[]
+
+[] News
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+KPMG LLP AI & Digital Innovation Quarter Pulse Survey - Q2 2024
+
+Survey reveals the majority of leaders across the U.S. recognize GenAI
+as important to gaining competitive advantage and market share.
+
+Read more []
+
+[]
+
+[] News
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+KPMG GenAI Study: the path to sustainable returns
+
+The GenAI landscape is rapidly evolving, but most organizations have yet
+to realize sustainable growth beyond productivity gains
+
+Read more []
+
+Our latest AI insights
+
+Explore our latest thinking on how to realize the many benefits of
+integrating AI across your enterprise.
+
+[]
+
+[]
+
+[]
+
+[] Insight
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+Agents of change: New organizational roles in the age of AI
+
+AI is redefining work and leadership. Discover the capabilities and
+structures needed to build adaptive, innovative human-AI teams, and
+unlock the full potential of digital collaboration with AI Agents as
+your strategic teammates.
+
+Read more []
+
+[]
+
+[] Insight
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+You can with AI.
+
+A podcast series that will fuel your organization’s AI transformation
+from the top
+
+Read more []
+
+[]
+
+[] Insight
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+Data governance in the age of AI
+
+Examining the shifting paradigm to a united governance umbrella
+
+Read more []
+
+[]
+
+[] Insight
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+Shadow AI is already here: Take control, reduce risk, unleash innovation
+
+Discover how forward-thinking organizations are turning unsanctioned AI
+use into a launchpad for innovation and growth. Learn how to reduce
+risk, empower employees, and build a future-ready AI strategy.
+
+Read more []
+
+[]
+
+[] Insight
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+The agentic AI advantage: Unlocking the next level of AI value
+
+Learn how agentic AI can unlock enterprise value, supercharge adoption,
+boost workforce productivity, and revolutionize process engineering.
+
+Read more []
+
+[Quantifying the GenAI opportunity]
+
+[] Insight
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+Quantifying the GenAI opportunity
+
+Discover how GenAI can unlock a massive, untapped opportunity for
+businesses, and learn what it takes to capture its value.
+
+Read more []
+
+["AI Strategy Framework by KPMG", "AI solutions," "AI transformation,"
+"Harnessing AI."]
+
+[] Insight
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+You Can with AI U.S.
+
+Discover how KPMG can help your business harness the power of AI.
+Explore our AI strategy framework and see the impacts of AI innovation
+
+Read more []
+
+[Generative AI]
+
+[] Service
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+Generative AI
+
+Reinvent your business with our GenAI solutions. Achieve greater value,
+drive innovation, and unlock new potential.
+
+Read more []
+
+[]
+
+[] News
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+KPMG Launches new AI incubator for Salesforce Agentforce
+
+The incubator is an evolution of KPMG’s leadership in AI and data
+modernization and will draw on the firm’s industry and customer
+engagement experience.
+
+Read more []
+
+[]
+
+[] Client Story
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+Conversational AI for healthcare
+
+We implemented an AI-powered conversational system that used real-time
+text-to-speech technologies for seamless customer interactions.
+
+Read more []
+
+[]
+
+[] Insight
+
+Webcast Replay Webcast Upcoming Listen Now From The Web
+
+Supercharge your Finance workforce with GenAI
+
+Knowledge workers in finance have significant opportunities to capture
+value and reshape the workforce with the use of GenAI
+
+Read more []
+
+NEW THIS QUARTER
+
+Industry focus: AI is impacting core infrastructure across sectors
+
+Read more
+
+Get in touch
+
+Start the conversation
+
+Connect with our team today to learn how we can help you realize the
+full potential of GenAI.
+
+Contact Us
+
+[Image of Steve Chase]
+
+Steve Chase
+
+Global Head & US Vice Chair – AI & Digital Innovation, KPMG LLP
+
+[] Read bio
+
+[Image of Steve Chase]
+
+Steve Chase
+
+Global Head & US Vice Chair – AI & Digital Innovation, KPMG LLP
+
+[] Read bio

@@ -1,0 +1,182 @@
+Akto's 2025 State of Agentic AI Security Report Finds Only 21% of Enterprises Have Visibility
+
+------------------------------------------------------------------------
+
+News provided by
+
+Akto
+
+Dec 08, 2025, 09:00 ET
+
+Share this article
+
+Share toX
+
+[]
+
+Share this article
+
+Share toX
+
+[]
+
+------------------------------------------------------------------------
+
+SAN FRANCISCO, Dec. 8, 2025 /PRNewswire/ -- Akto, the leader in Agentic
+AI and MCP Security, today announced the publication of its inaugural
+State of Agentic AI Security 2025 Report, offering the industry's most
+comprehensive analysis of how enterprises are adopting AI agents and the
+risks emerging as adoption outpaces security.
+
+Based on survey responses from hundreds of security leaders across large
+enterprises, the report provides the first quantitative benchmark of
+Agentic AI adoption across industries, including finance, telecom,
+healthcare, insurance, e-commerce, and technology. It offers a
+ground-level view into how AI agents and MCP-based systems are being
+deployed, where they are already embedded in workflows, and which risks
+enterprises are unable to detect, govern, or mitigate.
+
+"The biggest concern for AppSec is the speed. Agentic AI is being
+adopted far faster than security teams can assess or secure the risks."
+—  Bala Thripura Akasam, Application Security Manager, Tapestry.
+
+The findings reveal a defining moment: AI agents have moved into
+mission-critical enterprise workflows far faster than expected, while
+enterprises remain unequipped with visibility, guardrails, or runtime
+controls.
+
+"AI agents didn't enter the enterprise quietly; they arrived at full
+force in 2025," said Ankita Gupta, CEO and Co-Founder of Akto. "This
+report shows a clear gap between the adoption of AI and security
+readiness. Developers have embraced agents as part of daily workflows,
+but security teams lack the tools and visibility to keep pace. That
+mismatch is now the biggest enterprise risk of 2026."
+
+Top Three Trends From the 2025 State of Agentic AI Security Report
+
+1. Every team is adopting. Almost none are protected.
+
+AI agents have moved far beyond early adoption: 31.7% of organizations
+are in active experimentation, 23.8% are running pilots, and 38.6% have
+already deployed agents at department or enterprise scale.
+
+2. Visibility and Governance Are the Biggest Gaps
+
+Despite rapid deployment, only 21% of respondents report full visibility
+into agent actions, MCPs tool invocations, or data access. Enterprises
+are operating intelligent, autonomous systems without foundational
+observability, creating blind spots across workflows and APIs.
+
+3. Guardrails and Continuous Testing Are Urgently Needed But Largely
+Absent
+
+While 65% of organizations think action-level guardrails and runtime
+controls are critical priority, only half of them have implemented them.
+Most rely on traditional manual reviews or after-the-fact monitoring,
+neither of which maps to autonomous agent behavior.
+
+"Visibility is the biggest gap today. You can't govern or enforce
+guardrails if you don't know what your agents are doing. Without
+observability, every control is guesswork." — Suhel Khan, CISO at
+Chargebee
+
+2026 Agentic AI Security Outlook: Agent Governance Becomes
+Non-Negotiable
+
+The State of Agentic AI Security report outlines what enterprises expect
+in the next 12 months:
+
+- Formal AI security ownership shared across AppSec and Platform
+  Engineering
+- Standardized permission boundaries for all MCP tools and agent
+  workflows
+- Mandatory action-level logging for every agent invocation
+- Continuous agent red teaming as a baseline security requirement
+- Enterprise-wide classification of agents by risk, scope, and data
+  access
+
+Enterprises overwhelmingly expect that by 2026, Agentic AI Security will
+become as fundamental as Cloud Security and IAM.
+
+About the State of Agentic AI Security 2025 Report
+
+The State of Agentic AI Security 2025 Report is Akto's annual benchmark
+study analyzing the adoption, risks, and maturity of enterprise AI agent
+deployments. The report synthesizes quantitative survey data with expert
+commentary to map emerging security patterns in one of the
+fastest-moving technology categories.
+
+The survey was conducted with hundreds of AI security leaders, including
+20% from Fortune 500 companies and 70% from organizations with 1,000+
+employees, with representation from enterprise-scale environments where
+Agentic AI usage is accelerating fastest.
+
+The full report is available on Akto's website.
+
+About Akto
+
+Akto is the leading Agentic AI Security and MCP Security platform,
+enabling enterprises to safely adopt AI agents and MCPs across cloud,
+SaaS, and internal environments. Akto provides continuous discovery,
+guardrails, and automated AI red teaming, giving organizations the
+governance they need for the new era of Agentic AI. Learn more
+at www.akto.io.
+
+Media Contact: Ankita Gupta, [email protected]
+
+SOURCE Akto
+
+[]
+
+[]
+
+21%
+
+more press release views with []
+
+Request a Demo []
+
+×
+
+Modal title
+
+Also from this source
+
+[Akto Launches Agentic Security Platform to Protect Enterprises from AI
+Agent Risks]
+
+Akto Launches Agentic Security Platform to Protect Enterprises from AI Agent Risks
+
+Akto today announced the launch of the Agentic Security Platform, the
+end-to-end security solution purpose-built for the age of autonomous AI
+agents. ...
+
+[Akto Launches Industry's First MCP Security Platform]
+
+Akto Launches Industry's First MCP Security Platform
+
+Akto, a leader in API security, today announced the launch of Akto MCP
+Security, the world's first purpose-built solution designed to secure
+Model...
+
+More Releases From This Source []
+
+Explore
+
+[Computer & Electronics]
+
+Computer & Electronics
+
+[Computer Software]
+
+Computer Software
+
+[Computer Software]
+
+Computer Software
+
+[High Tech Security]
+
+High Tech Security
+
+News Releases in Similar Topics []

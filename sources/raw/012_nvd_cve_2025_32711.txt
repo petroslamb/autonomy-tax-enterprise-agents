@@ -1,0 +1,154 @@
+1.  Vulnerabilities
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| CVE-2025-32711 Detail                                                                                                                                                               |
+|                                                                                                                                                                                     |
+|     Exclusively Hosted Service                                                                                                                                                      |
+|                                                                                                                                                                                     |
+| Modified                                                                                                                                                                            |
+|                                                                                                                                                                                     |
+| ------------------------------------------------------------------------                                                                                                            |
+|                                                                                                                                                                                     |
+| This CVE record has been updated after NVD enrichment efforts were completed. Enrichment data supplied by the NVD may require amendment due to these changes.                       |
+|                                                                                                                                                                                     |
+| Description                                                                                                                                                                         |
+|                                                                                                                                                                                     |
+| Ai command injection in M365 Copilot allows an unauthorized attacker to disclose information over a network.                                                                        |
+|                                                                                                                                                                                     |
+| Metrics                                                                                                                                                                             |
+|                                                                                                                                                                                     |
+|                                                                                                                                                                                     |
+|                                                                                                                                                                                     |
+| CVSS Version 4.0                                                                                                                                                                    |
+|                                                                                                                                                                                     |
+| CVSS Version 3.x                                                                                                                                                                    |
+|                                                                                                                                                                                     |
+| CVSS Version 2.0                                                                                                                                                                    |
+|                                                                                                                                                                                     |
+| NVD enrichment efforts reference publicly available information to associate vector strings. CVSS information contributed by other sources is also displayed.                       |
+|                                                                                                                                                                                     |
+| CVSS 4.0 Severity and Vector Strings:                                                                                                                                               |
+|                                                                                                                                                                                     |
+| [NIST CVSS score]                                                                                                                                                                   |
+|                                                                                                                                                                                     |
+| NIST: NVD                                                                                                                                                                           |
+|                                                                                                                                                                                     |
+| N/A                                                                                                                                                                                 |
+|                                                                                                                                                                                     |
+| NVD assessment not yet provided.                                                                                                                                                    |
+|                                                                                                                                                                                     |
+| CVSS 3.x Severity and Vector Strings:                                                                                                                                               |
+|                                                                                                                                                                                     |
+| [NIST CVSS score]                                                                                                                                                                   |
+|                                                                                                                                                                                     |
+| NIST: NVD                                                                                                                                                                           |
+|                                                                                                                                                                                     |
+| Base Score:  7.5 HIGH                                                                                                                                                               |
+|                                                                                                                                                                                     |
+| Vector:  CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N                                                                                                                               |
+|                                                                                                                                                                                     |
+| [Nist CVSS score does not match with CNA score]                                                                                                                                     |
+|                                                                                                                                                                                     |
+| CNA:  Microsoft Corporation                                                                                                                                                         |
+|                                                                                                                                                                                     |
+| Base Score:  9.3 CRITICAL                                                                                                                                                           |
+|                                                                                                                                                                                     |
+| Vector:  CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N                                                                                                                               |
+|                                                                                                                                                                                     |
+| CVSS 2.0 Severity and Vector Strings:                                                                                                                                               |
+|                                                                                                                                                                                     |
+| [National Institute of Standards and Technology]                                                                                                                                    |
+|                                                                                                                                                                                     |
+| NIST: NVD                                                                                                                                                                           |
+|                                                                                                                                                                                     |
+| Base Score: N/A                                                                                                                                                                     |
+|                                                                                                                                                                                     |
+| NVD assessment not yet provided.                                                                                                                                                    |
+|                                                                                                                                                                                     |
+| References to Advisories, Solutions, and Tools                                                                                                                                      |
+|                                                                                                                                                                                     |
+| By selecting these links, you will be leaving NIST webspace. We have provided these links to other web sites because they may have information that would be of interest to you. No |
+| inferences should be drawn on account of other sites being referenced, or not, from this page. There may be other web sites that are more appropriate for your purpose. NIST does   |
+| not necessarily endorse the views expressed, or concur with the facts presented on these sites. Further, NIST does not endorse any commercial products that may be mentioned on     |
+| these sites. Please address comments about this page to [email protected].                                                                                                          |
+|                                                                                                                                                                                     |
+|   URL                                                                    Source(s)               Tag(s)                                                                             |
+|   ---------------------------------------------------------------------- ----------------------- --------------------                                                               |
+|   https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711   Microsoft Corporation   Vendor Advisory                                                                    |
+|   https://www.aim.security/lp/aim-labs-echoleak-m365                     CVE                                                                                                        |
+|                                                                                                                                                                                     |
+| Weakness Enumeration                                                                                                                                                                |
+|                                                                                                                                                                                     |
+|   CWE-ID   CWE Name                                                                                             Source                                                              |
+|   -------- ---------------------------------------------------------------------------------------------------- ---------------------------                                         |
+|   CWE-74   Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')   Microsoft Corporation                                               |
+|                                                                                                                                                                                     |
+| Known Affected Software Configurations Switch to CPE 2.2                                                                                                                            |
+|                                                                                                                                                                                     |
+| CPEs loading, please wait.                                                                                                                                                          |
+|                                                                                                                                                                                     |
+| Denotes Vulnerable Software                                                                                                                                                         |
+| Are we missing a CPE here? Please let us know.                                                                                                                                      |
+|                                                                                                                                                                                     |
+| Change History                                                                                                                                                                      |
+|                                                                                                                                                                                     |
+| 4 change records found show changes                                                                                                                                                 |
+|                                                                                                                                                                                     |
+| CVE Modified by Microsoft Corporation 2/20/2026 12:25:10 PM                                                                                                                         |
+|                                                                                                                                                                                     |
+| +-----------------+-----------------+-----------------+-----------------+                                                                                                           |
+| | Action          | Type            | Old Value       | New Value       |                                                                                                           |
+| +=================+=================+=================+=================+                                                                                                           |
+| | Added           | CWE             |                 |     CWE-74      |                                                                                                           |
+| +-----------------+-----------------+-----------------+-----------------+                                                                                                           |
+| | Removed         | CWE             |     CWE-77      |                 |                                                                                                           |
+| +-----------------+-----------------+-----------------+-----------------+                                                                                                           |
+|                                                                                                                                                                                     |
+| CVE Modified by CVE 8/04/2025 2:15:34 PM                                                                                                                                            |
+|                                                                                                                                                                                     |
+| +-----------------+-----------------+-----------------+--------------------------------------------------------+                                                                    |
+| | Action          | Type            | Old Value       | New Value                                              |                                                                    |
+| +=================+=================+=================+========================================================+                                                                    |
+| | Added           | Reference       |                 |     https://www.aim.security/lp/aim-labs-echoleak-m365 |                                                                    |
+| +-----------------+-----------------+-----------------+--------------------------------------------------------+                                                                    |
+|                                                                                                                                                                                     |
+| Initial Analysis by NIST 7/09/2025 8:17:20 PM                                                                                                                                       |
+|                                                                                                                                                                                     |
+| +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------+    |
+| | Action          | Type            | Old Value       | New Value                                                                                                              |    |
+| +=================+=================+=================+========================================================================================================================+    |
+| | Added           | CVSS V3.1       |                 |     AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N                                                                                |    |
+| +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------+    |
+| | Added           | CPE             |                 |     OR                                                                                                                 |    |
+| |                 | Configuration   |                 |               *cpe:2.3:a:microsoft:365_copilot:-:*:*:*:*:*:*:*                                                         |    |
+| +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------+    |
+| | Added           | Reference Type  |                 |     Microsoft Corporation: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711 Types: Vendor Advisory |    |
+| +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------+    |
+|                                                                                                                                                                                     |
+| New CVE Received from Microsoft Corporation 6/11/2025 10:15:31 AM                                                                                                                   |
+|                                                                                                                                                                                     |
+| +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------+          |
+| | Action          | Type            | Old Value       | New Value                                                                                                        |          |
+| +=================+=================+=================+==================================================================================================================+          |
+| | Added           | Tag             |                 |     exclusively-hosted-service                                                                                   |          |
+| +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------+          |
+| | Added           | Description     |                 |     Ai command injection in M365 Copilot allows an unauthorized attacker to disclose information over a network. |          |
+| +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------+          |
+| | Added           | CVSS V3.1       |                 |     AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N                                                                          |          |
+| +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------+          |
+| | Added           | CWE             |                 |     CWE-77                                                                                                       |          |
+| +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------+          |
+| | Added           | Reference       |                 |     https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711                                         |          |
+| +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------+          |
+|                                                                                                                                                                                     |
+| Quick Info                                                                                                                                                                          |
+|                                                                                                                                                                                     |
+| CVE Dictionary Entry:                                                                                                                                                               |
+| CVE-2025-32711                                                                                                                                                                      |
+| NVD Published Date:                                                                                                                                                                 |
+| 06/11/2025                                                                                                                                                                          |
+| NVD Last Modified:                                                                                                                                                                  |
+| 02/20/2026                                                                                                                                                                          |
+| Source:                                                                                                                                                                             |
+| Microsoft Corporation                                                                                                                                                               |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
