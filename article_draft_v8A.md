@@ -4,9 +4,9 @@
 
 ---
 
-In early 2026, a procurement agent at a mid-size company entered a retry loop. A vendor checkout API was returning inconsistent responses, and the agent did what it was designed to do: it tried again. And again. In three minutes, it submitted twelve purchase requests at $399 each — every one approved by a policy engine that evaluated transactions individually. The company had set per-transaction limits and a monthly velocity cap, but the policy engine had no real-time pattern detection across rapid-fire requests. By the time a human noticed, five days later during routine reconciliation, the damage was $4,788.
+In early 2026, a procurement agent at a mid-size company entered a retry loop. A vendor checkout API was returning inconsistent responses, and the agent did what it was designed to do: it tried again. And again. In three minutes, it submitted twelve purchase requests at $399 each, every one approved by a policy engine that evaluated transactions individually. The company had set per-transaction limits and a monthly velocity cap, but the policy engine had no real-time pattern detection across rapid-fire requests. By the time a human noticed, five days later during routine reconciliation, the damage was $4,788.
 
-The model didn't hallucinate. It didn't go off-task. It didn't need a better prompt. It needed a circuit breaker for consecutive failures, real-time velocity monitoring across recent transactions, and a state-sync check between authorization and transaction history. Every system involved did exactly what it was told. That was the problem.[^proxy]
+The model didn't hallucinate. It didn't go off-task. It didn't need a better prompt. It needed a circuit breaker for consecutive failures, real-time velocity monitoring across recent transactions, and a state-sync check between authorization and transaction history. Every system involved did exactly what it was told. That was the problem.[[^proxy]]
 
 This article argues a simple claim: enterprise agent ROI is constrained less by model capability and more by three hidden costs that compound as autonomy increases. We call them the **Autonomy Tax**:
 
@@ -14,17 +14,17 @@ This article argues a simple claim: enterprise agent ROI is constrained less by 
 
 If any single tax scores ≥ 4, deployment is blocked until mitigation is documented. That was one agent, one workflow, one retry loop. Most enterprises are planning to deploy dozens.
 
-**Scope note:** This analysis focuses on enterprises consuming commercial LLM APIs in US/EU markets. Self-hosted and open-weight deployments carry a different tax structure.[^scope]
+**Scope note:** This analysis focuses on enterprises consuming commercial LLM APIs in US/EU markets. Self-hosted and open-weight deployments carry a different tax structure.[[^scope]]
 
 ---
 
 ## The Deployment Paradox
 
-Enterprise AI intent has never been higher. Deloitte's 2026 survey found that 74% of director-to-C-suite leaders expect agentic AI at moderate levels or above within two years — up from 23% today.[^deloitte]
+Enterprise AI intent has never been higher. Deloitte's 2026 survey found that 74% of director-to-C-suite leaders expect agentic AI at moderate levels or above within two years, up from 23% today.[[^deloitte]]
 
-The deployment reality is cautious. The most comprehensive field survey to date found that 68% of deployed agents execute ten or fewer steps before human intervention, and 74% depend primarily on human evaluation.[^map] On Anthropic's platform, software engineering accounts for nearly 50% of all agentic tool-call activity; customer service, BI, and e-commerce each register single-digit percentages.[^anthropic] Meanwhile, raw capability is accelerating — METR's task-horizon measurements suggest frontier models can now complete tasks that take humans roughly 50 minutes, with the horizon doubling approximately every seven months.[^metr] Strong results on assistant-style evaluations and coding benchmarks reinforce the point: capability is not the constraint.[^bench]
+The deployment reality is cautious. The most comprehensive field survey to date found that 68% of deployed agents execute ten or fewer steps before human intervention, and 74% depend primarily on human evaluation.[[^map]] On Anthropic's platform, software engineering accounts for nearly 50% of all agentic tool-call activity; customer service, BI, and e-commerce each register single-digit percentages.[[^anthropic]] Meanwhile, raw capability is accelerating, METR's task-horizon measurements suggest frontier models can now complete tasks that take humans roughly 50 minutes, with the horizon doubling approximately every seven months.[[^metr]] Strong results on assistant-style evaluations and coding benchmarks reinforce the point: capability is not the constraint.[[^bench]]
 
-So models are getting more capable, but production agents remain tightly constrained. Why? Because enterprises are not buying raw cognition — they are buying **verified action**. Software engineering scales first because verification is unusually cheap: tests run automatically, outputs are diffable, and rollback is native. In procurement, legal, finance, and compliance workflows, verification is slower, costlier, and often irreversible. The bottleneck is no longer generation. It is verification.
+So models are getting more capable, but production agents remain tightly constrained. Why? Because enterprises are not buying raw cognition, they are buying **verified action**. Software engineering scales first because verification is unusually cheap: tests run automatically, outputs are diffable, and rollback is native. In procurement, legal, finance, and compliance workflows, verification is slower, costlier, and often irreversible. The bottleneck is no longer generation. It is verification.
 
 ---
 
@@ -32,29 +32,29 @@ So models are getting more capable, but production agents remain tightly constra
 
 ### The Human Bandwidth Tax
 
-Here is the number that should change your staffing math: after GitHub Copilot's introduction, core developers in open-source projects saw their own original code output *drop by 19%* — while reviewing 6.5% more code generated by less-experienced contributors.[^xu]
+Here is the number that should change your staffing math: after GitHub Copilot's introduction, core developers in open-source projects saw their own original code output *drop by 19%*, while reviewing 6.5% more code generated by less-experienced contributors.[[^xu]]
 
 AI didn't replace the experts. It made them reviewers.
 
-The mechanism is consistent across domains: AI raises output throughput faster than it raises expert review capacity. When juniors produce more, seniors review more. The same asymmetry shows up in call centers (novice productivity up 34%, experienced performers barely affected)[^nber] and in GitHub teams (code contributions up 5.9%, but coordination time for integration up 8%).[^song] Three independent contexts, same structural pattern: AI amplifies junior output, expert review becomes the bottleneck, and the net effect depends on team composition. If your organization has many novices and few experts — the common shape of most enterprise teams — the Human Bandwidth Tax is highest.[^hb_caveat]
+The mechanism is consistent across domains: AI raises output throughput faster than it raises expert review capacity. When juniors produce more, seniors review more. The same asymmetry shows up in call centers (novice productivity up 34%, experienced performers barely affected)[[^nber]] and in GitHub teams (code contributions up 5.9%, but coordination time for integration up 8%).[[^song]] Three independent contexts, same structural pattern: AI amplifies junior output, expert review becomes the bottleneck, and the net effect depends on team composition. If your organization has many novices and few experts, the common shape of most enterprise teams, the Human Bandwidth Tax is highest.[[^hb_caveat]]
 
 ### The Incident Tax
 
 The Human Bandwidth Tax drains productivity quietly. The Incident Tax destroys capital in public.
 
-The procurement agent from the cold open burned $4,800 because its policy engine evaluated each transaction in isolation. That was one agent, one API, one retry loop. The attack surface gets worse: CVE-2025-32711 documents command injection risk in a production enterprise AI context with a high-severity score, where the EchoLeak exploit chain demonstrated cross-boundary privilege escalation — five chained bypasses, no user interaction required.[^cve][^echoleak] In a controlled lab study, agents with persistent memory and shell access reported successful task completion while the system state contradicted their reports — compound failure categories and conflicting self-reports of completion.[^shapira]
+The procurement agent from the cold open burned $4,800 because its policy engine evaluated each transaction in isolation. That was one agent, one API, one retry loop. The attack surface gets worse: CVE-2025-32711 documents command injection risk in a production enterprise AI context with a high-severity score, where the EchoLeak exploit chain demonstrated cross-boundary privilege escalation, five chained bypasses, no user interaction required.[[^cve]][[^echoleak]] In a controlled lab study, agents with persistent memory and shell access reported successful task completion while the system state contradicted their reports, compound failure categories and conflicting self-reports of completion.[[^shapira]]
 
-In every case, the failures were in the control layer — spending limits, input sanitization, privilege boundaries, state verification — not in the model's reasoning. The Incident Tax scales with autonomy level, and the relationship isn't linear. It's combinatorial, because failures compound across tool access, persistent state, and multi-party communication.
+In every case, the failures were in the control layer, spending limits, input sanitization, privilege boundaries, state verification, not in the model's reasoning. The Incident Tax scales with autonomy level, and the relationship isn't linear. It's combinatorial, because failures compound across tool access, persistent state, and multi-party communication.
 
 ### The Governance Tax
 
-This is the tax that's hardest to measure — and that's part of the finding.
+This is the tax that's hardest to measure, and that's part of the finding.
 
-Four in five organizations lack the governance maturity or operational visibility that autonomous agents require. Deloitte found only 21% have a mature AI governance model; a separate security-focused survey found the same 21% with full visibility into agent actions.[^governance] Different surveys, different constructs, same number. A separate observability user study reinforces the signal: 79% of respondents agreed that nondeterministic flows are a major challenge for managing agentic systems.[^obs] If you can't reconstruct why your agent took an action, you don't have a governance nuisance. You have an incident-response liability.
+Four in five organizations lack the governance maturity or operational visibility that autonomous agents require. Deloitte found only 21% have a mature AI governance model; a separate security-focused survey found the same 21% with full visibility into agent actions.[[^governance]] Different surveys, different constructs, same number. A separate observability user study reinforces the signal: 79% of respondents agreed that nondeterministic flows are a major challenge for managing agentic systems.[[^obs]] If you can't reconstruct why your agent took an action, you don't have a governance nuisance. You have an incident-response liability.
 
-The Governance Tax has three components: **regulatory compliance** (the EU AI Act entered into force August 2024, with staged application through 2027[^euaia]), **observability infrastructure** (tracing, token accounting, and action logging — tooling alone runs $5,000–$15,000/year for a mid-size team before integration engineering[^tooling]), and **expert staffing** — the compliance, legal, and security personnel whose costs no published study has quantified. The measurement gap is itself a core finding: organizations are deploying agents faster than they can quantify the governance overhead.
+The Governance Tax has three components: **regulatory compliance** (the EU AI Act entered into force August 2024, with staged application through 2027[[^euaia]]), **observability infrastructure** (tracing, token accounting, and action logging, tooling alone runs $5,000–$15,000/year for a mid-size team before integration engineering[[^tooling]]), and **expert staffing**, the compliance, legal, and security personnel whose costs no published study has quantified. The measurement gap is itself a core finding: organizations are deploying agents faster than they can quantify the governance overhead.
 
-Secure-by-design guidance is explicit on this point: safety and security are lifecycle requirements, not post-launch patches.[^ncsc][^cisa] Governance is not paperwork after shipping. Governance is part of shipping.
+Secure-by-design guidance is explicit on this point: safety and security are lifecycle requirements, not post-launch patches.[[^ncsc]][[^cisa]] Governance is not paperwork after shipping. Governance is part of shipping.
 
 ---
 
@@ -62,11 +62,11 @@ Secure-by-design guidance is explicit on this point: safety and security are lif
 
 Each tax, alone, looks manageable. Together, they explain why models that can reason for 50 minutes still get leashed to 10-step workflows with human approval at every gate. The bandwidth tax means your experts are already stretched. The incident tax means a single uncontrolled action can erase months of efficiency gains. The governance tax means you may not even know the damage until an auditor asks.
 
-They don't add — they compound. Here's how: an incident (Tax 2) triggers an investigation, which reveals there's no audit trail (Tax 3), which pulls your two best engineers off product work for a week (Tax 1). One failure, all three taxes, one event.
+They don't add, they compound. Here's how: an incident (Tax 2) triggers an investigation, which reveals there's no audit trail (Tax 3), which pulls your two best engineers off product work for a week (Tax 1). One failure, all three taxes, one event.
 
-The compounding is visible in the data. In the Autonomy Tax Casebook — 28 coded public records — 21 directly support the tax model. Of those, governance is the primary tax in 12: the most frequent and least measured of the three.[^casebook]
+The compounding is visible in the data. In the Autonomy Tax Casebook, 28 coded public records, 21 directly support the tax model. Of those, governance is the primary tax in 12: the most frequent and least measured of the three.[[^casebook]]
 
-If you're a VP of Engineering planning to deploy agents across three business units this year, this compounding is what your budget doesn't account for. Not the API costs — the review hours, incident remediation, and governance overhead that nobody has line-itemed yet. *(If you take nothing else from this essay: ask your three most senior engineers what percentage of their week is spent reviewing AI output. Most teams have never asked. Most are disturbed by the answer.)*
+If you're a VP of Engineering planning to deploy agents across three business units this year, this compounding is what your budget doesn't account for. Not the API costs, the review hours, incident remediation, and governance overhead that nobody has line-itemed yet. *(If you take nothing else from this essay: ask your three most senior engineers what percentage of their week is spent reviewing AI output. Most teams have never asked. Most are disturbed by the answer.)*
 
 That compounding is the Autonomy Tax.
 
@@ -76,11 +76,11 @@ That compounding is the Autonomy Tax.
 
 The stakes are concrete: choose too much autonomy and you absorb all three taxes at full force. Choose too little and you leave the throughput gains on the table.
 
-Both Anthropic and OpenAI describe a gap between simple linear pipelines and fully autonomous agents.[^anthropic_build][^openai_build] We call this middle ground **Level 2.5 — the Artifact Pipeline**: a fixed sequence of multi-turn, tool-using nodes where each node can reason, iterate, and use tools, but the pipeline sequence is fixed, each node's inputs and outputs are typed contracts, and humans review at predetermined gates. Level 2.5 is not a compromise. It is how enterprises buy capability without buying chaos. **Bounded Level 3** adds dynamic routing, but only inside mandatory compliance and escalation constraints that cannot be bypassed. Production data and engineering guidance converge: most use cases should start with simpler bounded workflows and earn autonomy with evidence.[^map][^prodguide]
+Both Anthropic and OpenAI describe a gap between simple linear pipelines and fully autonomous agents.[[^anthropic_build]][[^openai_build]] We call this middle ground **Level 2.5, the Artifact Pipeline**: a fixed sequence of multi-turn, tool-using nodes where each node can reason, iterate, and use tools, but the pipeline sequence is fixed, each node's inputs and outputs are typed contracts, and humans review at predetermined gates. Level 2.5 is not a compromise. It is how enterprises buy capability without buying chaos. **Bounded Level 3** adds dynamic routing, but only inside mandatory compliance and escalation constraints that cannot be bypassed. Production data and engineering guidance converge: most use cases should start with simpler bounded workflows and earn autonomy with evidence.[[^map]][[^prodguide]]
 
 The decision logic is simple: score each of the three taxes on a 1–5 scale. If any single tax scores ≥ 4, the workflow is **blocked** until you have a documented mitigation plan. For non-blocked workflows, calculate `Net = Benefit − Average(HB Tax, Incident Tax, Governance Tax)`. Bounded Level 3 is allowed only when Net > 0 *and* all three taxes score ≤ 2. Otherwise, default to Level 2.5. In plain terms: if one tax is a 4, autonomy is blocked until the control is real, not promised.
 
-In practice: a support refund triage workflow (high volume, $1–$50 errors, standard data handling) scores a Net of +1.67 — positive, but the review burden keeps it at Level 2.5 rather than Bounded Level 3. A procurement approval workflow (high error cost, regulated, no audit trail) gets blocked by the circuit breaker before you even calculate the score.
+In practice: a support refund triage workflow (high volume, $1–$50 errors, standard data handling) scores a Net of +1.67, positive, but the review burden keeps it at Level 2.5 rather than Bounded Level 3. A procurement approval workflow (high error cost, regulated, no audit trail) gets blocked by the circuit breaker before you even calculate the score.
 
 *For the full scoring rubric, worked examples with mitigation paths, sensitivity analysis, and calibration guidance, see [The Autonomy Tax Scorecard](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v8B.md).*
 
@@ -92,7 +92,7 @@ This framework has a scope condition, and intellectual honesty demands stating i
 
 Bounded Level 3 autonomy can be economically rational even with immature controls when three conditions hold simultaneously: **(1)** individual error cost is low and bounded, **(2)** volume is high enough that human review would cost more than errors do, and **(3)** actions are reversible within a defined time window. The inequality that captures the logic: `Level 3 is viable when C_review > (p_error × C_error + C_incident_response)`. When review cost exceeds expected error-plus-response cost, higher autonomy can be rational.
 
-The clearest public example is Klarna's AI assistant, which handled 2.3 million customer service conversations in its first month — two-thirds of all chats — with large self-reported gains.[^klarna] But notice what makes this work: low individual error cost, high reversibility, minimal regulatory exposure. Most enterprise processes that leaders *want* to automate — procurement, compliance review, legal analysis, financial approvals — violate at least two of those conditions. A procurement agent that approves one wrong $5,000 invoice wipes out the savings from 1,000 correct ones. The Klarna case is instructive precisely because it is the exception, not the rule.
+The clearest public example is Klarna's AI assistant, which handled 2.3 million customer service conversations in its first month, two-thirds of all chats, with large self-reported gains.[[^klarna]] But notice what makes this work: low individual error cost, high reversibility, minimal regulatory exposure. Most enterprise processes that leaders *want* to automate, procurement, compliance review, legal analysis, financial approvals, violate at least two of those conditions. A procurement agent that approves one wrong $5,000 invoice wipes out the savings from 1,000 correct ones. The Klarna case is instructive precisely because it is the exception, not the rule.
 
 ---
 
@@ -102,7 +102,7 @@ If you need one line to carry forward, use this:
 
 **Constrain routing, type the artifacts, gate external action.**
 
-That doctrine maps to three operating pillars: **Level 2.5 first** — default to fixed-sequence multi-turn pipelines with strict contracts. **Observable by design** — every external action has trace and policy lineage. **Cost bounded** — retries, loops, and approvals run inside explicit limits. That doctrine is not anti-innovation. It is pro-ship.
+That doctrine maps to three operating pillars: **Level 2.5 first**, default to fixed-sequence multi-turn pipelines with strict contracts. **Observable by design**, every external action has trace and policy lineage. **Cost bounded**, retries, loops, and approvals run inside explicit limits. That doctrine is not anti-innovation. It is pro-ship.
 
 ---
 
@@ -120,13 +120,13 @@ These are not aspirational. Each has a concrete deliverable.
 
 ## The 2027 Prediction
 
-That procurement agent's $4,800 wasn't a model failure. It was an infrastructure failure — the kind that happens when organizations invest in intelligence and underinvest in control.
+That procurement agent's $4,800 wasn't a model failure. It was an infrastructure failure, the kind that happens when organizations invest in intelligence and underinvest in control.
 
-By December 2027, most failed enterprise agent rollouts will be attributed to control-layer failures — observability gaps, governance deficits, action-guardrail failures, and expert review bottlenecks — rather than to base-model capability gaps.
+By December 2027, most failed enterprise agent rollouts will be attributed to control-layer failures, observability gaps, governance deficits, action-guardrail failures, and expert review bottlenecks, rather than to base-model capability gaps.
 
 **What would disprove this:** (1) an independent post-mortem dataset showing model accuracy as the primary root cause in >50% of enterprise agent failures; (2) a peer-reviewed study demonstrating that improved model capability *reduces* rather than shifts control-layer costs; or (3) widespread enterprise adoption of Bounded Level 3+ agents in regulated domains without corresponding investment in observability and governance. If these emerge by December 2027, this thesis is wrong.
 
-We suspect they won't, because the Autonomy Tax scales *with* autonomy. Better models enable more autonomy, which increases the control surface, which raises all three taxes. The taxes don't shrink as models improve — they shift. The smartest model in the world still needs someone to decide what it's allowed to do, verify that it did it, and explain why when things go wrong.
+We suspect they won't, because the Autonomy Tax scales *with* autonomy. Better models enable more autonomy, which increases the control surface, which raises all three taxes. The taxes don't shrink as models improve, they shift. The smartest model in the world still needs someone to decide what it's allowed to do, verify that it did it, and explain why when things go wrong.
 
 That procurement agent's $4,788 wasn't a lot of money. But it was a precisely documented sample of a cost that most organizations are paying right now, at scale, without measuring it. The question was never whether AI is smart enough. It's whether your organization is ready to pay the tax.
 
@@ -134,7 +134,7 @@ That procurement agent's $4,788 wasn't a lot of money. But it was a precisely do
 
 ## Known Unknowns
 
-Three gaps in the evidence still matter and should inform how you weight this analysis. First, there is no widely shared post-mortem dataset with consistent root-cause taxonomy for enterprise agent failures — the casebook synthesis here is one attempt, but the field needs a shared standard. Second, governance labor remains poorly measured as a workflow-level cost line; no published study has quantified per-agent governance overhead, which means the Governance Tax is directionally supported but not precisely sized. Third, we still lack broad, independent evidence on whether control-layer cost curves flatten as model capability improves — the thesis assumes they don't, but that assumption is testable.
+Three gaps in the evidence still matter and should inform how you weight this analysis. First, there is no widely shared post-mortem dataset with consistent root-cause taxonomy for enterprise agent failures, the casebook synthesis here is one attempt, but the field needs a shared standard. Second, governance labor remains poorly measured as a workflow-level cost line; no published study has quantified per-agent governance overhead, which means the Governance Tax is directionally supported but not precisely sized. Third, we still lack broad, independent evidence on whether control-layer cost curves flatten as model capability improves, the thesis assumes they don't, but that assumption is testable.
 
 Those are measurement gaps, not reasons to suspend control discipline. They are also the research agenda that would most accelerate enterprise agent deployment if addressed.
 
@@ -154,7 +154,7 @@ Those are measurement gaps, not reasons to suspend control discipline. They are 
 
 [^map]: [Pan et al. 2026](https://arxiv.org/abs/2512.04123), preprint, n=306 practitioners and 20 production case studies across 26 domains.
 
-[^anthropic]: [Anthropic, Feb 2026](https://www.anthropic.com/research/measuring-agent-autonomy), n=998K tool calls. Note: Anthropic's API usage patterns only — platform-specific, not industry-wide.
+[^anthropic]: [Anthropic, Feb 2026](https://www.anthropic.com/research/measuring-agent-autonomy), n=998K tool calls. Note: Anthropic's API usage patterns only, platform-specific, not industry-wide.
 
 [^metr]: [Kwa et al. 2025](https://arxiv.org/abs/2503.14499), preprint. Caveat: external validity is explicitly uncertain.
 
@@ -166,7 +166,7 @@ Those are measurement gaps, not reasons to suspend control discipline. They are 
 
 [^song]: [Song et al. 2025](https://arxiv.org/abs/2410.02091), preprint. GitHub enterprise teams.
 
-[^hb_caveat]: All three studies examine Level 1 copilot tools, not multi-step agent pipelines. The bridging inference — that the expert-bottleneck dynamic intensifies at higher autonomy levels — is plausible but not directly demonstrated.
+[^hb_caveat]: All three studies examine Level 1 copilot tools, not multi-step agent pipelines. The bridging inference, that the expert-bottleneck dynamic intensifies at higher autonomy levels, is plausible but not directly demonstrated.
 
 [^cve]: NVD entry for CVE-2025-32711: [NVD](https://nvd.nist.gov/vuln/detail/CVE-2025-32711).
 
