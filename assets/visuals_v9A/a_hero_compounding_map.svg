@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">The Autonomy Tax Compounding Map</title>
+  <desc id="desc">A control failure triggers three interacting taxes that compound into portfolio drag.</desc>
+
+  <defs>
+    <style>
+      .bg { fill: #F6F4EF; }
+      .title { font: 700 62px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #1F2937; }
+      .subtitle { font: 500 30px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #374151; }
+      .card-title { font: 700 30px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #111827; }
+      .card-copy { font: 500 24px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #1F2937; }
+      .small { font: 500 22px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #334155; }
+      .node { rx: 20; ry: 20; stroke-width: 3; }
+      .arrow { stroke: #334155; stroke-width: 4; fill: none; marker-end: url(#arrowhead); }
+      .label { font: 600 22px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #1F2937; }
+    </style>
+    <marker id="arrowhead" markerWidth="14" markerHeight="10" refX="11" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,5 L0,10 z" fill="#334155"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1600" height="980"/>
+
+  <text class="title" x="80" y="100">One Control Failure, Three Taxes</text>
+  <text class="subtitle" x="80" y="148">The model can be correct and the system can still lose money.</text>
+
+  <rect class="node" x="80" y="250" width="390" height="240" fill="#FFF7ED" stroke="#D97706"/>
+  <text class="card-title" x="110" y="305">Local Event</text>
+  <text class="card-copy" x="110" y="350">Retry loop submits</text>
+  <text class="card-copy" x="110" y="385">12 x $399 requests</text>
+  <text class="card-copy" x="110" y="420">Total loss: $4,788</text>
+
+  <rect class="node" x="620" y="220" width="360" height="180" fill="#FEF2F2" stroke="#C44536"/>
+  <text class="card-title" x="650" y="275">Incident Tax</text>
+  <text class="card-copy" x="650" y="318">Direct loss + response cost</text>
+  <text class="card-copy" x="650" y="352">rises nonlinearly</text>
+
+  <rect class="node" x="620" y="450" width="360" height="180" fill="#FFF8E8" stroke="#E9A03B"/>
+  <text class="card-title" x="650" y="505">Human Bandwidth Tax</text>
+  <text class="card-copy" x="650" y="548">Senior review and rollback</text>
+  <text class="card-copy" x="650" y="582">pulls experts off delivery</text>
+
+  <rect class="node" x="620" y="680" width="360" height="180" fill="#ECFDF5" stroke="#2A9D8F"/>
+  <text class="card-title" x="650" y="735">Governance Tax</text>
+  <text class="card-copy" x="650" y="778">Forensics, audit evidence,</text>
+  <text class="card-copy" x="650" y="812">policy gap remediation</text>
+
+  <path class="arrow" d="M470 320 C540 300, 560 290, 620 300"/>
+  <path class="arrow" d="M470 370 C540 410, 560 500, 620 540"/>
+  <path class="arrow" d="M470 430 C540 540, 560 710, 620 760"/>
+
+  <rect class="node" x="1110" y="360" width="420" height="360" fill="#EEF2FF" stroke="#4F46E5"/>
+  <text class="card-title" x="1140" y="420">Portfolio Drag</text>
+  <text class="card-copy" x="1140" y="468">Incident costs hit cash flow.</text>
+  <text class="card-copy" x="1140" y="512">Governance gaps expand</text>
+  <text class="card-copy" x="1140" y="546">investigation scope.</text>
+  <text class="card-copy" x="1140" y="590">Expert time shifts from</text>
+  <text class="card-copy" x="1140" y="624">shipping to containment.</text>
+  <text class="card-copy" x="1140" y="676">Result: one event activates</text>
+  <text class="card-copy" x="1140" y="710">all three taxes at once.</text>
+
+  <path class="arrow" d="M980 300 C1040 320, 1060 360, 1110 420"/>
+  <path class="arrow" d="M980 540 C1040 540, 1060 540, 1110 540"/>
+  <path class="arrow" d="M980 760 C1040 730, 1060 700, 1110 660"/>
+
+  <text class="small" x="80" y="930">Breakout caption: "The model did not fail. The control layer did. One incident can trigger all three taxes in a single cascade."</text>
+</svg>

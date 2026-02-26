@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">The Deployment Paradox</title>
+  <desc id="desc">Capability rises quickly while safe autonomous deployment rises slowly due to verification constraints.</desc>
+
+  <defs>
+    <style>
+      .bg { fill: #F8F9F5; }
+      .title { font: 700 60px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #111827; }
+      .subtitle { font: 500 28px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #334155; }
+      .axis { stroke: #374151; stroke-width: 4; }
+      .grid { stroke: #D1D5DB; stroke-width: 2; }
+      .label { font: 600 24px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #1F2937; }
+      .note { font: 500 22px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #1F2937; }
+      .line-cap { fill: none; stroke: #0EA5E9; stroke-width: 10; }
+      .line-deploy { fill: none; stroke: #D97706; stroke-width: 10; }
+      .gap { fill: #FEE2E2; opacity: 0.85; }
+      .callout { rx: 16; ry: 16; stroke-width: 2; }
+      .callout-title { font: 700 22px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #111827; }
+      .callout-copy { font: 500 20px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #1F2937; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1600" height="980"/>
+
+  <text class="title" x="80" y="98">The Deployment Paradox</text>
+  <text class="subtitle" x="80" y="142">Model capability accelerates, but verified autonomous deployment lags.</text>
+
+  <line class="axis" x1="160" y1="820" x2="1480" y2="820"/>
+  <line class="axis" x1="160" y1="820" x2="160" y2="230"/>
+
+  <line class="grid" x1="160" y1="700" x2="1480" y2="700"/>
+  <line class="grid" x1="160" y1="580" x2="1480" y2="580"/>
+  <line class="grid" x1="160" y1="460" x2="1480" y2="460"/>
+  <line class="grid" x1="160" y1="340" x2="1480" y2="340"/>
+
+  <text class="label" x="60" y="235" transform="rotate(-90 60 235)">Production impact</text>
+  <text class="label" x="730" y="900">Time and model progress</text>
+
+  <path class="line-cap" d="M220 760 C420 720, 560 640, 720 520 C900 390, 1060 300, 1420 250"/>
+  <path class="line-deploy" d="M220 790 C420 785, 600 770, 760 740 C980 700, 1160 660, 1420 620"/>
+
+  <path class="gap" d="M220 760 C420 720, 560 640, 720 520 C900 390, 1060 300, 1420 250 L1420 620 C1160 660, 980 700, 760 740 C600 770, 420 785, 220 790 Z"/>
+
+  <text class="label" x="950" y="430">Verification Gap</text>
+  <text class="note" x="950" y="462">(Autonomy Tax surface)</text>
+
+  <rect class="callout" x="250" y="250" width="350" height="120" fill="#E0F2FE" stroke="#0EA5E9"/>
+  <text class="callout-title" x="275" y="295">Intent signal</text>
+  <text class="callout-copy" x="275" y="330">74% expect moderate+ adoption</text>
+
+  <rect class="callout" x="270" y="640" width="420" height="145" fill="#FFEDD5" stroke="#D97706"/>
+  <text class="callout-title" x="295" y="685">Production reality</text>
+  <text class="callout-copy" x="295" y="720">68% at &lt;=10 steps before humans</text>
+  <text class="callout-copy" x="295" y="752">74% primarily human-evaluated</text>
+
+  <rect class="callout" x="980" y="170" width="470" height="140" fill="#E0F2FE" stroke="#0EA5E9"/>
+  <text class="callout-title" x="1005" y="215">Capability keeps rising</text>
+  <text class="callout-copy" x="1005" y="248">longer task horizons + benchmark gains</text>
+  <text class="callout-copy" x="1005" y="280">but verification capacity does not keep pace</text>
+
+  <text class="note" x="80" y="950">Breakout caption: "The bottleneck is no longer generation. It is verification."</text>
+</svg>

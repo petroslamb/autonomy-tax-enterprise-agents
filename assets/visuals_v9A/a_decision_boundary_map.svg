@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Autonomy Decision Boundary Map</title>
+  <desc id="desc">Circuit breaker and net score define blocked workflows, Level 2.5 default, and bounded Level 3 eligibility.</desc>
+
+  <defs>
+    <style>
+      .bg { fill: #F7F7F2; }
+      .title { font: 700 60px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #111827; }
+      .subtitle { font: 500 28px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #334155; }
+      .axis { stroke: #374151; stroke-width: 4; }
+      .grid { stroke: #CBD5E1; stroke-width: 2; }
+      .zone-label { font: 700 28px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #111827; }
+      .zone-copy { font: 500 22px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #1F2937; }
+      .axis-label { font: 600 24px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #1F2937; }
+      .point { stroke: #111827; stroke-width: 3; }
+      .point-label { font: 600 20px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #111827; }
+      .formula { font: 600 28px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #111827; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1600" height="980"/>
+
+  <text class="title" x="80" y="95">Autonomy Decision Boundary</text>
+  <text class="subtitle" x="80" y="138">First apply circuit breaker, then use Net only for non-blocked workflows.</text>
+
+  <rect x="210" y="250" width="1220" height="520" fill="#ECFDF5"/>
+  <rect x="210" y="430" width="1220" height="170" fill="#FEF3C7"/>
+  <rect x="210" y="600" width="1220" height="170" fill="#FEE2E2"/>
+
+  <line class="axis" x1="210" y1="770" x2="1430" y2="770"/>
+  <line class="axis" x1="210" y1="770" x2="210" y2="250"/>
+
+  <line class="grid" x1="515" y1="250" x2="515" y2="770"/>
+  <line class="grid" x1="820" y1="250" x2="820" y2="770"/>
+  <line class="grid" x1="1125" y1="250" x2="1125" y2="770"/>
+
+  <line class="grid" x1="210" y1="600" x2="1430" y2="600"/>
+  <line class="grid" x1="210" y1="430" x2="1430" y2="430"/>
+
+  <text class="axis-label" x="690" y="840">Net score (Benefit minus average tax)</text>
+  <text class="axis-label" x="78" y="520" transform="rotate(-90 78 520)">Highest tax score</text>
+
+  <text class="zone-label" x="240" y="345">Bounded Level 3 eligible</text>
+  <text class="zone-copy" x="240" y="380">Only if all taxes &lt;= 2 and Net &gt; 0.</text>
+
+  <text class="zone-label" x="240" y="505">Level 2.5 default</text>
+  <text class="zone-copy" x="240" y="540">Any tax = 3 keeps workflow in bounded fixed sequence.</text>
+
+  <text class="zone-label" x="240" y="675">Blocked by circuit breaker</text>
+  <text class="zone-copy" x="240" y="710">Any tax &gt;= 4. Mitigate and re-score before pilot.</text>
+
+  <circle class="point" cx="990" cy="495" r="13" fill="#D97706"/>
+  <text class="point-label" x="1015" y="500">Support refund triage</text>
+
+  <circle class="point" cx="730" cy="655" r="13" fill="#C44536"/>
+  <text class="point-label" x="755" y="660">Procurement approval</text>
+
+  <text class="formula" x="210" y="910">Net = Benefit - Average(HB Tax, Incident Tax, Governance Tax)</text>
+  <text class="formula" x="210" y="945">Rule: if one tax is a 4, autonomy is blocked until the control is real.</text>
+</svg>
