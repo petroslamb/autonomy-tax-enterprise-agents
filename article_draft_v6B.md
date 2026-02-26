@@ -14,7 +14,7 @@ Your team is about to deploy an agent workflow. Before you do, run it through th
 
 > **Net Agent Value = Throughput Gain − Human Bandwidth Tax − Incident Tax − Governance Tax**
 
-For the full thesis, evidence, and anti-thesis behind this framework, see [The Autonomy Tax](article_draft_v6A.md).
+For the full thesis, evidence, and anti-thesis behind this framework, see [The Autonomy Tax](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v6A.md).
 
 ---
 
@@ -185,7 +185,7 @@ These are sprint-level execution steps, not aspirational goals.
 
 ---
 
-## Appendix: Method, Sources, and Limitations
+## Optional Reference: Method, Sources, and Limitations
 
 ### Source Classification
 

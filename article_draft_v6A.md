@@ -14,7 +14,7 @@ This article argues a simple claim: enterprise agent ROI is constrained less by 
 
 > **Net Agent Value = Throughput Gain − Human Bandwidth Tax − Incident Tax − Governance Tax**
 
-That equation means the current industry debate — which model is smartest, which framework is fastest — is asking the wrong question. The right question is: *can your organization absorb the tax?*
+That equation means the current industry debate — which model is smartest, which framework is fastest — is asking the wrong question. The right question is: *can your organization absorb the tax?* That was one agent, one workflow, one retry loop. Most enterprises are planning to deploy dozens.
 
 **Scope note:** This analysis focuses on enterprises consuming commercial LLM APIs (Anthropic, OpenAI) in US/EU markets. Self-hosted and open-weight deployments carry a different tax structure.[^scope]
 
@@ -80,13 +80,13 @@ That compounding is the Autonomy Tax. It's also a decision framework. *(Before w
 
 The stakes are concrete: choose too much autonomy and you absorb all three taxes at full force. Choose too little and you leave the throughput gains on the table.
 
-Both Anthropic and OpenAI describe a gap between simple linear pipelines and fully autonomous agents.[^taxonomy] We call this middle ground **Level 2.5 — the artifact pipeline**: a linear chain of multi-turn agents where each node can reason, use tools, and iterate, but the pipeline sequence is fixed, each node's inputs and outputs are typed contracts, and humans review at predetermined gates. It's the architectural sweet spot because it maximizes the reasoning surface while bounding the blast radius.
+Both Anthropic and OpenAI describe a gap between simple linear pipelines and fully autonomous agents.[^taxonomy] We call this middle ground **Level 2.5 — managed autonomy** (or "the artifact pipeline"): a linear chain of multi-turn agents where each node can reason, use tools, and iterate, but the pipeline sequence is fixed, each node's inputs and outputs are typed contracts, and humans review at predetermined gates. It's the architectural sweet spot because it maximizes the reasoning surface while bounding the blast radius.
 
 The decision logic is simple: score each of the three taxes on a 1–5 scale. If any single tax scores ≥ 4, the workflow is **blocked** until you have a documented mitigation plan. For non-blocked workflows, calculate `Net = Benefit − Average(HB Tax, Incident Tax, Governance Tax)`. Level 3 autonomy is allowed only when Net > 0 *and* all three taxes score ≤ 2. Otherwise, default to Level 2.5.
 
 In practice: a support refund triage workflow (high volume, $1–$50 errors, standard data handling) scores a Net of +1.67 — positive, but the review burden keeps it at Level 2.5 rather than Level 3. A procurement approval workflow (high error cost, regulated, no audit trail) gets blocked by the circuit breaker before you even calculate the score.
 
-*For the full scoring rubric, worked examples with mitigation paths, sensitivity analysis, and calibration guidance, see [The Autonomy Tax Scorecard Guide](article_draft_v6B.md).*
+*For the full scoring rubric, worked examples with mitigation paths, sensitivity analysis, and calibration guidance, see [The Autonomy Tax Scorecard Guide](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v6B.md).*
 
 ---
 
@@ -108,7 +108,7 @@ But notice what makes this work: low individual error cost, high reversibility, 
 
 These are not aspirational. Each has a concrete deliverable.
 
-**1. Score your top three workflows.** Start with the workflows where you're already considering or piloting AI assistance. Rank by monthly human-hours spent. Run each through the [Autonomy Tax Scorecard](article_draft_v6B.md). Output: a one-page ranked table with a recommended architecture level for each. Time: one meeting.
+**1. Score your top three workflows.** Start with the workflows where you're already considering or piloting AI assistance. Rank by monthly human-hours spent. Run each through the [Autonomy Tax Scorecard](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v6B.md). Output: a one-page ranked table with a recommended architecture level for each. Time: one meeting.
 
 **2. Instrument your most expensive LLM workflow.** Add four counters: retry rate, external-action rate, human-escalation rate, and review-time-per-output. Output: a baseline dashboard. Time: one sprint.
 
@@ -166,4 +166,4 @@ That procurement agent's $4,788 wasn't a lot of money. But it was a precisely do
 
 [^casebook]: The [Autonomy Tax Casebook](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook.tsv) codes 28 public records spanning incidents, field studies, regulatory milestones, and tooling baselines. Method notes: [autonomy_tax_casebook_method.md](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook_method.md).
 
-[^taxonomy]: Synthesized from [Anthropic](https://www.anthropic.com/engineering/building-effective-agents) and [OpenAI](https://developers.openai.com/tracks/building-agents/) published guidance, cross-checked against [Pan et al. 2026](https://arxiv.org/abs/2512.04123) production deployment data, and triangulated with [Wang et al. 2025](https://arxiv.org/abs/2508.02121) (AgentOps survey) and [Kasirzadeh & Gabriel 2025](https://arxiv.org/abs/2504.21848) (governance-oriented agent characterization). Full taxonomy table in the [Scorecard Guide](article_draft_v6B.md).
+[^taxonomy]: Synthesized from [Anthropic](https://www.anthropic.com/engineering/building-effective-agents) and [OpenAI](https://developers.openai.com/tracks/building-agents/) published guidance, cross-checked against [Pan et al. 2026](https://arxiv.org/abs/2512.04123) production deployment data, and triangulated with [Wang et al. 2025](https://arxiv.org/abs/2508.02121) (AgentOps survey) and [Kasirzadeh & Gabriel 2025](https://arxiv.org/abs/2504.21848) (governance-oriented agent characterization). Full taxonomy table in the [Scorecard Guide](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v6B.md).
