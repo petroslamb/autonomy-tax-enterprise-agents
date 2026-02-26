@@ -1,181 +1,298 @@
-# Publication Plan and Sources (Split Format, V6)
+# Publication Plan and Sources (V7 Breakout Operating Spec)
 
-## Mission
-- Convert the current single long-form draft (`article_draft_v5.md`) into a two-part publication package:
-1. A breakout narrative essay for forwarding and top-of-funnel reach.
-2. A practitioner companion guide for implementation and repeat use.
-- Preserve one core claim across both pieces: enterprise agent ROI is constrained more by control-layer costs than model intelligence.
+## Primary Objective
+Publish a three-piece package where `article_draft_v7A.md` is a true breakout flagship and `v7B`/`v7C` increase trust and execution without diluting narrative force.
 
-## Strategic Decision
-- We are splitting by reader intent, not by topic.
-- Piece A answers: "What is the Autonomy Tax, and why does it matter now?"
-- Piece B answers: "How do I score a workflow and decide Level 2.5 vs Level 3?"
-- The two pieces must feel like one system, not two unrelated posts.
+## Breakout Contract (V7A is Non-Negotiable)
 
-## Output Package
-| Piece | Working file | Audience | Promise | Target length |
-|---|---|---|---|---:|
-| A. Breakout Essay | `article_draft_v6_essay.md` | CTOs, VPs, strategy readers, newsletter audience | Reframe how enterprise agent ROI should be evaluated | 3,000-3,300 words |
-| B. Practitioner Guide | `autonomy_tax_scorecard_guide_v1.md` | Staff engineers, platform owners, security/compliance leads | Provide a usable scoring workflow with calibration guidance | 2,000-2,500 words |
+### What "breakout" means here
+- Readers can repeat the thesis in one sentence after one read.
+- The post contains at least 3 quotable lines that travel independently on social/email.
+- Executives feel urgency; operators feel they got a concrete decision framework.
+- It holds up under technical pushback because every key claim is source-backed or explicitly marked as synthesis.
 
-## Core Thesis Constants (Locked Across A and B)
-- Keep the same title and deck language:
-  - Title: `The Autonomy Tax`
-  - Deck: `Why Enterprise Agents Fail on Control, Not Intelligence`
-- Keep the same equation:
-  - `Net Agent Value = Throughput Gain - Human Bandwidth Tax - Incident Tax - Governance Tax`
-- Keep the same three-tax definitions and decision philosophy.
-- Keep circuit breaker logic as first-class rule:
-  - Any single tax score `>= 4` blocks deployment until mitigation.
+### V7A target score
+- Editorial score target: **9.0-9.3**.
+- Minimum publish score: **9.0**.
+- If below 9.0, do not publish A as final.
 
-## Section Decomposition Map (From `article_draft_v5.md`)
-| Current section in V5 | Piece A action | Piece B action |
+### V7A kill conditions
+- Hook becomes analytical too early and loses narrative pull.
+- Core framework terms are inconsistent or fuzzy.
+- Section-level claims cannot be traced to source IDs.
+- A drifts into implementation depth that belongs in B/C.
+
+## Stable Reader Personas (Keep)
+- VP Engineering / CTO: strategic risk, sequencing, and capital allocation decisions.
+- Platform / Staff Engineer: architecture constraints and reliability tradeoffs.
+- Applied AI / Agent Engineer: build patterns, failure controls, and instrumentation choices.
+
+## Stable Writing Style (Keep)
+- High signal, direct, technical.
+- No hype language.
+- Claims are precise and caveated where required.
+- Readable by executives, usable by operators.
+
+## Locked Editorial Decisions
+1. Keep the current cinematic incident hook intact.
+2. Keep scaling language after thesis/equation, not inside the cold-open flow.
+3. Do not move full framework block above the three-tax explanation.
+4. Keep one canonical primary term across pieces for the middle maturity tier.
+
+## Package Role Separation (Hard Boundary)
+- A (`v7A`): Why this matters now.
+- B (`v7B`): Which workflows qualify and how to score/deploy this week.
+- C (`v7C`): How bounded autonomy is built and governed in production.
+
+### Overlap budget
+- A with B/C: <= 15% repeated material.
+- B with C: <= 20% repeated material.
+- Any repeated material must be short and purpose-specific.
+
+## Original Contributions (Defensible)
+
+### Contribution 1: The Autonomy Tax decision model
+- `Net = Benefit - Average(HB Tax, Incident Tax, Governance Tax)`.
+- Circuit breaker (`any tax >= 4 => blocked`) as a practical governance gate.
+
+### Contribution 2: Level 2 vs 2.5 vs bounded 3 framing
+- Level 2.5 explicitly defined as fixed-sequence, multi-turn, tool-using nodes with typed artifact handoffs and predetermined human gates.
+- Bounded Level 3 defined as dynamic routing inside mandatory compliance and escalation constraints.
+
+### Contribution 3: Casebook-backed synthesis layer
+- The `autonomy_tax_casebook.tsv` normalization of 28 public records into a common schema is original synthesis, auditable via source IDs.
+
+### Contribution 4: Anti-thesis boundary conditions
+- Explicit conditions where Level 3 can win economically (low per-error cost, high volume, reversibility).
+
+### Contribution 5: Control-plane operating pattern
+- State-gated routing, trace continuity, and incident loop closure framed as control-layer requirements rather than optional enhancements.
+
+### Contribution 6: Reflection vs critique control split
+- Reflection as low-cost quality cleanup.
+- Critique as independent adversarial control for high-stakes decisions.
+
+## Terminology Lock (Use Exactly)
+
+### Canonical terms
+- **Autonomy Tax**: combined hidden costs that rise with autonomy.
+- **Level 2.5 - Artifact Pipeline**: fixed pipeline, each node is multi-turn and tool-using, typed artifacts between nodes, human gates at predetermined points.
+- **Bounded Level 3**: dynamic routing allowed, but hard constraints/gates cannot be bypassed.
+- **Circuit Breaker**: any tax score `>= 4` blocks deployment.
+- **Control Layer**: observability, guardrails, durability, governance, and incident response mechanisms.
+
+### Optional descriptors (use sparingly)
+- `managed autonomy` (descriptor of Level 2.5; at most once per piece).
+- `state-gated autonomy` (descriptor of bounded Level 3; at most once per piece).
+
+### Terms to avoid as primary labels
+- `Level 2.5 managed autonomy` as full replacement term.
+- `agent swarms` unless discussing explicit Level 4 context.
+
+## Gaps Identified in Latest Materials
+
+### Gap A1: Mechanism density in A still under target
+**Importance:** High
+**Reason:** Breakout essays need a causal engine, not only evidence snapshots.
+**Action:** Add one clean mechanism sentence in Deployment Paradox tying concentration to verification asymmetry.
+
+### Gap A2: Memory-anchor language is present but not yet maximized
+**Importance:** High
+**Reason:** Shareability depends on repeatable doctrine lines.
+**Action:** Keep one compact doctrine line in A and map it explicitly to B/C operating rules.
+
+### Gap A3: Framework boundary can still blur for skimmers
+**Importance:** High
+**Reason:** If Level 2.5 is misunderstood, the thesis collapses into generic "human-in-loop" advice.
+**Action:** Add a one-line contrast near first mention: Level 2 is single-turn nodes; 2.5 is multi-turn tool loops with fixed sequence.
+
+### Gap B1: Operator response loop needs stronger incident mechanics
+**Importance:** Medium
+**Reason:** B should not stop at scoring; it needs repeatable post-incident procedure.
+**Action:** Add compact RCA template using system/context/cognitive factors plus required evidence fields.
+
+### Gap C1: C risks sprawl into tool catalog
+**Importance:** High
+**Reason:** Tool-listing weakens authority and reduces implementation clarity.
+**Action:** Keep C architecture-first, with strict include/exclude boundaries and minimal vendor mention.
+
+### Gap X1: Discussion-derived ideas need source discipline
+**Importance:** High
+**Reason:** The original discussion is framing input, not empirical evidence.
+**Action:** Tag concepts as synthesis unless directly anchored to source corpus.
+
+## Sentence Bank (High-Leverage Draft Lines)
+
+### V7A breakout sentence bank
+- "The model did not fail. The control layer did."
+- "Enterprise agent ROI breaks at the control surface before it breaks at model intelligence."
+- "That was one retry loop. Most enterprises are planning dozens of autonomous workflows."
+- "The bottleneck is no longer generation. It is verification."
+- "Better models increase what agents can do; they also increase what organizations must govern."
+- "Level 2.5 is not a compromise. It is how enterprises buy capability without buying chaos."
+- "If one tax is a 4, autonomy is blocked until the control is real, not promised."
+
+### V7B operator sentence bank
+- "Score first, deploy second."
+- "No workflow graduates to autonomy without passing the circuit breaker."
+- "Reflection fixes formatting errors; critique catches decision errors."
+- "If you cannot reconstruct the decision path, you do not have production readiness."
+
+### V7C control-plane sentence bank
+- "Dynamic routing without hard gates is just stochastic privilege escalation."
+- "Bounded autonomy means the graph can explore, but it cannot bypass compliance nodes."
+- "Durability keeps execution alive; state persistence keeps agent reasoning inspectable."
+- "Trace continuity is the contract between AI engineering and platform operations."
+
+## Piece Blueprints
+
+## Piece A (`article_draft_v7A.md`) - Breakout Flagship
+### Purpose
+Narrative-first argument that resets how enterprise leaders evaluate agent ROI.
+
+### Required structure
+1. Cinematic incident hook.
+2. Thesis + equation + scale bridge.
+3. Deployment paradox with mechanism sentence.
+4. Three taxes with compounding logic.
+5. Decision rule boundary (Level 2.5 vs bounded Level 3).
+6. Anti-thesis where Level 3 wins.
+7. Monday actions.
+8. 2027 falsifiable prediction.
+
+### Word target
+- 2050-2250.
+
+### Must not include
+- Architecture deep dives, tool matrices, framework comparisons.
+
+### Source anchors (minimum)
+- `SRC-026`, `SRC-007`, `SRC-009`, `SRC-073`, `SRC-039`, `SRC-050`, `SRC-049`, `SRC-060`, `SRC-012`, `SRC-076`, `SRC-075`, `SRC-021/064/065`, `SRC-079`.
+
+## Piece B (`article_draft_v7B.md`) - Operator Scorecard
+### Purpose
+Runnable workflow-selection and mitigation guide.
+
+### Required structure
+1. Compact taxonomy and decision flow.
+2. Circuit breaker + net score usage.
+3. Rubric + sensitivity table.
+4. Worked examples and mitigation path.
+5. Calibration method and known limits.
+6. Incident RCA mini-template.
+7. Reflection vs critique rule.
+8. Optional appendix (explicitly labeled optional reference).
+
+### Word target
+- 1800-2050.
+
+### Must not include
+- Narrative thesis repetition, architecture debates better suited for C.
+
+### Source anchors (minimum)
+- `SRC-071`, `SRC-072`, `SRC-073`, `SRC-077`, `SRC-074`, `SRC-079`, plus casebook assets.
+
+## Piece C (`article_draft_v7C.md`) - Control Plane Companion
+### Purpose
+Define implementable bounded-autonomy architecture for enterprise operations.
+
+### Required structure
+1. Why control-plane failures dominate.
+2. Level 2.5 vs bounded Level 3 operating modes.
+3. State-gated routing pattern.
+4. Dynamic subgraph + rigid compliance handoff.
+5. Durability layering (orchestration durability vs agent-state persistence).
+6. Observability and trace stitching.
+7. Reflection vs critique controls.
+8. Incident closure loop (detect -> RCA -> mitigation -> re-score).
+9. Build-vs-buy boundary criteria.
+10. Adoption ladder and rollout sequencing.
+
+### Word target
+- 1800-2200.
+
+### Must not include
+- Vendor shopping lists, speculative Level 4 tours, framework flame wars.
+
+### Source anchors (minimum)
+- `SRC-074`, `SRC-077`, `SRC-079`, `SRC-038`, `SRC-054`, `SRC-070`, `SRC-056`, `SRC-071`, `SRC-072`, `SRC-078`.
+
+## Claim-to-Source Assignment (Required)
+
+| Core claim | Primary source IDs | Piece |
 |---|---|---|
-| Hook + Thesis + Scope | Keep almost intact | 1 short recap paragraph only |
-| Deployment Paradox | Keep, trim for pace | Optional short context paragraph |
-| Human Bandwidth Tax | Keep, moderate trim | Keep only scoring-relevant mechanism summary |
-| Incident Tax | Keep, moderate trim | Keep only controls that drive scoring criteria |
-| Governance Tax | Keep core thesis + key evidence, trim policy detail | Keep full operational checklist + measurement guidance |
-| What the Three Taxes Mean Together | Keep | Use as 2-3 sentence bridge |
-| Decision Rule: Level 2.5 vs Level 3 | Keep only minimum complete rule (decision flow + taxonomy + one worked example) | Keep full section with all tables and caveats |
-| Autonomy Tax Scorecard | Keep preview only (template + one worked row) | Keep full rubric and worksheet |
-| Tax Sensitivity by Error Cost | Move to B | Keep full table in B |
-| Anti-Thesis | Keep in A | Mention briefly in B and link back |
-| Three Things to Do Monday | Keep in A with CTA to B | Reframe as implementation checklist in B |
-| 2027 Prediction | Keep as ending in A | Omit from B |
-| Appendix and citation index | Move to B (or shared public source page) | Keep full appendix and source navigation |
+| Deployment intent vs current maturity gap | `SRC-007`, `SRC-008` | A |
+| Tool-call concentration in software engineering | `SRC-009` | A |
+| Production agents remain bounded/human-evaluated | `SRC-073` | A, B |
+| Expert review bottleneck mechanism | `SRC-050`, `SRC-049`, `SRC-060` | A, B |
+| Incident combinatorial risk | `SRC-026`, `SRC-012`, `SRC-076`, `SRC-075` | A, B, C |
+| Governance visibility and maturity deficit | `SRC-007`, `SRC-010`, `SRC-079` | A, C |
+| Secure lifecycle framing | `SRC-054`, `SRC-070`, `SRC-056` | A, C |
+| Workflow-first design guidance | `SRC-071`, `SRC-072`, `SRC-074` | B, C |
+| Incident analysis template structure | `SRC-077` | B, C |
+| Telemetry standards / observability contract | `SRC-038`, `SRC-079` | C |
 
-## Piece A: Target Outline and Budget
-| Section | Target words | Notes |
-|---|---:|---|
-| 1. Hook + Thesis + Scope | 280 | Keep one named incident and thesis declaration in first 3 paragraphs |
-| 2. Deployment Paradox | 420 | Preserve the capability vs deployment tension |
-| 3. Three Taxes (compressed) | 1,050 | Keep strongest evidence only; trim secondary detail |
-| 4. What They Mean Together | 220 | Keep casebook stat signal here |
-| 5. Decision Rule Preview | 450 | Include decision flow, taxonomy snapshot, one worked example |
-| 6. When Level 3 Wins (Anti-thesis) | 420 | Keep honest boundary condition |
-| 7. Three Things to Do Monday | 240 | Keep actions concise and link to full guide |
-| 8. 2027 Prediction | 180 | End with falsifiable prediction and callback to hook |
-| Total | ~3,260 | Acceptable range: 3,000-3,300 |
+## Publish Hygiene (Hard Requirements)
+- All links must be public URLs.
+- No relative repository links in publication copy.
+- Replace temporary GitHub links with Substack URLs on publish day.
+- Ensure note markers do not stack excessively in one paragraph.
 
-## Piece B: Target Outline and Budget
-| Section | Target words | Notes |
-|---|---:|---|
-| 1. One-paragraph thesis recap | 120 | Assume reader may not have read Piece A |
-| 2. Decision architecture (Level 2 to 4) | 320 | Full taxonomy table and distinctions |
-| 3. Circuit breaker + net score workflow | 280 | Step-by-step scoring sequence |
-| 4. Full scoring rubric | 350 | Keep all anchors and constraints |
-| 5. Sensitivity by error cost | 240 | Keep table and usage instructions |
-| 6. Worked examples | 350 | At least 2 examples: one pass, one blocked |
-| 7. Calibration note from casebook | 220 | Show why thresholds are heuristics and how to tune |
-| 8. Implementation checklist | 180 | Sprint-level execution checklist |
-| 9. Appendix, limitations, citations | 250 | Tiering, caveats, source index |
-| Total | ~2,310 | Acceptable range: 2,000-2,500 |
+## QA Gates (Pass/Fail)
 
-## Non-Negotiables for the Split
-- Piece A must still be complete without Piece B:
-  - Includes equation, three-tax framing, decision rule summary, and one scored example.
-- Piece B must be immediately usable:
-  - Includes full rubric, full tables, and explicit workflow steps.
-- No contradiction between pieces on thresholds, definitions, or caveats.
-- Shared claims must use identical wording for critical quantitative statements.
+### Gate 1: Breakout quality (A only)
+- [ ] Hook is cinematic and intact.
+- [ ] At least 3 high-retention lines from sentence bank survive final edit.
+- [ ] Causal mechanism is explicit in at least 3 key sections.
 
-## Writer Execution Plan (Concrete Steps)
-1. Create two new drafts from `article_draft_v5.md`:
-   - `article_draft_v6_essay.md`
-   - `autonomy_tax_scorecard_guide_v1.md`
-2. Perform structural cut first, no rewriting yet:
-   - Move full scorecard/rubric/sensitivity material to Piece B.
-   - Keep only the minimum decision framework in Piece A.
-3. Rewrite Piece A for pace:
-   - Remove repeated caveats that are already expressed once.
-   - Collapse long transition paragraphs.
-   - Keep punch lines and evidence-bearing sentences.
-4. Rewrite Piece B for usability:
-   - Convert explanatory prose into stepwise instructions.
-   - Add one additional worked example if space allows.
-5. Add calibration note in Piece B:
-   - Explain thresholds are order-of-magnitude heuristics.
-   - Anchor tuning suggestions to casebook distribution.
-6. Add cross-links in both pieces:
-   - Piece A CTA: "Full scoring guide and rubric here."
-   - Piece B CTA: "Read the full thesis essay here."
-7. Run claim-to-source audit on both pieces independently.
-8. Final read pass for each piece in the intended reading mode:
-   - A: forwardability and narrative momentum.
-   - B: operational clarity and task usability.
+### Gate 2: Role separation
+- [ ] A narrative-first, B operator-first, C architecture-first.
+- [ ] Overlap budget respected.
 
-## Calibration Requirements (Must Add in Piece B)
-- Include a short section called `How to Calibrate the Heuristic`.
-- Required baseline references from current casebook:
-  - 28 coded records total.
-  - 15 records with net `tax` signal.
-  - Of those 15, `governance_tax` is primary in 10.
-- State explicitly:
-  - Thresholds are starting points, not fitted model outputs.
-  - Teams should tune by incident cost, reversibility, and review capacity.
+### Gate 3: Terminology and math lock
+- [ ] Canonical terms unchanged.
+- [ ] Formula and thresholds identical across pieces.
+- [ ] Level 2.5 definition includes multi-turn + tools + fixed sequence.
 
-## Source Strategy
-### Tiering Policy (unchanged)
-- Tier 1: Peer-reviewed, major institutions, government records.
-- Tier 2: Large-sample surveys and major consulting reports.
-- Tier 3: Preprints and working papers (always labeled).
-- Tier 4: Vendor content and self-reported metrics (always caveated).
-- Tier 5: Standards and framework guidance (context, not proof).
+### Gate 4: Evidence integrity
+- [ ] Every quantitative claim mapped to source IDs.
+- [ ] Discussion-derived concepts are marked synthesis unless sourced.
+- [ ] Caveats retained at first mention of weaker evidence.
 
-### Source Allocation by Piece
-| Source block | Piece A | Piece B |
-|---|---|---|
-| Proxy incident | Primary in hook | Referenced in examples if needed |
-| Deloitte/McKinsey/Anthropic/MAP/METR | Primary for paradox framing | Light reuse only |
-| NBER/Xu/Song | Primary for Human Bandwidth argument | Reused as mechanism context |
-| CVE/EchoLeak/Agents of Chaos | Primary for Incident Tax | Reused for scoring rationale |
-| EU AI Act/NIST/Akto/tooling pricing | Keep only highest-signal points | Keep fuller operational detail |
-| Casebook + method notes | One high-signal stat only | Full calibration and reference section |
+### Gate 5: Usability
+- [ ] B executable in one sitting.
+- [ ] C implementable by a platform/architecture team without extra context.
 
-## Citation Integrity Rules (Apply to Both Pieces)
-- Every first-use quantitative claim has direct URL/DOI inline.
-- Preprints labeled as preprints at first mention.
-- Vendor/self-reported claims include incentive-bias note at first mention.
-- Composite scenarios are explicitly labeled as composite.
-- Illustrative numbers are explicitly labeled as illustrative.
+## Scoring Framework
 
-## Risk Register for Split Format
-| Risk | Impact | Mitigation |
-|---|---|---|
-| Piece A feels incomplete | Reader drop after CTA | Keep minimum complete decision rule and one worked example in A |
-| Piece B feels dry or detached | Low usage | Open B with one-paragraph thesis recap and direct link to A |
-| Inconsistent thresholds between A and B | Credibility loss | Single source of truth: finalize thresholds in B, mirror in A |
-| Duplicate maintenance overhead | Drift over revisions | Update B first for tool logic, then sync summary language in A |
-| Citation drift across two files | Audit risk | Run claim-source pass on each file separately before publish |
+| Dimension | Weight | A Target | B Target | C Target |
+|---|---:|---:|---:|---:|
+| Narrative force and memorability | 25% | 9.3 | 8.3 | 8.2 |
+| Conceptual clarity and terminology discipline | 20% | 9.1 | 9.0 | 9.0 |
+| Evidence integrity and caveat quality | 20% | 9.0 | 9.0 | 8.9 |
+| Operator usefulness | 20% | 8.6 | 9.2 | 9.1 |
+| Structural coherence and role separation | 15% | 9.0 | 9.0 | 8.9 |
 
-## Packaging and Distribution Plan
-- Publish order:
-1. Publish Piece A first.
-2. Publish Piece B within 24 hours (or same day if workflow allows).
-- Cross-link pattern:
-  - Top + bottom links in both directions.
-  - Shared short URL labels for easy forwarding.
-- Suggested headline pair:
-  - Piece A: `The Autonomy Tax`
-  - Piece B: `The Autonomy Tax Scorecard: A Practitioner's Guide`
+### Publish threshold
+- A must score >= 9.0.
+- B and C must each score >= 8.7.
+- Package weighted score must be >= 9.0.
 
-## Pre-Publish QA Checklist
-### Piece A (Breakout Essay)
-- Hook and thesis land in first 3 paragraphs.
-- Contains exactly one primary incident in opening.
-- Contains minimum complete decision logic.
-- Ends with prediction and clear callback.
-- Stays within 3,000-3,300 words.
+## Execution Sequence
+1. Finalize v7A for breakout quality first.
+2. Finalize v7B to operationalize A without repeating it.
+3. Finalize v7C to carry architecture depth and protect A from scope creep.
+4. Run full QA gate pass across all three pieces.
+5. Final publish hygiene pass and link replacement.
 
-### Piece B (Companion Guide)
-- Workflow can be followed without reading Piece A.
-- Includes full rubric, sensitivity table, and examples.
-- Includes calibration note and casebook stats.
-- Includes full source and limitation notes.
-- Stays within 2,000-2,500 words.
+## Core Assets
+- `sources/source_manifest.tsv`
+- `sources/derived/autonomy_tax_casebook.tsv`
+- `sources/derived/autonomy_tax_casebook_method.md`
+- `assets/autonomy_tax_scorecard_rubric.md`
+- `assets/autonomy_tax_scorecard_template.csv`
+- `v7_gem_mining_report.md`
+- `original_discussion.md` (framing only, not primary evidence)
 
-### Shared
-- All critical numbers source-checked.
-- Internal links replaced with public URLs before external publication.
-- Terminology and thresholds consistent across both pieces.
+## Final Standard
+If A is not clearly breakout by the gates above, postpone publication and revise. B and C exist to amplify A, not compete with it.
