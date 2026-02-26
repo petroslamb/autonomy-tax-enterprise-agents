@@ -18,6 +18,8 @@ If that equation holds, then the current industry debate — which model is smar
 
 **Scope note:** This analysis focuses on enterprises consuming commercial LLM APIs (Anthropic, OpenAI) in US/EU markets. Self-hosted and open-weight deployments carry a different tax structure.
 
+Open-source materials for this research package (drafts, casebook, and scoring assets) are available in the [GitHub repository](https://github.com/petroslamb/autonomy-tax-enterprise-agents).
+
 ---
 
 ## The Deployment Paradox
@@ -80,7 +82,7 @@ The Governance Tax has three components: **regulatory compliance** (the EU AI Ac
 
 Each tax, alone, looks manageable. Together, they explain why models that can reason for 50 minutes still get leashed to 10-step workflows with human approval at every gate. The bandwidth tax means your experts are already stretched. The incident tax means a single uncontrolled action can erase months of efficiency gains. The governance tax means you may not even know the damage until an auditor asks. They don't add — they compound. And they all scale with the same variable: the amount of autonomy you grant.
 
-The compounding is visible in the data. In the [Autonomy Tax Casebook](./sources/derived/autonomy_tax_casebook.tsv) — 28 coded public records spanning incidents, field studies, regulatory milestones, and tooling baselines — 21 directly support the tax model. Of those, governance is the primary tax in 12: the most frequent and least measured of the three.
+The compounding is visible in the data. In the [Autonomy Tax Casebook](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook.tsv) — 28 coded public records spanning incidents, field studies, regulatory milestones, and tooling baselines — 21 directly support the tax model. Of those, governance is the primary tax in 12: the most frequent and least measured of the three.
 
 That compounding is the Autonomy Tax. It's also a decision framework.
 
@@ -90,7 +92,7 @@ That compounding is the Autonomy Tax. It's also a decision framework.
 
 The stakes are concrete: choose too much autonomy and you absorb all three taxes at full force. Choose too little and you leave the throughput gains on the table.
 
-There is no single industry standard for agent autonomy levels. The taxonomy below synthesizes [Anthropic](https://www.anthropic.com/engineering/building-effective-agents) and [OpenAI](https://developers.openai.com/tracks/building-agents/) published guidance, cross-checked against the MAP study's production deployment data [[Pan et al. 2026](https://arxiv.org/abs/2512.04123)]:
+There is no single industry standard for agent autonomy levels. The taxonomy below synthesizes [Anthropic](https://www.anthropic.com/engineering/building-effective-agents) and [OpenAI](https://developers.openai.com/tracks/building-agents/) published guidance, cross-checked against the MAP study's production deployment data [[Pan et al. 2026](https://arxiv.org/abs/2512.04123), preprint], and triangulated with [Wang et al. 2025](https://arxiv.org/abs/2508.02121) (AgentOps survey, preprint) and [Kasirzadeh & Gabriel 2025](https://arxiv.org/abs/2504.21848) (governance-oriented agent characterization, preprint):
 
 | Level | Architecture | What AI controls | What's hardcoded / human-owned |
 |---|---|---|---|
@@ -104,7 +106,7 @@ There is no single industry standard for agent autonomy levels. The taxonomy bel
 
 **The decision flow:**
 
-1. **Circuit breaker first.** Score each tax 1–5 using the [full scoring rubric](./article_draft_v6B.md#scoring-rubric). If any single tax scores ≥ 4, the workflow is **BLOCKED** until documented mitigation reduces that tax below 4.
+1. **Circuit breaker first.** Score each tax 1–5 using the [full scoring rubric](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v6B.md#scoring-rubric). If any single tax scores ≥ 4, the workflow is **BLOCKED** until documented mitigation reduces that tax below 4.
 2. **Net score.** For non-blocked workflows: `Net = Benefit − Average(HB Tax, Incident Tax, Governance Tax)`.
 3. **Level 3 gate.** Level 3 is allowed only when `Net > 0` and all three taxes ≤ 2. Otherwise, default to Level 2.5.
 
@@ -120,7 +122,7 @@ There is no single industry standard for agent autonomy levels. The taxonomy bel
 | **Net Score** | +1.67 | 4 − Average(3, 2, 2) = 4 − 2.33 |
 | **Recommended Level** | Level 2.5 | Net positive, but HB Tax = 3 (> 2) — Level 3 gate not met |
 
-*For the full scoring rubric, sensitivity analysis by error cost, additional worked examples, and calibration guidance, see [The Autonomy Tax Scorecard Guide](./article_draft_v6B.md).*
+*For the full scoring rubric, sensitivity analysis by error cost, additional worked examples, and calibration guidance, see [The Autonomy Tax Scorecard Guide](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v6B.md).*
 
 ---
 
@@ -142,7 +144,7 @@ But notice what makes this work: low individual error cost, high reversibility, 
 
 These are not aspirational. Each has a concrete deliverable.
 
-**1. Score your top three workflows.** Fill out the [Autonomy Tax Scorecard](./article_draft_v6B.md) for your three highest-priority agent candidates. Use the [casebook](./sources/derived/autonomy_tax_casebook.tsv) for precedent. Output: a one-page ranked table with a recommended architecture level for each. Time: one meeting.
+**1. Score your top three workflows.** Fill out the [Autonomy Tax Scorecard](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v6B.md) for your three highest-priority agent candidates. Use the [casebook](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook.tsv) for precedent. Output: a one-page ranked table with a recommended architecture level for each. Time: one meeting.
 
 **2. Instrument your most expensive LLM workflow.** Add four counters: retry rate, external-action rate, human-escalation rate, and review-time-per-output. Output: a baseline dashboard. Time: one sprint.
 

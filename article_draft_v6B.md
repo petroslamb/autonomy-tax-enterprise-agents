@@ -2,7 +2,9 @@
 
 *The decision framework and scoring workflow for enterprise agent autonomy levels*
 
-*This is a companion to [The Autonomy Tax](./article_draft_v6A.md). You can follow this guide independently, but the essay provides the full thesis, evidence, and anti-thesis behind the framework.*
+*This is a companion to [The Autonomy Tax](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v6A.md). You can follow this guide independently, but the essay provides the full thesis, evidence, and anti-thesis behind the framework.*
+
+*Open-source materials for this guide (casebook, rubric, templates, and sources) are available in the [GitHub repository](https://github.com/petroslamb/autonomy-tax-enterprise-agents).*
 
 ---
 
@@ -12,7 +14,7 @@ Enterprise agent ROI is constrained less by model capability and more by three h
 
 > **Net Agent Value = Throughput Gain − Human Bandwidth Tax − Incident Tax − Governance Tax**
 
-The **Human Bandwidth Tax** is the expert review burden that grows as AI amplifies junior output. The **Incident Tax** is the financial and reputational damage from uncontrolled agent actions. The **Governance Tax** is the compliance, observability, and audit overhead that almost nobody measures — and that emerges as the dominant tax in [the coded evidence](./sources/derived/autonomy_tax_casebook.tsv).
+The **Human Bandwidth Tax** is the expert review burden that grows as AI amplifies junior output. The **Incident Tax** is the financial and reputational damage from uncontrolled agent actions. The **Governance Tax** is the compliance, observability, and audit overhead that almost nobody measures — and that emerges as the dominant tax in [the coded evidence](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook.tsv).
 
 These taxes compound as autonomy increases. This guide helps you **score specific workflows against all three taxes, decide the right autonomy level, and calibrate the heuristic to your domain.**
 
@@ -20,7 +22,7 @@ These taxes compound as autonomy increases. This guide helps you **score specifi
 
 ## Autonomy Levels: The Full Taxonomy
 
-There is no single industry standard for agent autonomy levels. This taxonomy synthesizes [Anthropic](https://www.anthropic.com/engineering/building-effective-agents) and [OpenAI](https://developers.openai.com/tracks/building-agents/) published framework guidance, cross-checked against the MAP study's production deployment data [[Pan et al. 2026](https://arxiv.org/abs/2512.04123), preprint, n=306].
+There is no single industry standard for agent autonomy levels. This taxonomy synthesizes [Anthropic](https://www.anthropic.com/engineering/building-effective-agents) and [OpenAI](https://developers.openai.com/tracks/building-agents/) published framework guidance, cross-checked against the MAP study's production deployment data [[Pan et al. 2026](https://arxiv.org/abs/2512.04123), preprint, n=306], and triangulated with [Wang et al. 2025](https://arxiv.org/abs/2508.02121) (AgentOps survey, preprint) and [Kasirzadeh & Gabriel 2025](https://arxiv.org/abs/2504.21848) (governance-oriented agent characterization, preprint).
 
 | Level | Architecture | What AI controls | What's hardcoded / human-owned | Review gate | Tax profile |
 |---|---|---|---|---|---|
@@ -76,7 +78,7 @@ Use these anchors to calibrate scores consistently across teams. This is a struc
 | **4** | Heavy review; seniors review > 50% of outputs | Errors cost $500–$5,000 or reputational damage | Regulated domain; audit trail required |
 | **5** | Every output requires expert validation before use | Errors cost > $5,000 or legal/regulatory exposure | Heavily regulated; SOC 2/AI Act obligations apply |
 
-The full scoring anchors are also available as a standalone reference: [Autonomy Tax Scorecard Rubric](./assets/autonomy_tax_scorecard_rubric.md).
+The full scoring anchors are also available as a standalone reference: [Autonomy Tax Scorecard Rubric](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/assets/autonomy_tax_scorecard_rubric.md).
 
 ---
 
@@ -133,7 +135,7 @@ A finance ops team wants to automate vendor invoice approval. Volume is ~500/day
 
 After mitigation, re-run the scorecard. If all taxes < 4 and Net > 0, the workflow can proceed at Level 2.5 with heavy gating.
 
-Use the [scorecard template CSV](./assets/autonomy_tax_scorecard_template.csv) to score your own workflows.
+Use the [scorecard template CSV](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/assets/autonomy_tax_scorecard_template.csv) to score your own workflows.
 
 ---
 
@@ -141,7 +143,7 @@ Use the [scorecard template CSV](./assets/autonomy_tax_scorecard_template.csv) t
 
 The thresholds in this scorecard are order-of-magnitude starting points, not empirically fitted cutoffs. Here's how they were set and how to tune them.
 
-**Baseline from the casebook.** We coded [28 public records](./sources/derived/autonomy_tax_casebook.tsv) — incidents, field studies, regulatory milestones, and tooling baselines — into a normalized schema with source-tier and confidence ratings. Of those, 21 directly support the tax model. The distribution of primary tax across those records:
+**Baseline from the casebook.** We coded [28 public records](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook.tsv) — incidents, field studies, regulatory milestones, and tooling baselines — into a normalized schema with source-tier and confidence ratings. Of those, 21 directly support the tax model. The distribution of primary tax across those records:
 
 | Primary tax | Count | Share |
 |---|---|---|
@@ -157,7 +159,7 @@ Governance is the dominant tax in the coded evidence. This informs the circuit b
 - **Adjust Governance Tax by your regulatory exposure.** In healthcare or financial services, a score of 3 (moderate compliance) may already represent significant audit risk. Treat your industry's baseline as the scoring floor.
 - **Adjust HB Tax by your review pool depth.** If you have 2 seniors reviewing for 20 juniors, a score of 3 (10–50% review) may already be throttling your experts. If you have 10 seniors for 20 juniors, the same review rate is sustainable.
 
-Coding criteria and method notes are documented in [autonomy_tax_casebook_method.md](./sources/derived/autonomy_tax_casebook_method.md).
+Coding criteria and method notes are documented in [autonomy_tax_casebook_method.md](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook_method.md).
 
 ---
 
@@ -201,7 +203,7 @@ This framework draws from 82 collected sources classified into five tiers:
 
 ### Key Limitations
 
-- **No original data, one original synthesis.** Every empirical claim cites published research. The originality contribution is the framework and the [Autonomy Tax Casebook](./sources/derived/autonomy_tax_casebook.tsv), which codes 28 public records into a normalized schema. Method notes: [autonomy_tax_casebook_method.md](./sources/derived/autonomy_tax_casebook_method.md).
+- **No original data, one original synthesis.** Every empirical claim cites published research. The originality contribution is the framework and the [Autonomy Tax Casebook](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook.tsv), which codes 28 public records into a normalized schema. Method notes: [autonomy_tax_casebook_method.md](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook_method.md).
 - **Domain bridging.** The Human Bandwidth Tax thesis bridges findings from customer support (NBER), enterprise development (Xu et al.), and open-source projects (Song et al.). The common mechanism is plausible but not directly demonstrated in a single study.
 - **Governance Tax measurement gap.** No published study quantifies per-agent governance cost. Track governance-hours per workflow per month to convert this into a measurable cost line item.
 - **Geographic scope.** US/EU regulatory and market conditions. Self-hosted and open-weight deployments carry different tax structures.
@@ -217,4 +219,4 @@ For teams that want finer-grained analysis:
 | Incident Tax | Direct financial loss, remediation cost, reputational damage, investigation time |
 | Governance Tax | Compliance staff, audit tooling, observability infrastructure, regulatory reporting |
 
-All sources with URLs, DOIs, and access dates are available in the [source manifest](./sources/source_manifest.tsv).
+All sources with URLs, DOIs, and access dates are available in the [source manifest](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/source_manifest.tsv).
