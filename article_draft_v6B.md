@@ -10,29 +10,27 @@
 
 ## Why This Exists
 
-Enterprise agent ROI is constrained less by model capability and more by three hidden costs — the **Autonomy Tax**:
+Your team is about to deploy an agent workflow. Before you do, run it through this framework — it takes 15 minutes and will tell you whether you need human gates, a circuit breaker, or a full mitigation plan. The scoring system below is based on three hidden costs — the **Autonomy Tax** — that compound as autonomy increases:
 
 > **Net Agent Value = Throughput Gain − Human Bandwidth Tax − Incident Tax − Governance Tax**
 
-The **Human Bandwidth Tax** is the expert review burden that grows as AI amplifies junior output. The **Incident Tax** is the financial and reputational damage from uncontrolled agent actions. The **Governance Tax** is the compliance, observability, and audit overhead that almost nobody measures — and that emerges as the dominant tax in [the coded evidence](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook.tsv).
-
-These taxes compound as autonomy increases. This guide helps you **score specific workflows against all three taxes, decide the right autonomy level, and calibrate the heuristic to your domain.**
+For the full thesis, evidence, and anti-thesis behind this framework, see [The Autonomy Tax](article_draft_v6A.md).
 
 ---
 
-## Autonomy Levels: The Full Taxonomy
+## Autonomy Levels: Quick Reference
 
-There is no single industry standard for agent autonomy levels. This taxonomy synthesizes [Anthropic](https://www.anthropic.com/engineering/building-effective-agents) and [OpenAI](https://developers.openai.com/tracks/building-agents/) published framework guidance, cross-checked against the MAP study's production deployment data [[Pan et al. 2026](https://arxiv.org/abs/2512.04123), preprint, n=306], and triangulated with [Wang et al. 2025](https://arxiv.org/abs/2508.02121) (AgentOps survey, preprint) and [Kasirzadeh & Gabriel 2025](https://arxiv.org/abs/2504.21848) (governance-oriented agent characterization, preprint).
+This taxonomy synthesizes Anthropic and OpenAI published guidance, cross-checked against production deployment data.[^taxonomy]
 
-| Level | Architecture | What AI controls | What's hardcoded / human-owned | Review gate | Tax profile |
-|---|---|---|---|---|---|
-| **1 — Copilot** | Single LLM call + tools | Response content | Everything else | N/A (human executes) | Minimal |
-| **2 — Pipeline** | Linear chain of single-turn LLM calls | Each step's reasoning | Pipeline sequence, routing, tool access | Human reviews outputs before external action | Moderate HB Tax; low Incident Tax |
-| **2.5 — Artifact pipeline** | Linear chain of multi-turn ReAct agents | Each node's reasoning, tool use, and iteration across multiple turns | Pipeline sequence, routing; each node's I/O contract | Human review at predetermined decision points | Moderate and predictable across all three taxes |
-| **3 — Autonomous** | Dynamic graph or policy engine | Routing between agents, task planning, external actions | Available tools, safety constraints | Policy engine only; outputs reach external systems directly | All three taxes fully active, scaling with action surface |
-| **4 — Fully autonomous** | Decentralized / event-driven (actor model) | Agent spawning, inter-agent communication, emergent coordination | Almost nothing | None | Maximum on all axes; no known enterprise production deployment as of early 2026 |
+| Level | Architecture | What AI controls | What's hardcoded / human-owned | Review gate |
+|---|---|---|---|---|
+| **1 — Copilot** | Single LLM call + tools | Response content | Everything else | N/A (human executes) |
+| **2 — Pipeline** | Linear chain of single-turn LLM calls | Each step's reasoning | Pipeline sequence, routing, tool access | Human reviews outputs before external action |
+| **2.5 — Artifact pipeline** | Linear chain of multi-turn ReAct agents | Each node's reasoning, tool use, and iteration | Pipeline sequence; each node's I/O contract | Human review at predetermined decision points |
+| **3 — Autonomous** | Dynamic graph or policy engine | Routing, task planning, external actions | Available tools, safety constraints | Policy engine only |
+| **4 — Fully autonomous** | Decentralized actor model | Agent spawning, coordination | Almost nothing | None |
 
-**The Level 2 → 2.5 distinction matters for tax exposure.** In a Level 2 pipeline, each node makes a single LLM call — the blast radius is small and the output is easy to review. In a Level 2.5 pipeline, each node runs a multi-turn ReAct loop with tool access, producing richer outputs with a larger action surface per step. The control comes from two architectural constraints: the pipeline sequence is fixed and deterministic, and each node reads a defined structured input and produces a defined structured output. Human review gates sit at predetermined decision points rather than on every output.
+**The Level 2 → 2.5 distinction matters.** In a Level 2 pipeline, each node makes a single LLM call — small blast radius, easy to review. In Level 2.5, each node runs a multi-turn ReAct loop with tool access, but the pipeline sequence is fixed and each node's inputs/outputs are typed contracts. Human review gates sit at predetermined decision points rather than on every output.
 
 ---
 
@@ -168,7 +166,7 @@ Coding criteria and method notes are documented in [autonomy_tax_casebook_method
 These are sprint-level execution steps, not aspirational goals.
 
 **Sprint 1: Measure**
-- [ ] Identify your top three candidate workflows for agent autonomy
+- [ ] Identify your top three candidate workflows — start with workflows where you're already considering or piloting AI assistance; rank by monthly human-hours spent
 - [ ] Score each workflow using the rubric above
 - [ ] Apply circuit breaker — flag any workflow with a tax score ≥ 4
 - [ ] Calculate Net Score for non-blocked workflows
@@ -220,3 +218,9 @@ For teams that want finer-grained analysis:
 | Governance Tax | Compliance staff, audit tooling, observability infrastructure, regulatory reporting |
 
 All sources with URLs, DOIs, and access dates are available in the [source manifest](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/source_manifest.tsv).
+
+---
+
+## Notes
+
+[^taxonomy]: Synthesized from [Anthropic](https://www.anthropic.com/engineering/building-effective-agents) and [OpenAI](https://developers.openai.com/tracks/building-agents/) published guidance, cross-checked against [Pan et al. 2026](https://arxiv.org/abs/2512.04123) (MAP study, n=306), and triangulated with [Wang et al. 2025](https://arxiv.org/abs/2508.02121) (AgentOps survey) and [Kasirzadeh & Gabriel 2025](https://arxiv.org/abs/2504.21848) (governance-oriented agent characterization).

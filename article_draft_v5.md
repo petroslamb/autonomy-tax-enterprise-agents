@@ -112,7 +112,7 @@ The stakes of this decision are concrete: choose too much autonomy and you absor
 2. For non-blocked workflows, compute `NetScore = Benefit - Average(HB, Incident, Governance)`.
 3. Level 3 is allowed only when `NetScore > 0` and both `Incident Tax <= 2` and `Governance Tax <= 2`.
 
-Here is the practical taxonomy, consistent with both [Anthropic](https://www.anthropic.com/engineering/building-effective-agents) and [OpenAI](https://developers.openai.com/tracks/building-agents/) published framework guidance and calibrated against the MAP study's production data:
+As of February 2026, no single industry-standard agent maturity taxonomy has been adopted across research and practice. Here we use an orchestration-centric taxonomy aligned with both [Anthropic](https://www.anthropic.com/engineering/building-effective-agents) and [OpenAI](https://developers.openai.com/tracks/building-agents/) implementation guidance, calibrated against the MAP field study [[Pan et al. 2026](https://arxiv.org/abs/2512.04123), preprint], and cross-checked against [Wang et al. 2025](https://arxiv.org/abs/2508.02121) (AgentOps survey, preprint) and [Kasirzadeh & Gabriel 2025](https://arxiv.org/abs/2504.21848) (governance-oriented agent characterization, preprint):
 
 | Level | Architecture | What AI controls | What's hardcoded / human-owned | Review gate | Tax profile |
 |---|---|---|---|---|---|
@@ -248,7 +248,7 @@ The question was never whether AI is smart enough. It's whether your organizatio
 
 ### Source Classification
 
-This article draws from 81 collected sources classified into five tiers:
+This article draws from 82 collected sources classified into five tiers:
 
 | Tier | Description | Examples used | Confidence |
 |---|---|---|---|
@@ -290,7 +290,7 @@ For teams that want finer-grained analysis, the three taxes decompose further:
 
 **§5 Governance Tax:** Deloitte 2026 (SRC-007); Akto 2025 (SRC-010); EU AI Act package (SRC-020–022); NIST AI RMF (SRC-032, SRC-066); LangSmith (SRC-018); Braintrust (SRC-019); OpenTelemetry GenAI (SRC-038).
 
-**§6 Synthesis / Decision Rule:** Autonomy Tax Casebook (derived); Anthropic building agents (SRC-072); OpenAI building agents (SRC-071); Pan et al. MAP study (SRC-073).
+**§6 Synthesis / Decision Rule:** Autonomy Tax Casebook (derived); Anthropic building agents (SRC-072); OpenAI building agents (SRC-071); Pan et al. MAP study (SRC-073); Wang et al. AgentOps survey (SRC-078); Kasirzadeh & Gabriel characterization framework (SRC-082).
 
 **§7 Anti-Thesis:** Klarna press release (SRC-013).
 
