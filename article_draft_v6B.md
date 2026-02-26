@@ -20,7 +20,7 @@ These taxes compound as autonomy increases. This guide helps you **score specifi
 
 ## Autonomy Levels: The Full Taxonomy
 
-This taxonomy is consistent with both [Anthropic](https://www.anthropic.com/engineering/building-effective-agents) and [OpenAI](https://developers.openai.com/tracks/building-agents/) published framework guidance and calibrated against the MAP study's production data [[Pan et al. 2026](https://arxiv.org/abs/2512.04123), preprint, n=306].
+There is no single industry standard for agent autonomy levels. This taxonomy synthesizes [Anthropic](https://www.anthropic.com/engineering/building-effective-agents) and [OpenAI](https://developers.openai.com/tracks/building-agents/) published framework guidance, cross-checked against the MAP study's production deployment data [[Pan et al. 2026](https://arxiv.org/abs/2512.04123), preprint, n=306].
 
 | Level | Architecture | What AI controls | What's hardcoded / human-owned | Review gate | Tax profile |
 |---|---|---|---|---|---|
@@ -58,7 +58,7 @@ Use `Net` for ranking candidate workflows. A higher Net means higher priority fo
 
 ### Step 4 — Level decision
 
-- **Level 3** is allowed only when `Net > 0` **and** both `Incident Tax ≤ 2` **and** `Governance Tax ≤ 2`.
+- **Level 3** is allowed only when `Net > 0` **and** all three taxes `≤ 2`.
 - Otherwise, default to **Level 2.5** (pipeline with human gates at decision points).
 - If manual approval is required at every external action, use **Level 2**.
 
@@ -189,7 +189,7 @@ These are sprint-level execution steps, not aspirational goals.
 
 ### Source Classification
 
-This framework draws from 81 collected sources classified into five tiers:
+This framework draws from 82 collected sources classified into five tiers:
 
 | Tier | Description | Examples used | Confidence |
 |---|---|---|---|

@@ -72,7 +72,7 @@ Deloitte's survey found that 74% of organizations intend to deploy agentic AI at
 
 If you can't explain why your agent did what it did, you don't have a governance problem. You have a liability.
 
-The Governance Tax has three components: **regulatory compliance** (the EU AI Act entered force August 2024, with staged application through 2027; the [AI Pact](https://digital-strategy.ec.europa.eu/en/news/ai-pact-marks-one-year-progress-trustworthy-ai-europe) now counts 3,265 participating organizations), **observability infrastructure** (tracing, token accounting, and action logging that can run $5,000–$15,000/year for a mid-size team before integration engineering time), and **expert staffing** — the compliance, legal, and security personnel whose costs no published study has quantified. The measurement gap is itself a core finding: organizations are deploying agents faster than they can quantify the governance overhead.
+The Governance Tax has three components: **regulatory compliance** (the EU AI Act [Regulation 2024/1689] entered force August 2024, with staged application through 2027; the [AI Pact](https://digital-strategy.ec.europa.eu/en/news/ai-pact-marks-one-year-progress-trustworthy-ai-europe) now counts 3,265 participating organizations [EU AI Office, Feb 2026]), **observability infrastructure** (tracing, token accounting, and action logging — tooling alone can run $5,000–$15,000/year for a mid-size team [[LangSmith](https://www.langchain.com/pricing-langsmith), [Braintrust](https://www.braintrust.dev/pricing)] before integration engineering time), and **expert staffing** — the compliance, legal, and security personnel whose costs no published study has quantified. The measurement gap is itself a core finding: organizations are deploying agents faster than they can quantify the governance overhead.
 
 ---
 
@@ -90,7 +90,7 @@ That compounding is the Autonomy Tax. It's also a decision framework.
 
 The stakes are concrete: choose too much autonomy and you absorb all three taxes at full force. Choose too little and you leave the throughput gains on the table.
 
-Here is the practical taxonomy, consistent with [Anthropic](https://www.anthropic.com/engineering/building-effective-agents) and [OpenAI](https://developers.openai.com/tracks/building-agents/) published guidance and calibrated against the MAP study's production data:
+There is no single industry standard for agent autonomy levels. The taxonomy below synthesizes [Anthropic](https://www.anthropic.com/engineering/building-effective-agents) and [OpenAI](https://developers.openai.com/tracks/building-agents/) published guidance, cross-checked against the MAP study's production deployment data [[Pan et al. 2026](https://arxiv.org/abs/2512.04123)]:
 
 | Level | Architecture | What AI controls | What's hardcoded / human-owned |
 |---|---|---|---|
@@ -106,7 +106,7 @@ Here is the practical taxonomy, consistent with [Anthropic](https://www.anthropi
 
 1. **Circuit breaker first.** Score each tax 1–5 using the [full scoring rubric](./article_draft_v6B.md#scoring-rubric). If any single tax scores ≥ 4, the workflow is **BLOCKED** until documented mitigation reduces that tax below 4.
 2. **Net score.** For non-blocked workflows: `Net = Benefit − Average(HB Tax, Incident Tax, Governance Tax)`.
-3. **Level 3 gate.** Level 3 is allowed only when `Net > 0` and both Incident Tax ≤ 2 and Governance Tax ≤ 2. Otherwise, default to Level 2.5.
+3. **Level 3 gate.** Level 3 is allowed only when `Net > 0` and all three taxes ≤ 2. Otherwise, default to Level 2.5.
 
 **Worked example — Support refund triage:**
 
@@ -118,7 +118,7 @@ Here is the practical taxonomy, consistent with [Anthropic](https://www.anthropi
 | Governance Tax | 2 | Standard data handling; no regulated domain exposure |
 | **Circuit Breaker** | ✅ Pass | No tax ≥ 4 |
 | **Net Score** | +1.67 | 4 − Average(3, 2, 2) = 4 − 2.33 |
-| **Recommended Level** | Level 2.5 | Net positive but Incident Tax > threshold for Level 3 waiver |
+| **Recommended Level** | Level 2.5 | Net positive, but HB Tax = 3 (> 2) — Level 3 gate not met |
 
 *For the full scoring rubric, sensitivity analysis by error cost, additional worked examples, and calibration guidance, see [The Autonomy Tax Scorecard Guide](./article_draft_v6B.md).*
 
