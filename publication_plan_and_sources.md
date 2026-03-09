@@ -1,5 +1,7 @@
 # Publication Plan and Sources (V9 Breakout Operating Spec)
 
+> Note: `v9` will remain unimplemented for now. The Substack publication happened at `v8`, so this file should be read as an archival planning document rather than an active execution spec.
+
 ## Primary Objective
 Ship a three-piece package where `article_draft_v9A.md` is a breakout flagship and `v9B`/`v9C` deepen trust and execution without stealing narrative oxygen from A.
 
