@@ -5,18 +5,48 @@
   <defs>
     <style>
       .bg { fill: #F8F9F5; }
-      .title { font: 700 60px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #111827; }
-      .subtitle { font: 500 28px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #334155; }
+      .title {
+        font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 68px;
+        font-weight: 700;
+        fill: #111827;
+      }
+      .subtitle {
+        font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 34px;
+        font-weight: 500;
+        fill: #334155;
+      }
       .axis { stroke: #374151; stroke-width: 4; }
       .grid { stroke: #D1D5DB; stroke-width: 2; }
-      .label { font: 600 24px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #1F2937; }
-      .note { font: 500 22px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #1F2937; }
+      .label {
+        font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        fill: #1F2937;
+      }
+      .note {
+        font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 26px;
+        font-weight: 500;
+        fill: #1F2937;
+      }
       .line-cap { fill: none; stroke: #0EA5E9; stroke-width: 10; }
       .line-deploy { fill: none; stroke: #D97706; stroke-width: 10; }
       .gap { fill: #FEE2E2; opacity: 0.85; }
       .callout { rx: 16; ry: 16; stroke-width: 2; }
-      .callout-title { font: 700 22px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #111827; }
-      .callout-copy { font: 500 20px 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; fill: #1F2937; }
+      .callout-title {
+        font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        fill: #111827;
+      }
+      .callout-copy {
+        font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 21px;
+        font-weight: 500;
+        fill: #1F2937;
+      }
     </style>
   </defs>
 
