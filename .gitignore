@@ -1,1 +1,4 @@
 .DS_Store
+
+# Ignore local MAST acquisition artifacts and curated raw bundle.
+/sources/raw/mast/

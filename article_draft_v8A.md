@@ -64,7 +64,7 @@ Each tax, alone, looks manageable. Together, they explain why models that can re
 
 They don't add, they compound. Here's how: an incident (Tax 2) triggers an investigation, which reveals there's no audit trail (Tax 3), which pulls your two best engineers off product work for a week (Tax 1). One failure, all three taxes, one event.
 
-The compounding is visible in the data. In the Autonomy Tax Casebook, 28 coded public records, 21 directly support the tax model. Of those, governance is the primary tax in 12: the most frequent and least measured of the three.[[^casebook]]
+The compounding is visible in the data. In the Autonomy Tax Casebook, 30 coded public records, 23 directly support the tax model. Of those, governance is the primary tax in 13: the most frequent and least measured of the three.[[^casebook]]
 
 If you're a VP of Engineering planning to deploy agents across three business units this year, this compounding is what your budget doesn't account for. Not the API costs, the review hours, incident remediation, and governance overhead that nobody has line-itemed yet. *(If you take nothing else from this essay: ask your three most senior engineers what percentage of their week is spent reviewing AI output. Most teams have never asked. Most are disturbed by the answer.)*
 
@@ -186,7 +186,7 @@ Those are measurement gaps, not reasons to suspend control discipline. They are 
 
 [^cisa]: CISA et al., [Principles and Approaches for Security-by-Design and -Default](https://www.cisa.gov/sites/default/files/2023-06/principles_approaches_for_security-by-design-default_508c.pdf).
 
-[^casebook]: The [Autonomy Tax Casebook](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook.tsv) codes 28 public records spanning incidents, field studies, regulatory milestones, and tooling baselines. Method notes: [autonomy_tax_casebook_method.md](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook_method.md).
+[^casebook]: The [Autonomy Tax Casebook](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook.tsv) codes 30 public records spanning incidents, field studies, regulatory milestones, and tooling baselines. Method notes: [autonomy_tax_casebook_method.md](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook_method.md).
 
 [^anthropic_build]: Anthropic Engineering, [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents).
 

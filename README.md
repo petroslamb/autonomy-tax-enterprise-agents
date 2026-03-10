@@ -35,12 +35,16 @@ Evidence layer:
 
 Scoring assets:
 
-- `assets/autonomy_tax_scorecard_template.csv`
-- `assets/autonomy_tax_scorecard_rubric.md`
+- `assets/autonomy_tax_scorecard_template.csv` - default `V1` worksheet
+- `assets/autonomy_tax_scorecard_rubric.md` - default `V1` rubric
+- `assets/v2/autonomy_tax_mechanics_v2.md` - experimental `V2` mechanics note (conceptual model + evidence basis)
+- `assets/v2/autonomy_tax_scorecard_v2.md` - experimental `V2` rubric derived from the mechanics note
+- `assets/v2/autonomy_tax_scorecard_template_v2.csv` - experimental `V2` worksheet
 
 ## Working Rules
 
 - Keep claim-level evidence traceable through `sources/source_manifest.tsv` and the derived casebook.
 - Preserve terminology lock across A/B/C: `Autonomy Tax`, `Level 2.5 - Artifact Pipeline`, `Bounded Level 3`, `Circuit Breaker`.
+- Treat `V1` scorecard assets as canonical for the published package. Use `V2` assets as an experimental operator drill-down, not a public replacement.
 - Treat `v8A`, `v8B`, and `v8C` as the final implemented publication package in this repo. Treat `v9` planning references as archival unless a future rewrite explicitly revives them.
 - Use public URLs in publication copy; do not publish relative repository links.

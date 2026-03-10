@@ -54,11 +54,12 @@ awk -F '\t' 'NR>1{count[$8]++} END{for(k in count) print k, count[k]}' sources/d
 - Mixed evidence quality is intentional; source tier and confidence encode uncertainty explicitly.
 - Several entries are framework/guidance artifacts (`control_enabler`) and should not be interpreted as empirical effect sizes.
 - Pricing rows are temporal snapshots and will drift over time.
+- MAST-derived rows are benchmark-heavy execution-failure evidence and should inform workflow diagnostics more than enterprise cost calibration.
 
 ## Intended Use in the Article
 - Cite the casebook as the article's original contribution layer: a normalized taxonomy across incidents, studies, and governance artifacts.
 - Use row subsets to support each tax section.
-- Human Bandwidth Tax: `ATC-007` to `ATC-009`
+- Human Bandwidth Tax: `ATC-007` to `ATC-009`, `ATC-029`
 - Incident Tax: `ATC-010` to `ATC-013`
-- Governance Tax: `ATC-014` to `ATC-025`
+- Governance Tax: `ATC-014` to `ATC-025`, `ATC-030`
 - Anti-thesis boundary case: `ATC-026`

@@ -34,6 +34,13 @@
 - 4: Significant compliance/infosec/legal lift before safe operation.
 - 5: No adequate governance path currently in place for this workflow.
 
+## Multi-Agent Diagnostic Checks
+- Use these checks for `Level 2.5` and `Level 3` workflows with multiple agents, dynamic routing, or tool handoffs.
+- Human Bandwidth Tax: look for step repetition, clarification failures, task derailment, or other patterns that would force senior operators to babysit runs.
+- Incident Tax: look for task-spec violations, role leakage, action-reasoning mismatch, or premature termination that could reach external systems before a gate catches them.
+- Governance Tax: look for missing message contracts, weak termination rules, or weak result verification that would make failures hard to audit, reproduce, or block safely.
+- Repeated appearance of these patterns in staging traces is evidence that the relevant tax is at least `3`, even before you have a public incident.
+
 ## Level Guidance
 - Level 1: Copilot — single LLM call, human executes.
 - Level 2: Pipeline — linear chain of single-turn LLM calls, human reviews before external action.
