@@ -1,0 +1,8 @@
+benchmark_name	total_traces	failing_traces	failure_rate	avg_active_labels_in_failing_traces	enterprise_relevance	notes
+GAIA	195	152	0.7795	3.112	medium	Mixed task environment; useful for bounded workflow mechanics and tool-use coordination, but broader than enterprise operations.
+GSM	223	179	0.8027	3.318	low	Reasoning-heavy benchmark; useful for coordination and control motifs, not enterprise deployment economics.
+MMLU	168	141	0.8393	3.177	low	Knowledge and reasoning benchmark; supports control-layer claims, not enterprise operating-cost calibration.
+Olympiad	206	177	0.8592	3.571	low	Hard reasoning benchmark; supports compounding failure mechanics, not enterprise deployment economics.
+ProgramDev	390	279	0.7154	3.022	high	Best enterprise proxy in MAST; software-building workflows expose coordination, termination, and verification burden.
+SWE-Bench-Lite	30	14	0.4667	2.643	high	Small but enterprise-relevant code-change sample; useful for verifiable action and verification failures.
+Test-C	30	14	0.4667	2.643	medium	Small controlled tool-use sample; useful for checking task-spec adherence and verification behavior.

@@ -135,6 +135,25 @@ better governance -> lower escape likelihood and lower queue fragility
 
 This interaction is why `V2` still rolls up the three top-level taxes separately instead of pretending the workflow can be summarized by one clean blended formula.
 
+## MAST Control Families
+
+For this repo, MAST is most useful when the 14 labels are collapsed into a small set of reusable control families.
+
+The tracked mapping lives in `sources/derived/mast/mast_autonomy_crosswalk.tsv`.
+
+- `loop_and_termination`: `1.3`, `1.5`
+  - enterprise meaning: stuck runs, retry storms, reviewer babysitting
+- `context_continuity`: `1.4`, `2.1`
+  - enterprise meaning: lost state, repeated handoff recovery, reconciliation work
+- `clarification_and_handoff`: `2.2`, `2.4`, `2.5`
+  - enterprise meaning: missing-info exceptions, unshared context, queue churn
+- `plan_action_verification`: `1.1`, `2.3`, `2.6`, `3.1`, `3.2`, `3.3`
+  - enterprise meaning: wrong external actions, failed checks, escaped bad writes
+- `role_and_authority`: `1.2`
+  - enterprise meaning: unclear final decision rights, privilege confusion
+
+This family layer is the right bridge between benchmark traces and enterprise workflow design. It is more reusable than raw label lists and less speculative than trying to turn MAST into enterprise economics.
+
 ## What V2 Scores
 
 The rubric converts the model above into 12 scored subcomponents:
@@ -193,40 +212,43 @@ This is also why `V2` does not replace `V1`. The repo has stronger evidence for 
 
 Use MAST as diagnostic evidence for execution-failure mechanics and interaction patterns, not as threshold-calibration truth.
 
-Canonical local references:
+Use the tracked derived package as the repo-facing representation:
+
+- `sources/derived/mast/README.md`
+- `sources/derived/mast/mast_autonomy_crosswalk.tsv`
+- `sources/derived/mast/mast_label_stats.tsv`
+- `sources/derived/mast/mast_pair_stats.tsv`
+- `sources/derived/mast/mast_benchmark_stats.tsv`
+- `sources/derived/mast/mast_system_stats.tsv`
+- `sources/derived/mast/mast_failure_motifs.md`
+
+These files are the canonical way to use MAST in this repo because they:
+
+- preserve the control-family mapping that fits the Autonomy Tax
+- expose the quantitative label and pair patterns without tracking the raw bundle
+- keep the enterprise interpretation explicit instead of letting benchmark labels leak directly into the scorecard
+
+Benchmark weighting matters here.
+
+- `ProgramDev`, `SWE-Bench-Lite`, and parts of `GAIA` are the most enterprise-relevant MAST slices for workflow mechanics.
+- `Test-C` is useful for compact verification and task-spec examples, but it is small.
+- `GSM`, `MMLU`, and `Olympiad` strengthen the control thesis and compounding-failure story, but they should not be read as enterprise deployment economics.
+
+The casebook rows that bridge MAST into the main Autonomy Tax package remain:
+
+- `ATC-029`
+- `ATC-030`
+
+#### Raw provenance
+
+The underlying local raw references remain:
 
 - `sources/raw/mast/datasets/MAD_full_dataset.json`
 - `sources/raw/mast/datasets/MAD_human_labelled_dataset.json`
 - `sources/raw/mast/repo_files/definitions.txt`
 - `sources/raw/mast/repo_files/examples.txt`
 
-Local inspection of `MAD_full_dataset.json` in this repo found:
-
-- `1242` records
-- `956` traces with at least one failure label
-- `3.21` average active labels among failing traces
-
-The most common labeled modes in the local file are:
-
-- `2.6` action-reasoning mismatch
-- `1.3` step repetition
-- `1.1` disobey task specification
-- `1.5` unaware of termination conditions
-- `2.2` fail to ask for clarification
-- `3.3` no or incorrect verification
-- `2.3` task derailment
-- `3.2` weak verification
-
-These support the `V2` decomposition:
-
-- loops and clarification gaps strengthen `queue_fragility` and `coordination_drag`
-- action-reasoning mismatch and verification failures strengthen `escape_likelihood`
-- verification fixes strengthen `fixed_enablement` and `ongoing_assurance`
-
-The casebook rows that bridge MAST into this repo are:
-
-- `ATC-029`
-- `ATC-030`
+Those raw files remain local and ignored. The derived package above is the tracked representation that `V2` should cite.
 
 ## Limitations
 

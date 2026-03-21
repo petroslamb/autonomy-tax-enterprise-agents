@@ -1,0 +1,78 @@
+label_a	label_b	pair_count	pair_share_failing	family_a	family_b	enterprise_interpretation
+1.3	1.5	299	0.3128	loop_and_termination	loop_and_termination	State-tracking and stop-condition failures compound into stuck runs and reviewer babysitting.
+1.3	2.6	236	0.2469	loop_and_termination	plan_action_verification	Looping or stalled workflows raise the chance of unchecked or misaligned actions reaching execution.
+1.1	2.6	234	0.2448	plan_action_verification	plan_action_verification	Reasoning, execution, and checking failures compound into escaped bad actions.
+1.5	2.6	213	0.2228	loop_and_termination	plan_action_verification	Looping or stalled workflows raise the chance of unchecked or misaligned actions reaching execution.
+2.2	2.6	206	0.2155	clarification_and_handoff	plan_action_verification	Poor handoffs raise the odds that wrong reasoning or unchecked actions escape.
+1.3	2.2	180	0.1883	loop_and_termination	clarification_and_handoff	Missing clarification plus weak stop logic create retries, stalls, and reviewer babysitting.
+1.5	2.2	176	0.1841	loop_and_termination	clarification_and_handoff	Missing clarification plus weak stop logic create retries, stalls, and reviewer babysitting.
+2.3	2.6	164	0.1715	plan_action_verification	plan_action_verification	Reasoning, execution, and checking failures compound into escaped bad actions.
+2.6	3.3	164	0.1715	plan_action_verification	plan_action_verification	Reasoning, execution, and checking failures compound into escaped bad actions.
+1.3	3.3	161	0.1684	loop_and_termination	plan_action_verification	Looping or stalled workflows raise the chance of unchecked or misaligned actions reaching execution.
+1.3	2.3	159	0.1663	loop_and_termination	plan_action_verification	Looping or stalled workflows raise the chance of unchecked or misaligned actions reaching execution.
+2.6	3.1	157	0.1642	plan_action_verification	plan_action_verification	Reasoning, execution, and checking failures compound into escaped bad actions.
+1.5	2.3	155	0.1621	loop_and_termination	plan_action_verification	Looping or stalled workflows raise the chance of unchecked or misaligned actions reaching execution.
+2.2	2.3	143	0.1496	clarification_and_handoff	plan_action_verification	Poor handoffs raise the odds that wrong reasoning or unchecked actions escape.
+1.1	2.2	142	0.1485	plan_action_verification	clarification_and_handoff	Poor handoffs raise the odds that wrong reasoning or unchecked actions escape.
+1.1	3.3	135	0.1412	plan_action_verification	plan_action_verification	Reasoning, execution, and checking failures compound into escaped bad actions.
+1.1	1.5	126	0.1318	plan_action_verification	loop_and_termination	Looping or stalled workflows raise the chance of unchecked or misaligned actions reaching execution.
+1.3	3.1	125	0.1308	loop_and_termination	plan_action_verification	Looping or stalled workflows raise the chance of unchecked or misaligned actions reaching execution.
+1.1	2.3	124	0.1297	plan_action_verification	plan_action_verification	Reasoning, execution, and checking failures compound into escaped bad actions.
+1.1	1.3	122	0.1276	plan_action_verification	loop_and_termination	Looping or stalled workflows raise the chance of unchecked or misaligned actions reaching execution.
+1.5	3.3	118	0.1234	loop_and_termination	plan_action_verification	Looping or stalled workflows raise the chance of unchecked or misaligned actions reaching execution.
+1.5	3.1	113	0.1182	loop_and_termination	plan_action_verification	Looping or stalled workflows raise the chance of unchecked or misaligned actions reaching execution.
+1.1	3.1	99	0.1036	plan_action_verification	plan_action_verification	Reasoning, execution, and checking failures compound into escaped bad actions.
+2.3	3.1	99	0.1036	plan_action_verification	plan_action_verification	Reasoning, execution, and checking failures compound into escaped bad actions.
+2.2	3.1	97	0.1015	clarification_and_handoff	plan_action_verification	Poor handoffs raise the odds that wrong reasoning or unchecked actions escape.
+2.2	3.3	91	0.0952	clarification_and_handoff	plan_action_verification	Poor handoffs raise the odds that wrong reasoning or unchecked actions escape.
+3.1	3.3	83	0.0868	plan_action_verification	plan_action_verification	Reasoning, execution, and checking failures compound into escaped bad actions.
+2.3	3.3	77	0.0805	plan_action_verification	plan_action_verification	Reasoning, execution, and checking failures compound into escaped bad actions.
+2.6	3.2	74	0.0774	plan_action_verification	plan_action_verification	Reasoning, execution, and checking failures compound into escaped bad actions.
+1.1	3.2	73	0.0764	plan_action_verification	plan_action_verification	Reasoning, execution, and checking failures compound into escaped bad actions.
+1.3	1.4	69	0.0722	loop_and_termination	context_continuity	State loss and weak stopping rules create repeated work and stuck recovery loops.
+1.3	3.2	69	0.0722	loop_and_termination	plan_action_verification	Looping or stalled workflows raise the chance of unchecked or misaligned actions reaching execution.
+1.4	1.5	69	0.0722	context_continuity	loop_and_termination	State loss and weak stopping rules create repeated work and stuck recovery loops.
+1.4	2.6	53	0.0554	context_continuity	plan_action_verification	Lost state makes reasoning-to-action translation and verification less reliable.
+1.3	2.1	50	0.0523	loop_and_termination	context_continuity	State loss and weak stopping rules create repeated work and stuck recovery loops.
+2.2	3.2	49	0.0513	clarification_and_handoff	plan_action_verification	Poor handoffs raise the odds that wrong reasoning or unchecked actions escape.
+1.4	2.1	48	0.0502	context_continuity	context_continuity	Context resets compound into reconciliation work and repeated handoff recovery.
+1.5	2.1	48	0.0502	loop_and_termination	context_continuity	State loss and weak stopping rules create repeated work and stuck recovery loops.
+1.4	2.2	45	0.0471	context_continuity	clarification_and_handoff	Lost context and weak handoffs force re-explanation, reconciliation, and exception queues.
+3.1	3.2	44	0.0460	plan_action_verification	plan_action_verification	Reasoning, execution, and checking failures compound into escaped bad actions.
+1.4	2.3	42	0.0439	context_continuity	plan_action_verification	Lost state makes reasoning-to-action translation and verification less reliable.
+2.3	2.4	39	0.0408	plan_action_verification	clarification_and_handoff	Poor handoffs raise the odds that wrong reasoning or unchecked actions escape.
+2.2	2.4	38	0.0397	clarification_and_handoff	clarification_and_handoff	Communication breakdowns compound into missing-info exceptions, rework, and queue churn.
+1.3	2.4	37	0.0387	loop_and_termination	clarification_and_handoff	Missing clarification plus weak stop logic create retries, stalls, and reviewer babysitting.
+1.4	3.3	37	0.0387	context_continuity	plan_action_verification	Lost state makes reasoning-to-action translation and verification less reliable.
+1.5	2.4	37	0.0387	loop_and_termination	clarification_and_handoff	Missing clarification plus weak stop logic create retries, stalls, and reviewer babysitting.
+1.1	2.4	36	0.0377	plan_action_verification	clarification_and_handoff	Poor handoffs raise the odds that wrong reasoning or unchecked actions escape.
+2.1	2.6	36	0.0377	context_continuity	plan_action_verification	Lost state makes reasoning-to-action translation and verification less reliable.
+2.3	3.2	36	0.0377	plan_action_verification	plan_action_verification	Reasoning, execution, and checking failures compound into escaped bad actions.
+1.5	3.2	35	0.0366	loop_and_termination	plan_action_verification	Looping or stalled workflows raise the chance of unchecked or misaligned actions reaching execution.
+2.1	3.3	32	0.0335	context_continuity	plan_action_verification	Lost state makes reasoning-to-action translation and verification less reliable.
+2.4	2.6	32	0.0335	clarification_and_handoff	plan_action_verification	Poor handoffs raise the odds that wrong reasoning or unchecked actions escape.
+1.4	3.1	29	0.0303	context_continuity	plan_action_verification	Lost state makes reasoning-to-action translation and verification less reliable.
+2.4	3.3	29	0.0303	clarification_and_handoff	plan_action_verification	Poor handoffs raise the odds that wrong reasoning or unchecked actions escape.
+1.1	1.4	27	0.0282	plan_action_verification	context_continuity	Lost state makes reasoning-to-action translation and verification less reliable.
+2.1	2.3	27	0.0282	context_continuity	plan_action_verification	Lost state makes reasoning-to-action translation and verification less reliable.
+2.4	3.1	27	0.0282	clarification_and_handoff	plan_action_verification	Poor handoffs raise the odds that wrong reasoning or unchecked actions escape.
+2.1	2.2	23	0.0241	context_continuity	clarification_and_handoff	Lost context and weak handoffs force re-explanation, reconciliation, and exception queues.
+1.1	2.1	19	0.0199	plan_action_verification	context_continuity	Lost state makes reasoning-to-action translation and verification less reliable.
+2.1	3.1	19	0.0199	context_continuity	plan_action_verification	Lost state makes reasoning-to-action translation and verification less reliable.
+1.4	2.4	18	0.0188	context_continuity	clarification_and_handoff	Lost context and weak handoffs force re-explanation, reconciliation, and exception queues.
+2.1	2.4	16	0.0167	context_continuity	clarification_and_handoff	Lost context and weak handoffs force re-explanation, reconciliation, and exception queues.
+1.4	3.2	13	0.0136	context_continuity	plan_action_verification	Lost state makes reasoning-to-action translation and verification less reliable.
+2.1	3.2	11	0.0115	context_continuity	plan_action_verification	Lost state makes reasoning-to-action translation and verification less reliable.
+1.1	1.2	10	0.0105	plan_action_verification	role_and_authority	Weak authority design makes verification gates and action ownership harder to enforce.
+1.2	1.3	10	0.0105	role_and_authority	loop_and_termination	Unclear authority makes termination decisions and recovery ownership ambiguous.
+1.2	1.4	10	0.0105	role_and_authority	context_continuity	Authority confusion makes context ownership and recovery paths unclear.
+1.2	1.5	10	0.0105	role_and_authority	loop_and_termination	Unclear authority makes termination decisions and recovery ownership ambiguous.
+1.2	2.2	10	0.0105	role_and_authority	clarification_and_handoff	Unclear authority worsens handoff quality and who must clarify or approve.
+1.2	2.3	10	0.0105	role_and_authority	plan_action_verification	Weak authority design makes verification gates and action ownership harder to enforce.
+1.2	2.6	10	0.0105	role_and_authority	plan_action_verification	Weak authority design makes verification gates and action ownership harder to enforce.
+1.2	3.1	10	0.0105	role_and_authority	plan_action_verification	Weak authority design makes verification gates and action ownership harder to enforce.
+1.2	2.1	8	0.0084	role_and_authority	context_continuity	Authority confusion makes context ownership and recovery paths unclear.
+1.2	3.3	6	0.0063	role_and_authority	plan_action_verification	Weak authority design makes verification gates and action ownership harder to enforce.
+1.2	2.4	4	0.0042	role_and_authority	clarification_and_handoff	Unclear authority worsens handoff quality and who must clarify or approve.
+1.2	3.2	4	0.0042	role_and_authority	plan_action_verification	Weak authority design makes verification gates and action ownership harder to enforce.
+2.4	3.2	2	0.0021	clarification_and_handoff	plan_action_verification	Poor handoffs raise the odds that wrong reasoning or unchecked actions escape.

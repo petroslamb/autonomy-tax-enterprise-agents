@@ -91,6 +91,28 @@ Use the same `1-5` scale as `V1`. Keep the anchors qualitative. The point is con
 | `auditability_gap` | full traceability already exists | minor trace gaps | some manual reconstruction needed | major trace gaps slow reconstruction | workflow cannot be reconstructed credibly |
 | `change_burden` | workflow is stable | occasional low-cost updates | regular tuning across prompts/tools/rules | frequent drift drives recurring control work | drift outpaces governance capacity |
 
+## Trace Evidence Rules
+
+Use these rules when a workflow has staging or red-team traces that can be mapped to the MAST labels in `sources/derived/mast/mast_autonomy_crosswalk.tsv`.
+
+Definitions:
+
+- `workflow sample`: the most recent `10` staging traces for that workflow, or all available traces if fewer than `10`
+- `repeated evidence`: either the same MAST label appears in at least `2` traces in that workflow sample, or at least `2` labels from the same control family appear across that workflow sample
+- `floor`: set the subcomponent to at least the stated value before roll-up and override rules are applied
+
+Trigger rules:
+
+| Evidence pattern | Score effect |
+| --- | --- |
+| repeated `loop_and_termination` evidence | floor `queue_fragility` at `3` |
+| repeated `context_continuity` evidence | floor `coordination_drag` at `3` |
+| repeated `clarification_and_handoff` evidence | floor `coordination_drag` at `3` |
+| repeated `plan_action_verification` evidence | floor `escape_likelihood` at `3` |
+| repeated `plan_action_verification` evidence and `action_surface >= 3` | floor `escape_likelihood` at `4` |
+| repeated `3.2` or `3.3` evidence | floor `ongoing_assurance` at `3` |
+| any `1.2` evidence | floor `fixed_enablement` at `3` |
+
 ## Roll-Up and Blocker Rules
 
 ### Parent tax roll-up

@@ -32,6 +32,7 @@ Evidence layer:
 - Raw captures: `sources/raw/`
 - Derived casebook: `sources/derived/autonomy_tax_casebook.tsv`
 - Casebook method notes: `sources/derived/autonomy_tax_casebook_method.md`
+- Derived MAST distillation for `V2`: `sources/derived/mast/`
 
 Scoring assets:
 
@@ -46,5 +47,6 @@ Scoring assets:
 - Keep claim-level evidence traceable through `sources/source_manifest.tsv` and the derived casebook.
 - Preserve terminology lock across A/B/C: `Autonomy Tax`, `Level 2.5 - Artifact Pipeline`, `Bounded Level 3`, `Circuit Breaker`.
 - Treat `V1` scorecard assets as canonical for the published package. Use `V2` assets as an experimental operator drill-down, not a public replacement.
+- Treat `sources/derived/mast/` as the canonical MAST representation for repo usage; keep `sources/raw/mast/` local and ignored.
 - Treat `v8A`, `v8B`, and `v8C` as the final implemented publication package in this repo. Treat `v9` planning references as archival unless a future rewrite explicitly revives them.
 - Use public URLs in publication copy; do not publish relative repository links.
