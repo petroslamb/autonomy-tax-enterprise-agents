@@ -3,9 +3,16 @@
 Tracked MAST artifacts for the Autonomy Tax repo live here.
 
 - Raw `sources/raw/mast/` remains local and ignored.
+- The retained raw inputs are intentionally minimal:
+  - `sources/raw/mast/datasets/MAD_full_dataset.json`
+  - `sources/raw/mast/datasets/MAD_human_labelled_dataset.json`
+  - `sources/raw/mast/repo_files/definitions.txt`
+  - `sources/raw/mast/repo_files/examples.txt`
+  - `sources/raw/mast/repo_files/traces_README.md`
 - This folder is the repo-usable distillation of that local bundle.
 - Use these files to reason about failure mechanics, control families, and `V2` scorecard triggers.
 - Do not treat MAST as enterprise cost calibration or threshold truth.
+- Redundant local snapshots such as `MAST_repo/`, `MAST_repo_clone/`, and `MAST_repo_tar/` are not required for regeneration and should not be retained.
 
 ## Files
 

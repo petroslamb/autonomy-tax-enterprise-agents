@@ -248,6 +248,8 @@ The underlying local raw references remain:
 - `sources/raw/mast/repo_files/definitions.txt`
 - `sources/raw/mast/repo_files/examples.txt`
 
+The larger local snapshots once stored under `sources/raw/mast/MAST_repo*` are intentionally non-canonical and should not be required for this package.
+
 Those raw files remain local and ignored. The derived package above is the tracked representation that `V2` should cite.
 
 ## Limitations
