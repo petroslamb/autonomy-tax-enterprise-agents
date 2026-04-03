@@ -82,7 +82,7 @@ The decision logic is simple: score each of the three taxes on a 1–5 scale. If
 
 In practice: a support refund triage workflow (high volume, $1–$50 errors, standard data handling) scores a Net of +1.67, positive, but the review burden keeps it at Level 2.5 rather than Bounded Level 3. A procurement approval workflow (high error cost, regulated, no audit trail) gets blocked by the circuit breaker before you even calculate the score.
 
-*For the full scoring rubric, worked examples with mitigation paths, sensitivity analysis, and calibration guidance, see [The Autonomy Tax Scorecard](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v8B.md).*
+*For the full scoring rubric, worked examples with mitigation paths, sensitivity analysis, and calibration guidance, see [The Autonomy Tax Scorecard](article_draft_v8B.md).*
 
 ---
 
@@ -110,7 +110,7 @@ That doctrine maps to three operating pillars: **Level 2.5 first**, default to f
 
 These are not aspirational. Each has a concrete deliverable.
 
-**1. Score your top three workflows.** Start with the workflows where you're already considering or piloting AI assistance. Rank by monthly human-hours spent. Run each through the [Autonomy Tax Scorecard](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v8B.md). Output: a one-page ranked table with a recommended architecture level for each. Time: one meeting.
+**1. Score your top three workflows.** Start with the workflows where you're already considering or piloting AI assistance. Rank by monthly human-hours spent. Run each through the [Autonomy Tax Scorecard](article_draft_v8B.md). Output: a one-page ranked table with a recommended architecture level for each. Time: one meeting.
 
 **2. Instrument your most expensive LLM workflow.** Add four counters: retry rate, external-action rate, human-escalation rate, and review-time-per-output. Output: a baseline dashboard. Time: one sprint.
 
@@ -140,7 +140,7 @@ Those are measurement gaps, not reasons to suspend control discipline. They are 
 
 ---
 
-*Open-source materials for this research package (drafts, casebook, scoring assets, and source manifest) are available in the [GitHub repository](https://github.com/petroslamb/autonomy-tax-enterprise-agents).*
+*Open-source materials for this research package (drafts, casebook, scoring assets, and source manifest) are available in the [GitHub repository](.).*
 
 ---
 
@@ -186,7 +186,7 @@ Those are measurement gaps, not reasons to suspend control discipline. They are 
 
 [^cisa]: CISA et al., [Principles and Approaches for Security-by-Design and -Default](https://www.cisa.gov/sites/default/files/2023-06/principles_approaches_for_security-by-design-default_508c.pdf).
 
-[^casebook]: The [Autonomy Tax Casebook](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook.tsv) codes 30 public records spanning incidents, field studies, regulatory milestones, and tooling baselines. Method notes: [autonomy_tax_casebook_method.md](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook_method.md).
+[^casebook]: The [Autonomy Tax Casebook](sources/derived/autonomy_tax_casebook.tsv) codes 30 public records spanning incidents, field studies, regulatory milestones, and tooling baselines. Method notes: [autonomy_tax_casebook_method.md](sources/derived/autonomy_tax_casebook_method.md).
 
 [^anthropic_build]: Anthropic Engineering, [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents).
 

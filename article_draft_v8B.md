@@ -2,9 +2,9 @@
 
 *The decision framework and scoring workflow for enterprise agent autonomy levels*
 
-*This is a companion to [The Autonomy Tax](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v8A.md). You can follow this guide independently, but the essay provides the full thesis, evidence, and anti-thesis behind the framework.*
+*This is a companion to [The Autonomy Tax](article_draft_v8A.md). You can follow this guide independently, but the essay provides the full thesis, evidence, and anti-thesis behind the framework.*
 
-*Open-source materials for this guide (casebook, rubric, templates, and sources) are available in the [GitHub repository](https://github.com/petroslamb/autonomy-tax-enterprise-agents).*
+*Open-source materials for this guide (casebook, rubric, templates, and sources) are available in the [GitHub repository](.).*
 
 ---
 
@@ -64,7 +64,7 @@ Use these anchors to calibrate scores consistently across teams. This is a struc
 | **4** | Heavy review; seniors review > 50% of outputs | Errors cost $500–$5,000 or reputational damage | Regulated domain; audit trail required |
 | **5** | Every output requires expert validation before use | Errors cost > $5,000 or legal/regulatory exposure | Heavily regulated; SOC 2/AI Act obligations apply |
 
-The full scoring anchors are also available as a standalone reference: [Autonomy Tax Scorecard Rubric](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/assets/autonomy_tax_scorecard_rubric.md).
+The full scoring anchors are also available as a standalone reference: [Autonomy Tax Scorecard Rubric](assets/autonomy_tax_scorecard_rubric.md).
 
 ---
 
@@ -116,7 +116,7 @@ A finance ops team wants to automate vendor invoice approval. Volume is ~500/day
 
 **Mitigation path before re-scoring:** First, reduce the HB Tax by implementing tiered review, auto-approve invoices < $100 matching existing vendor contracts, flag everything else for human review (target HB Tax: 2–3). Second, reduce the Incident Tax by adding per-vendor daily spend limits, real-time velocity detection, and mandatory 24-hour holds on new vendor approvals (target: 3). Third, reduce the Governance Tax by instrumenting the pipeline with full trace logging, token accounting, and audit-ready decision logs for each approval (target: 3). After mitigation, re-run the scorecard. If all taxes < 4 and Net > 0, the workflow can proceed at Level 2.5 with heavy gating.
 
-Use the [scorecard template CSV](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/assets/autonomy_tax_scorecard_template.csv) to score your own workflows.
+Use the [scorecard template CSV](assets/autonomy_tax_scorecard_template.csv) to score your own workflows.
 
 ---
 
@@ -150,11 +150,11 @@ Every incident record should include: trace ID and workflow ID, input and output
 
 The thresholds in this scorecard are order-of-magnitude starting points, not empirically fitted cutoffs. Here's how they were set and how to tune them.
 
-**Baseline from the casebook.** We coded [30 public records](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook.tsv), incidents, field studies, regulatory milestones, and tooling baselines, into a normalized schema with source-tier and confidence ratings. Of those, 23 directly support the tax model. The distribution: governance is the primary tax in 13 (57%), human bandwidth in 5 (22%), incident in 4 (17%). Governance is the dominant tax in the coded evidence, which is why a high governance score should block deployment even when the other taxes look manageable.[[^casebook]]
+**Baseline from the casebook.** We coded [30 public records](sources/derived/autonomy_tax_casebook.tsv), incidents, field studies, regulatory milestones, and tooling baselines, into a normalized schema with source-tier and confidence ratings. Of those, 23 directly support the tax model. The distribution: governance is the primary tax in 13 (57%), human bandwidth in 5 (22%), incident in 4 (17%). Governance is the dominant tax in the coded evidence, which is why a high governance score should block deployment even when the other taxes look manageable.[[^casebook]]
 
 **How to tune for your domain:** Adjust Incident Tax breakpoints by your actual error cost distribution, if your median error cost is $200, the 3→4 boundary at $500 may be too generous. Adjust Governance Tax by your regulatory exposure, in healthcare or financial services, a score of 3 may already represent significant audit risk. Adjust HB Tax by your review pool depth, if you have 2 seniors reviewing for 20 juniors, a score of 3 may already be throttling your experts. Re-score monthly during rollout, not quarterly. Promote levels only with measured improvements, not confidence.
 
-Coding criteria and method notes are documented in [autonomy_tax_casebook_method.md](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook_method.md).
+Coding criteria and method notes are documented in [autonomy_tax_casebook_method.md](sources/derived/autonomy_tax_casebook_method.md).
 
 ---
 
@@ -190,7 +190,7 @@ This framework draws from sources classified into five tiers: Tier 1 (peer-revie
 
 This is a structured heuristic, not a predictive model. Some core evidence is preprint and requires ongoing validation. Vendor-reported gains should be treated as directional unless independently audited. Governance labor remains under-measured in public datasets. The domain-bridging inference, that the expert-bottleneck dynamic from copilot studies intensifies at higher autonomy, is plausible but not directly demonstrated. Geographic scope is US/EU; self-hosted and open-weight deployments carry different structures.
 
-All sources with URLs, DOIs, and access dates are available in the [source manifest](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/source_manifest.tsv).
+All sources with URLs, DOIs, and access dates are available in the [source manifest](sources/source_manifest.tsv).
 
 ---
 
@@ -206,4 +206,4 @@ All sources with URLs, DOIs, and access dates are available in the [source manif
 
 [^incident]: *Incident Analysis for AI Agents* (preprint): [arXiv:2508.14231](https://arxiv.org/abs/2508.14231).
 
-[^casebook]: The [Autonomy Tax Casebook](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook.tsv) codes 30 public records. Method notes: [autonomy_tax_casebook_method.md](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook_method.md).
+[^casebook]: The [Autonomy Tax Casebook](sources/derived/autonomy_tax_casebook.tsv) codes 30 public records. Method notes: [autonomy_tax_casebook_method.md](sources/derived/autonomy_tax_casebook_method.md).

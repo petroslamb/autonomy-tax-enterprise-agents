@@ -86,7 +86,7 @@ The decision logic is simple: score each of the three taxes on a 1–5 scale. If
 
 In practice: a support refund triage workflow (high volume, $1–$50 errors, standard data handling) scores a Net of +1.67 — positive, but the review burden keeps it at Level 2.5 rather than Level 3. A procurement approval workflow (high error cost, regulated, no audit trail) gets blocked by the circuit breaker before you even calculate the score.
 
-*For the full scoring rubric, worked examples with mitigation paths, sensitivity analysis, and calibration guidance, see [The Autonomy Tax Scorecard Guide](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v6B.md).*
+*For the full scoring rubric, worked examples with mitigation paths, sensitivity analysis, and calibration guidance, see [The Autonomy Tax Scorecard Guide](article_draft_v6B.md).*
 
 ---
 
@@ -108,7 +108,7 @@ But notice what makes this work: low individual error cost, high reversibility, 
 
 These are not aspirational. Each has a concrete deliverable.
 
-**1. Score your top three workflows.** Start with the workflows where you're already considering or piloting AI assistance. Rank by monthly human-hours spent. Run each through the [Autonomy Tax Scorecard](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v6B.md). Output: a one-page ranked table with a recommended architecture level for each. Time: one meeting.
+**1. Score your top three workflows.** Start with the workflows where you're already considering or piloting AI assistance. Rank by monthly human-hours spent. Run each through the [Autonomy Tax Scorecard](article_draft_v6B.md). Output: a one-page ranked table with a recommended architecture level for each. Time: one meeting.
 
 **2. Instrument your most expensive LLM workflow.** Add four counters: retry rate, external-action rate, human-escalation rate, and review-time-per-output. Output: a baseline dashboard. Time: one sprint.
 
@@ -130,7 +130,7 @@ That procurement agent's $4,788 wasn't a lot of money. But it was a precisely do
 
 ---
 
-*Open-source materials for this research package (drafts, casebook, scoring assets, and source manifest) are available in the [GitHub repository](https://github.com/petroslamb/autonomy-tax-enterprise-agents).*
+*Open-source materials for this research package (drafts, casebook, scoring assets, and source manifest) are available in the [GitHub repository](.).*
 
 ---
 
@@ -164,6 +164,6 @@ That procurement agent's $4,788 wasn't a lot of money. But it was a precisely do
 
 [^tooling]: Observability platform pricing: [LangSmith](https://www.langchain.com/pricing-langsmith), [Braintrust](https://www.braintrust.dev/pricing). Figures are tooling-only, before integration engineering time.
 
-[^casebook]: The [Autonomy Tax Casebook](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook.tsv) codes 28 public records spanning incidents, field studies, regulatory milestones, and tooling baselines. Method notes: [autonomy_tax_casebook_method.md](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook_method.md).
+[^casebook]: The [Autonomy Tax Casebook](sources/derived/autonomy_tax_casebook.tsv) codes 28 public records spanning incidents, field studies, regulatory milestones, and tooling baselines. Method notes: [autonomy_tax_casebook_method.md](sources/derived/autonomy_tax_casebook_method.md).
 
-[^taxonomy]: Synthesized from [Anthropic](https://www.anthropic.com/engineering/building-effective-agents) and [OpenAI](https://developers.openai.com/tracks/building-agents/) published guidance, cross-checked against [Pan et al. 2026](https://arxiv.org/abs/2512.04123) production deployment data, and triangulated with [Wang et al. 2025](https://arxiv.org/abs/2508.02121) (AgentOps survey) and [Kasirzadeh & Gabriel 2025](https://arxiv.org/abs/2504.21848) (governance-oriented agent characterization). Full taxonomy table in the [Scorecard Guide](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v6B.md).
+[^taxonomy]: Synthesized from [Anthropic](https://www.anthropic.com/engineering/building-effective-agents) and [OpenAI](https://developers.openai.com/tracks/building-agents/) published guidance, cross-checked against [Pan et al. 2026](https://arxiv.org/abs/2512.04123) production deployment data, and triangulated with [Wang et al. 2025](https://arxiv.org/abs/2508.02121) (AgentOps survey) and [Kasirzadeh & Gabriel 2025](https://arxiv.org/abs/2504.21848) (governance-oriented agent characterization). Full taxonomy table in the [Scorecard Guide](article_draft_v6B.md).

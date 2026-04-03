@@ -96,7 +96,7 @@ The Governance Tax has three components:
 
 Each tax, alone, looks manageable. Together, they explain the paradox from Section 2: why models that can reason for 50 minutes still get leashed to 10-step workflows with human approval at every gate. The bandwidth tax means your experts are already stretched. The incident tax means a single uncontrolled action can erase months of efficiency gains. The governance tax means you may not even know the damage until an auditor asks. They don't add — they compound. And they all scale with the same variable: the amount of autonomy you grant.
 
-The compounding is visible in the data. In the [Autonomy Tax Casebook](./sources/derived/autonomy_tax_casebook.tsv) — 28 coded public records spanning incidents, field studies, regulatory milestones, and tooling baselines — 15 cases show a net tax signal. Of those 15, governance is the primary tax in 10: the most frequent and least measured of the three.
+The compounding is visible in the data. In the [Autonomy Tax Casebook](sources/derived/autonomy_tax_casebook.tsv) — 28 coded public records spanning incidents, field studies, regulatory milestones, and tooling baselines — 15 cases show a net tax signal. Of those 15, governance is the primary tax in 10: the most frequent and least measured of the three.
 
 That compounding is the Autonomy Tax. It's also a decision framework.
 
@@ -222,7 +222,7 @@ But notice what makes this work: low individual error cost, high reversibility, 
 
 These are not aspirational. Each has a concrete deliverable.
 
-**1. Score your top three workflows.** Fill out the Autonomy Tax Scorecard above for your three highest-priority agent candidates. All three exercises are calibrated against the [Autonomy Tax Casebook](./sources/derived/autonomy_tax_casebook.tsv) — 28 coded public cases with source tiers, tax mappings, and confidence levels that provide worked precedent for scoring. Output: a one-page ranked table with a recommended architecture level for each. Time: one meeting.
+**1. Score your top three workflows.** Fill out the Autonomy Tax Scorecard above for your three highest-priority agent candidates. All three exercises are calibrated against the [Autonomy Tax Casebook](sources/derived/autonomy_tax_casebook.tsv) — 28 coded public cases with source tiers, tax mappings, and confidence levels that provide worked precedent for scoring. Output: a one-page ranked table with a recommended architecture level for each. Time: one meeting.
 
 **2. Instrument your most expensive LLM workflow.** Add four counters to your most critical agent-facing API integration: retry rate, external-action rate, human-escalation rate, and review-time-per-output. Use OpenTelemetry GenAI semantic conventions if your stack supports them. Output: a baseline dashboard. Time: one sprint.
 
@@ -260,7 +260,7 @@ This article draws from 82 collected sources classified into five tiers:
 
 ### Key Limitations
 
-- **No original data, one original synthesis.** Every empirical claim in this article cites published research. We have conducted no original surveys, interviews, or experiments. The originality contribution is the framework and a structured synthesis artifact: the [Autonomy Tax Casebook](./sources/derived/autonomy_tax_casebook.tsv), which codes 28 public records (incidents, field studies, regulatory milestones, and tooling baselines) into a normalized schema with source-tier and confidence ratings. Method notes and coding criteria are documented in [autonomy_tax_casebook_method.md](./sources/derived/autonomy_tax_casebook_method.md).
+- **No original data, one original synthesis.** Every empirical claim in this article cites published research. We have conducted no original surveys, interviews, or experiments. The originality contribution is the framework and a structured synthesis artifact: the [Autonomy Tax Casebook](sources/derived/autonomy_tax_casebook.tsv), which codes 28 public records (incidents, field studies, regulatory milestones, and tooling baselines) into a normalized schema with source-tier and confidence ratings. Method notes and coding criteria are documented in [autonomy_tax_casebook_method.md](sources/derived/autonomy_tax_casebook_method.md).
 - **Domain bridging.** The Human Bandwidth Tax thesis bridges findings from customer support (NBER), enterprise development (Xu et al.), and open-source projects (Song et al.). The common mechanism (AI raises output faster than review capacity) is plausible but not directly demonstrated in a single study.
 - **Governance Tax measurement gap.** We explicitly flag that the Governance Tax is the least empirically measured of the three taxes. No published study quantifies per-agent governance cost.
 - **Geographic scope.** This analysis reflects US/EU regulatory and market conditions. Self-hosted, open-weight, and non-Western deployments carry different tax structures.

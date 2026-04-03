@@ -2,7 +2,7 @@
 
 *Bounded Autonomy in Production*
 
-*Companion to [The Autonomy Tax](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v7A.md) and [The Autonomy Tax Scorecard](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v7B.md).* 
+*Companion to [The Autonomy Tax](article_draft_v7A.md) and [The Autonomy Tax Scorecard](article_draft_v7B.md).* 
 
 ---
 

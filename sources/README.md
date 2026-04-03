@@ -1,6 +1,6 @@
 # Source Inventory
 
-Downloaded/captured materials for `ai_agents_enterprise_state`.
+Downloaded/captured materials for `publications/autonomy-tax`.
 
 ## Manifest
 

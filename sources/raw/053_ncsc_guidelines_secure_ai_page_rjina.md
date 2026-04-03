@@ -21,7 +21,7 @@ Reject optional cookies
 
 [Manage Cookies (opens in a new tab)](http://www.ncsc.gov.uk/section/about-this-website/cookie-policy)
 
-![Image 1](blob:http://localhost/64e53101f33ddad63dfc824f30c60d73)
+![Image 1](blob:http:/localhost/64e53101f33ddad63dfc824f30c60d73)
 
 Written for
 -----------
@@ -42,7 +42,7 @@ Menu
 
 guidance
 
-![Image 3](blob:http://localhost/85c8b3f50aa9757314e17b5d82a4fccf)
+![Image 3](blob:http:/localhost/85c8b3f50aa9757314e17b5d82a4fccf)
 
 Copied to clipboard
 
@@ -95,7 +95,7 @@ Pages
 *   [Small & medium sized organisations](http://www.ncsc.gov.uk/section/advice-guidance/small-medium-sized-organisations) 
 *   [Public sector](http://www.ncsc.gov.uk/section/advice-guidance/public-sector) 
 
-![Image 9](blob:http://localhost/85c8b3f50aa9757314e17b5d82a4fccf)
+![Image 9](blob:http:/localhost/85c8b3f50aa9757314e17b5d82a4fccf)
 
 Copied to clipboard
 

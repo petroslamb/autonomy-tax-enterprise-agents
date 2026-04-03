@@ -132,7 +132,7 @@ In practice, this also means preferring deterministic orchestration and typed ha
 
 In plain terms: if one tax is a 4, autonomy is blocked until the control is real, not promised.
 
-For full rubric, scoring worksheet, calibration method, and worked examples, see the companion guide: [The Autonomy Tax Scorecard: A Practitioner's Guide](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v7B.md).
+For full rubric, scoring worksheet, calibration method, and worked examples, see the companion guide: [The Autonomy Tax Scorecard: A Practitioner's Guide](article_draft_v7B.md).
 
 ---
 
@@ -217,7 +217,7 @@ Those are measurement gaps, not reasons to suspend control discipline.
 
 ---
 
-*Open-source materials (drafts, casebook, scoring assets, and source manifest) are available in the repository: [autonomy-tax-enterprise-agents](https://github.com/petroslamb/autonomy-tax-enterprise-agents).* 
+*Open-source materials (drafts, casebook, scoring assets, and source manifest) are available in the repository: [autonomy-tax-enterprise-agents](.).* 
 
 ---
 
@@ -242,7 +242,7 @@ Those are measurement gaps, not reasons to suspend control discipline.
 [^tooling]: Representative tooling cost anchors from LangSmith and Braintrust pricing pages: [LangSmith](https://www.langchain.com/pricing-langsmith), [Braintrust](https://www.braintrust.dev/pricing).
 [^ncsc]: NCSC guidelines PDF, *Guidelines for Secure AI System Development*: [PDF](https://www.ncsc.gov.uk/files/Guidelines-for-secure-AI-system-development.pdf).
 [^cisa]: CISA et al., *Principles and Approaches for Security-by-Design and -Default*: [PDF](https://www.cisa.gov/sites/default/files/2023-06/principles_approaches_for_security-by-design-default_508c.pdf).
-[^casebook]: Casebook synthesis artifact (28 coded records): [autonomy_tax_casebook.tsv](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook.tsv).
+[^casebook]: Casebook synthesis artifact (28 coded records): [autonomy_tax_casebook.tsv](sources/derived/autonomy_tax_casebook.tsv).
 [^anthropic_build]: Anthropic Engineering, *Building Effective Agents*: [guide](https://www.anthropic.com/engineering/building-effective-agents).
 [^openai_build]: OpenAI Developers, *Building Agents*: [track](https://developers.openai.com/tracks/building-agents/).
 [^prodguide]: *A Practical Guide for Designing, Developing, and Deploying Production-Grade Agentic AI Workflows* (preprint): [arXiv:2512.08769](https://arxiv.org/abs/2512.08769).

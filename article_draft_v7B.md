@@ -2,7 +2,7 @@
 
 *How to choose Level 2.5 - Artifact Pipeline vs Bounded Level 3 for a real workflow*
 
-*Companion to [The Autonomy Tax](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/article_draft_v7A.md).* 
+*Companion to [The Autonomy Tax](article_draft_v7A.md).* 
 
 ---
 
@@ -329,10 +329,10 @@ If you cannot reconstruct the decision path, you do not have production readines
 - Governance labor remains under-measured in public datasets.
 
 ### Practical artifact links
-- Scorecard template: [autonomy_tax_scorecard_template.csv](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/assets/autonomy_tax_scorecard_template.csv)
-- Rubric reference: [autonomy_tax_scorecard_rubric.md](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/assets/autonomy_tax_scorecard_rubric.md)
-- Casebook dataset: [autonomy_tax_casebook.tsv](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook.tsv)
-- Casebook method: [autonomy_tax_casebook_method.md](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook_method.md)
+- Scorecard template: [autonomy_tax_scorecard_template.csv](assets/autonomy_tax_scorecard_template.csv)
+- Rubric reference: [autonomy_tax_scorecard_rubric.md](assets/autonomy_tax_scorecard_rubric.md)
+- Casebook dataset: [autonomy_tax_casebook.tsv](sources/derived/autonomy_tax_casebook.tsv)
+- Casebook method: [autonomy_tax_casebook_method.md](sources/derived/autonomy_tax_casebook_method.md)
 
 ---
 
@@ -342,7 +342,7 @@ If you cannot reconstruct the decision path, you do not have production readines
 [^openai_build]: OpenAI Developers, *Building Agents* track: [https://developers.openai.com/tracks/building-agents/](https://developers.openai.com/tracks/building-agents/).
 [^prodguide]: *A Practical Guide for Designing, Developing, and Deploying Production-Grade Agentic AI Workflows* (preprint): [arXiv:2512.08769](https://arxiv.org/abs/2512.08769).
 [^incident_analysis]: *Incident Analysis for AI Agents* (preprint): [arXiv:2508.14231](https://arxiv.org/abs/2508.14231).
-[^casebook]: Casebook synthesis artifact: [autonomy_tax_casebook.tsv](https://github.com/petroslamb/autonomy-tax-enterprise-agents/blob/main/sources/derived/autonomy_tax_casebook.tsv).
+[^casebook]: Casebook synthesis artifact: [autonomy_tax_casebook.tsv](sources/derived/autonomy_tax_casebook.tsv).
 [^obs79]: Kasneci et al. (2025), *Beyond Black-Box Benchmarking: Observability, Analytics, and Optimization of Agentic Systems*: [arXiv:2503.06745](https://arxiv.org/abs/2503.06745).
 [^ncsc]: NCSC, *Guidelines for Secure AI System Development* (PDF): [https://www.ncsc.gov.uk/files/Guidelines-for-secure-AI-system-development.pdf](https://www.ncsc.gov.uk/files/Guidelines-for-secure-AI-system-development.pdf).
 [^cisa]: CISA et al., *Security-by-Design and -Default* principles (PDF): [https://www.cisa.gov/sites/default/files/2023-06/principles_approaches_for_security-by-design-default_508c.pdf](https://www.cisa.gov/sites/default/files/2023-06/principles_approaches_for_security-by-design-default_508c.pdf).

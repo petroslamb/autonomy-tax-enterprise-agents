@@ -25,13 +25,13 @@ An official website of the United States government Here is how you know
 
 [U.S. Bureau of Labor Statistics](https://www.bls.gov/)
 
-[Release Calendar](http://www.bls.gov/schedule/news_release/) | [Subscribe](javascript:window.open('https://public.govdelivery.com/accounts/USDOLBLS/subscriber/new ','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void(''); "Subscribe to BLS E-mail Updates")
+[Release Calendar](http://www.bls.gov/schedule/news_release/) | [Subscribe](<javascript:window.open('https:/public.govdelivery.com/accounts/USDOLBLS/subscriber/new ','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'>); void(''); "Subscribe to BLS E-mail Updates")
 
 Search button Search: 
 
 Menu
 
-*   Search button Search:  [Release Calendar](http://www.bls.gov/schedule/news_release/) | [Subscribe](javascript:window.open('https://public.govdelivery.com/accounts/USDOLBLS/subscriber/new ','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void(''); "Subscribe to BLS E-mail Updates") 
+*   Search button Search:  [Release Calendar](http://www.bls.gov/schedule/news_release/) | [Subscribe](<javascript:window.open('https:/public.govdelivery.com/accounts/USDOLBLS/subscriber/new ','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'>); void(''); "Subscribe to BLS E-mail Updates") 
 *   [Home](https://www.bls.gov/)
 
     *   [About BLS](http://www.bls.gov/bls/about-bls.htm)
@@ -341,4 +341,4 @@ Recent editions of _Spotlight on Statistics_
 
 Connect With BLS
 
-[Instagram](https://www.instagram.com/usbls_gov/ "Connect with BLS on Instagram")[Twitter](https://www.linkedin.com/company/bureau-of-labor-statistics/ "Connect with BLS on LinkedIn")[Threads](https://www.threads.net/@usbls_gov "Connect with BLS on Threads")[Twitter](https://twitter.com/BLS_gov "Connect with BLS on X, formerly referred to as Twitter")[Youtube](https://www.youtube.com/channel/UCijn3WBpHtx4AvSya7NER9Q "BLS Youtube")[Email](javascript:window.open('https://public.govdelivery.com/accounts/USDOLBLS/subscriber/new ','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'); void(''); "Subscribe to BLS E-mail Updates")
+[Instagram](https://www.instagram.com/usbls_gov/ "Connect with BLS on Instagram")[Twitter](https://www.linkedin.com/company/bureau-of-labor-statistics/ "Connect with BLS on LinkedIn")[Threads](https://www.threads.net/@usbls_gov "Connect with BLS on Threads")[Twitter](https://twitter.com/BLS_gov "Connect with BLS on X, formerly referred to as Twitter")[Youtube](https://www.youtube.com/channel/UCijn3WBpHtx4AvSya7NER9Q "BLS Youtube")[Email](<javascript:window.open('https:/public.govdelivery.com/accounts/USDOLBLS/subscriber/new ','Popup','width=800,height=500,toolbar=no,scrollbars=yes,resizable=yes'>); void(''); "Subscribe to BLS E-mail Updates")

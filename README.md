@@ -1,52 +1,46 @@
-# The Autonomy Tax (Enterprise Agents)
+# Autonomy Tax
 
-> Note: `v9` will remain unimplemented for now. The publication to Substack happened at `v8`, so `v8A`, `v8B`, and `v8C` are the terminal implemented publication package in this repository. Treat any `v9` references below as archival planning, not active draft state.
+Single-publication package for the three-piece *Autonomy Tax* publication line.
 
-Research and writing package for a three-piece publication series:
+This package is a nested git repo that now lives under [`../`](../README.md). Its internal history and evidence pipeline remain package-local, but it is the canonical publication package for the Rooted Layers essay set.
 
-- **Title:** The Autonomy Tax
-- **Deck:** Why Enterprise Agents Fail on Control, Not Intelligence
+## Package Status
 
-## Current Status
+- Archetype: Single-publication package
+- Status: Published
+- Publication map: *The Autonomy Tax*
+- Canonical live publication surface: `v8`
+- Canonical workflow docs: [`../../workflows/essay-iteration/README.md`](../../workflows/essay-iteration/README.md), [`../../workflows/article-polish/README.md`](../../workflows/article-polish/README.md), [`../../workflows/substack-publishing/README.md`](../../workflows/substack-publishing/README.md)
 
-`v9` remains an unimplemented editorial plan. The implemented publication package is `v8`:
+## Orientation
 
-- Breakout flagship: `article_draft_v8A.md`
-- Operator companion: `article_draft_v8B.md`
-- Control-plane companion: `article_draft_v8C.md`
-- Archival future-state plan: `publication_plan_and_sources.md` (V9 planning only)
+- Flagship essay: [`article_draft_v8A.md`](article_draft_v8A.md)
+- Operator companion: [`article_draft_v8B.md`](article_draft_v8B.md)
+- Control-plane companion: [`article_draft_v8C.md`](article_draft_v8C.md)
+- Editorial planning surface: [`publication_plan_and_sources.md`](publication_plan_and_sources.md)
+- Discussion and synthesis context: [`original_discussion.md`](original_discussion.md), [`v7_gem_mining_report.md`](v7_gem_mining_report.md)
 
-Earlier drafts (`v1` through `v7`) remain in-repo as revision history and sourceable editorial lineage.
+## Evidence And Asset Surfaces
 
-## Repository Map
+- The package keeps a stronger established evidence layout under [`sources/`](sources/) rather than the generic `papers/` layout.
+- The master source manifest lives in [`sources/source_manifest.tsv`](sources/source_manifest.tsv).
+- Raw captures live in [`sources/raw/`](sources/raw/).
+- Derived casebook and method notes live in [`sources/derived/`](sources/derived/).
+- Scorecard assets and exported publication media live in [`assets/`](assets/).
 
-Drafts and editorial artifacts:
+## Normalization Note
 
-- Draft history: `article_draft_v1.md` through `article_draft_v9C.md`
-- Publication planning and score targets: `publication_plan_and_sources.md`
-- Discussion and synthesis context: `original_discussion.md`, `v7_gem_mining_report.md`
+Because this package is a nested repo with its own history, it is treated as a documented exception to the root repo’s generic folder-shape enforcement.
 
-Evidence layer:
+For now:
 
-- Master manifest: `sources/source_manifest.tsv`
-- Raw captures: `sources/raw/`
-- Derived casebook: `sources/derived/autonomy_tax_casebook.tsv`
-- Casebook method notes: `sources/derived/autonomy_tax_casebook_method.md`
-- Derived MAST distillation for `V2`: `sources/derived/mast/`
+- `sources/` is the canonical evidence layer
+- the `v1` through `v8` draft ladder is the effective local archive history
+- `v8A`, `v8B`, and `v8C` remain the final implemented publication package in this repo
 
-Scoring assets:
+## Working Guidance
 
-- `assets/autonomy_tax_scorecard_template.csv` - default `V1` worksheet
-- `assets/autonomy_tax_scorecard_rubric.md` - default `V1` rubric
-- `assets/v2/autonomy_tax_mechanics_v2.md` - experimental `V2` mechanics note (conceptual model + evidence basis)
-- `assets/v2/autonomy_tax_scorecard_v2.md` - experimental `V2` rubric derived from the mechanics note
-- `assets/v2/autonomy_tax_scorecard_template_v2.csv` - experimental `V2` worksheet
-
-## Working Rules
-
-- Keep claim-level evidence traceable through `sources/source_manifest.tsv` and the derived casebook.
-- Preserve terminology lock across A/B/C: `Autonomy Tax`, `Level 2.5 - Artifact Pipeline`, `Bounded Level 3`, `Circuit Breaker`.
-- Treat `V1` scorecard assets as canonical for the published package. Use `V2` assets as an experimental operator drill-down, not a public replacement.
-- Treat `sources/derived/mast/` as the canonical MAST representation for repo usage; keep `sources/raw/mast/` local and ignored.
-- Treat `v8A`, `v8B`, and `v8C` as the final implemented publication package in this repo. Treat `v9` planning references as archival unless a future rewrite explicitly revives them.
-- Use public URLs in publication copy; do not publish relative repository links.
+- Keep claim-level evidence traceable through [`sources/source_manifest.tsv`](sources/source_manifest.tsv) and the derived casebook.
+- Preserve terminology lock across the A/B/C publication surface.
+- Treat `V1` scorecard assets as canonical for the published package and `V2` assets as experimental drill-down material.
+- Use public URLs in publication copy; do not publish local relative repository links.
