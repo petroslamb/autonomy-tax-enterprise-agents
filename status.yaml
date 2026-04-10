@@ -27,3 +27,7 @@ stages:
   distribution:
     done: false
     last_updated: null
+config:
+  markdown_path: publications/autonomy-tax/the-autonomy-tax.md
+  substack_slug: the-autonomy-tax
+  substack_url: https://lambpetros.substack.com
