@@ -2,3 +2,18 @@
 
 # Ignore local MAST acquisition artifacts and curated raw bundle.
 /sources/raw/mast/
+
+# Ignore all PDFs by default to keep history clean
+*.pdf
+
+# Whitelist: PDFs with NO full-text conversion (Abstract only)
+# Verified by format audit 2026-04-20
+!sources/raw/073*.pdf
+!sources/raw/074*.pdf
+!sources/raw/075*.pdf
+!sources/raw/076*.pdf
+!sources/raw/077*.pdf
+!sources/raw/078*.pdf
+!sources/raw/079*.pdf
+!sources/raw/080*.pdf
+!sources/raw/081*.pdf
