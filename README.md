@@ -27,6 +27,7 @@ This package is a nested git repo that now lives under [`../`](../README.md). It
 - Raw captures live in [`sources/raw/`](sources/raw/).
 - Derived casebook and method notes live in [`sources/derived/`](sources/derived/).
 - Scorecard assets and exported publication media live in [`assets/`](assets/).
+- NotebookLM notebook mapping lives in [`status.yaml`](status.yaml) and is indexed in [`../notebooklm-notebooks.md`](../notebooklm-notebooks.md).
 
 ## Normalization Note
 
