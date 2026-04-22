@@ -17,6 +17,7 @@ This package is a nested git repo that now lives under [`../`](../README.md). It
 - Flagship essay: [`article_draft_v8A.md`](article_draft_v8A.md)
 - Operator companion: [`article_draft_v8B.md`](article_draft_v8B.md)
 - Control-plane companion: [`article_draft_v8C.md`](article_draft_v8C.md)
+- Governing brief: [`blueprint.md`](blueprint.md)
 - Editorial planning surface: [`publication_plan_and_sources.md`](publication_plan_and_sources.md)
 - Discussion and synthesis context: [`original_discussion.md`](original_discussion.md), [`v7_gem_mining_report.md`](v7_gem_mining_report.md)
 
