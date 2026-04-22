@@ -6,6 +6,11 @@
 # Ignore all PDFs by default to keep history clean
 *.pdf
 
+# Ignore generated video renders while keeping manifests, captions, and reports tracked
+/artifacts/video/*.mp4
+/artifacts/video/shorts/landscape/*.mp4
+/artifacts/video/shorts/portrait/*.mp4
+
 # Whitelist: PDFs with NO full-text conversion (Abstract only)
 # Verified by format audit 2026-04-20
 !sources/raw/073*.pdf
