@@ -32,11 +32,8 @@ config:
   blueprint_path: blueprint.md
   substack_slug: the-autonomy-tax
   substack_url: https://lambpetros.substack.com
-  notebooklm_notebook_id: b278a873-054c-4202-ab6e-9071ee3b1044
-  notebooklm_notebook_title: "The Autonomy Tax: Solving the Enterprise AI Control Gap"
-  notebooklm_notebook_url: https://notebooklm.google.com/notebook/b278a873-054c-4202-ab6e-9071ee3b1044
+  notebooklm_notebook_title: 'The Autonomy Tax: Solving the Enterprise AI Control
+    Gap'
   notebooklm_related_notebooks:
-    - id: fe2ae836-5776-4da4-9165-5e6aaab7a69a
-      title: "The Autonomy Tax Scorecard: A Practitioner's Guide"
-      url: https://notebooklm.google.com/notebook/fe2ae836-5776-4da4-9165-5e6aaab7a69a
-      reason: Scorecard companion notebook with Autonomy Tax artifacts.
+  - title: 'The Autonomy Tax Scorecard: A Practitioner''s Guide'
+    reason: Scorecard companion notebook with Autonomy Tax artifacts.

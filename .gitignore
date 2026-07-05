@@ -6,10 +6,14 @@
 # Ignore all PDFs by default to keep history clean
 *.pdf
 
-# Ignore generated video renders while keeping manifests, captions, and reports tracked
+# Ignore generated video renders and channel-side operational metadata
 /artifacts/video/*.mp4
 /artifacts/video/shorts/landscape/*.mp4
 /artifacts/video/shorts/portrait/*.mp4
+/artifacts/video/**/*upload_report*.json
+/artifacts/video/**/upload_manifest.json
+/artifacts/video/**/shorts_manifest.json
+/artifacts/video/**/cinematic_shorts_manifest.json
 
 # Whitelist: PDFs with NO full-text conversion (Abstract only)
 # Verified by format audit 2026-04-20
